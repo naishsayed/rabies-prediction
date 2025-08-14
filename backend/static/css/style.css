@@ -1,0 +1,14 @@
+/* style.css */
+body {
+  background: linear-gradient(180deg, #f7fff7 0%, #eaf8ea 100%);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card-title {
+  font-weight: 700;
+}
+
+.progress-bar {
+  transition: width 0.6s ease;
+  font-weight: 600;
+}

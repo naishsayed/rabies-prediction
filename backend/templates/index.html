@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Rabies Risk Prediction</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap 5 CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  </head>
+  <body class="bg-light">
+    <div class="container py-5">
+      <div class="mx-auto" style="max-width:900px;">
+        <div class="card shadow-sm">
+          <div class="card-body">
+            <h2 class="card-title text-success">Rabies Risk Prediction</h2>
+            <p class="text-muted">Enter bite details below and get a quick risk assessment with confidence score.</p>
+
+            <form id="predictForm">
+              <div class="row g-3">
+                <div class="col-md-4">
+                  <label class="form-label">Dog Vaccinated</label>
+                  <select class="form-select" name="dog_vaccinated" required>
+                    <option>Yes</option>
+                    <option selected>No</option>
+                  </select>
+                </div>
+
+                <div class="col-md-4">
+                  <label class="form-label">Dog Type</label>
+                  <select class="form-select" name="dog_type">
+                    <option>Stray</option>
+                    <option>Pet</option>
+                  </select>
+                </div>
+
+                <div class="col-md-4">
+                  <label class="form-label">Dog Behavior</label>
+                  <select class="form-select" name="dog_behavior">
+                    <option>Aggressive</option>
+                    <option selected>Calm</option>
+                    <option>Sick</option>
+                    <option>Playful</option>
+                  </select>
+                </div>
+
+                <div class="col-md-4">
+                  <label class="form-label">Bite Location</label>
+                  <select class="form-select" name="bite_location">
+                    <option>Face</option>
+                    <option>Neck</option>
+                    <option>Hand</option>
+                    <option>Arm</option>
+                    <option selected>Leg</option>
+                    <option>Finger</option>
+                  </select>
+                </div>
+
+                <div class="col-md-4">
+                  <label class="form-label">Bite Severity</label>
+                  <select class="form-select" name="bite_severity">
+                    <option>Scratch</option>
+                    <option selected>Superficial bite</option>
+                    <option>Deep bite</option>
+                    <option>Multiple deep wounds</option>
+                  </select>
+                </div>
+
+                <div class="col-md-4">
+                  <label class="form-label">Region Rabies Prevalence</label>
+                  <select class="form-select" name="region_prevalence">
+                    <option selected>Low</option>
+                    <option>Medium</option>
+                    <option>High</option>
+                  </select>
+                </div>
+
+                <div class="col-md-4">
+                  <label class="form-label">Time to Clean Wound (minutes)</label>
+                  <input type="number" name="time_to_clean_minutes" class="form-control" value="30" min="0" required>
+                </div>
+
+                <div class="col-md-4">
+                  <label class="form-label">Victim Age</label>
+                  <input type="number" name="age" class="form-control" value="30" min="0" max="120" required>
+                </div>
+
+                <div class="col-md-4">
+                  <label class="form-label">Previous Rabies Vaccine</label>
+                  <select class="form-select" name="previous_vaccine">
+                    <option>Yes</option>
+                    <option selected>No</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="mt-4 d-flex gap-2">
+                <button type="submit" class="btn btn-success">Predict Risk</button>
+                <button id="resetBtn" type="button" class="btn btn-outline-secondary">Reset</button>
+              </div>
+            </form>
+
+            <div id="resultCard" class="mt-4" style="display:none;">
+              <div class="card">
+                <div class="card-body">
+                  <h5 id="riskLabel" class="card-title"></h5>
+                  <p class="card-text" id="riskAdvice"></p>
+
+                  <div class="progress" style="height:20px;">
+                    <div id="probBar" class="progress-bar" role="progressbar" style="width:0%">0%</div>
+                  </div>
+
+                  <div class="mt-3">
+                    <button id="backBtn" class="btn btn-link">Make another prediction</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div id="loading" class="mt-3" style="display:none;">
+              <div class="spinner-border text-success" role="status"><span class="visually-hidden">Loading...</span></div>
+              <span class="ms-2">Predicting...</span>
+            </div>
+
+          </div>
+        </div>
+
+        <p class="text-muted small mt-3">This is a predictive tool for educational purposes. For medical advice, contact healthcare professionals.</p>
+      </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+    <!-- Bootstrap bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

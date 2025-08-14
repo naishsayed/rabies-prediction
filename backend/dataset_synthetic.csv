@@ -1,0 +1,2001 @@
+dog_vaccinated,dog_type,bite_location,bite_severity,time_to_clean_minutes,age,previous_vaccine,dog_behavior,region_prevalence,risk
+No,Stray,Leg,Superficial bite,76,34,No,Aggressive,Low,Low
+No,Stray,Leg,Scratch,69,30,Yes,Aggressive,Low,Low
+No,Pet,Leg,Deep bite,6,16,No,Calm,Low,Low
+No,Stray,Hand,Superficial bite,153,55,No,Calm,Low,Low
+Yes,Stray,Hand,Scratch,50,43,No,Calm,High,Low
+Yes,Pet,Hand,Multiple deep wounds,27,78,No,Sick,Low,High
+Yes,Stray,Arm,Superficial bite,84,3,No,Calm,Low,Low
+No,Pet,Arm,Scratch,17,58,No,Calm,Low,Low
+No,Stray,Leg,Superficial bite,70,68,No,Calm,Medium,Low
+No,Stray,Neck,Scratch,2,68,No,Playful,Low,High
+Yes,Stray,Face,Deep bite,109,79,No,Sick,Low,High
+No,Stray,Arm,Deep bite,35,65,No,Sick,Low,Low
+No,Pet,Leg,Multiple deep wounds,60,83,No,Calm,Low,Low
+Yes,Stray,Hand,Superficial bite,15,30,No,Calm,High,Low
+Yes,Stray,Leg,Superficial bite,67,45,No,Calm,Low,Low
+Yes,Stray,Hand,Deep bite,88,2,No,Aggressive,Medium,Low
+Yes,Stray,Finger,Scratch,38,1,Yes,Sick,High,Low
+No,Pet,Finger,Superficial bite,57,22,No,Aggressive,Medium,Low
+No,Stray,Hand,Superficial bite,36,9,No,Playful,High,High
+Yes,Pet,Hand,Scratch,134,24,Yes,Aggressive,High,Low
+No,Pet,Arm,Superficial bite,41,16,No,Sick,Low,Low
+Yes,Stray,Hand,Deep bite,110,3,No,Calm,Medium,High
+Yes,Pet,Leg,Deep bite,96,81,No,Calm,Low,Low
+No,Stray,Leg,Scratch,31,1,No,Aggressive,Low,Low
+No,Stray,Leg,Scratch,15,66,No,Calm,Medium,Low
+No,Stray,Leg,Scratch,31,14,Yes,Calm,Medium,Low
+Yes,Pet,Arm,Deep bite,104,82,No,Calm,Medium,Low
+No,Pet,Hand,Scratch,15,80,No,Aggressive,Medium,Low
+No,Stray,Leg,Deep bite,44,59,No,Aggressive,Low,Low
+Yes,Pet,Arm,Scratch,98,60,No,Aggressive,High,Low
+No,Stray,Leg,Superficial bite,26,1,No,Calm,Low,Low
+Yes,Stray,Hand,Superficial bite,61,88,No,Sick,Low,Low
+Yes,Stray,Hand,Deep bite,16,79,No,Sick,High,Low
+No,Pet,Finger,Scratch,6,80,No,Aggressive,Low,High
+No,Pet,Hand,Superficial bite,94,59,No,Calm,Medium,Low
+No,Stray,Finger,Scratch,6,31,No,Calm,Medium,Low
+Yes,Stray,Finger,Deep bite,18,80,No,Calm,Low,Low
+Yes,Stray,Leg,Deep bite,115,26,No,Calm,Medium,Low
+No,Stray,Leg,Scratch,25,51,No,Calm,Medium,Low
+No,Stray,Leg,Deep bite,216,9,No,Aggressive,Low,Low
+Yes,Pet,Leg,Superficial bite,233,83,No,Aggressive,Low,Low
+No,Stray,Hand,Scratch,18,13,No,Aggressive,High,Low
+Yes,Stray,Arm,Superficial bite,2,21,No,Calm,Low,Low
+No,Stray,Leg,Scratch,73,50,No,Aggressive,High,High
+Yes,Pet,Arm,Deep bite,35,69,No,Aggressive,Low,Low
+No,Pet,Arm,Deep bite,6,56,Yes,Calm,Medium,Low
+Yes,Stray,Arm,Scratch,73,21,No,Aggressive,High,Low
+No,Pet,Leg,Superficial bite,1,1,No,Aggressive,Low,High
+No,Stray,Leg,Deep bite,122,68,No,Sick,Medium,High
+Yes,Stray,Hand,Multiple deep wounds,8,88,No,Aggressive,Medium,Low
+No,Stray,Finger,Superficial bite,8,73,No,Calm,Medium,High
+No,Stray,Leg,Multiple deep wounds,11,41,No,Calm,Medium,Low
+No,Stray,Leg,Superficial bite,193,81,No,Calm,Medium,Low
+No,Pet,Leg,Superficial bite,70,37,No,Calm,Medium,Low
+No,Pet,Leg,Deep bite,96,47,No,Aggressive,Medium,High
+No,Pet,Face,Superficial bite,30,43,No,Sick,Medium,High
+Yes,Stray,Leg,Superficial bite,24,40,No,Calm,Low,Low
+Yes,Stray,Face,Superficial bite,16,69,No,Sick,High,High
+Yes,Pet,Finger,Deep bite,39,47,No,Calm,Low,Low
+Yes,Stray,Finger,Deep bite,48,29,No,Playful,Low,Low
+No,Stray,Hand,Superficial bite,59,23,No,Calm,Low,High
+Yes,Stray,Hand,Superficial bite,17,4,No,Playful,Low,Low
+No,Pet,Leg,Superficial bite,178,52,No,Calm,Low,Low
+No,Stray,Hand,Superficial bite,11,21,No,Calm,Low,Low
+Yes,Stray,Leg,Scratch,202,14,No,Calm,Low,Low
+No,Pet,Hand,Deep bite,0,59,No,Sick,Medium,Low
+Yes,Stray,Hand,Superficial bite,39,61,No,Playful,Low,Low
+No,Stray,Finger,Superficial bite,24,67,No,Calm,Low,Low
+Yes,Stray,Leg,Scratch,35,45,No,Calm,Low,Low
+No,Stray,Leg,Scratch,50,80,No,Aggressive,Low,Low
+No,Pet,Hand,Multiple deep wounds,34,84,No,Calm,Low,Low
+Yes,Stray,Leg,Superficial bite,32,72,No,Aggressive,Medium,Low
+Yes,Stray,Leg,Scratch,79,57,No,Calm,High,Low
+No,Pet,Leg,Superficial bite,69,28,No,Sick,High,Low
+No,Pet,Leg,Superficial bite,107,88,No,Aggressive,High,High
+No,Pet,Leg,Scratch,17,25,No,Calm,Low,Low
+No,Stray,Arm,Superficial bite,56,19,No,Calm,Low,Low
+Yes,Stray,Hand,Superficial bite,52,40,No,Aggressive,Low,Low
+No,Pet,Leg,Superficial bite,27,6,Yes,Calm,Medium,Low
+Yes,Pet,Hand,Superficial bite,39,88,No,Calm,Low,Low
+No,Stray,Leg,Superficial bite,22,53,No,Aggressive,Medium,High
+No,Stray,Hand,Multiple deep wounds,9,50,No,Sick,Low,High
+Yes,Stray,Leg,Superficial bite,14,59,Yes,Playful,Low,Low
+Yes,Pet,Leg,Scratch,6,45,No,Aggressive,High,Low
+Yes,Stray,Hand,Scratch,68,3,Yes,Aggressive,Medium,Low
+Yes,Stray,Neck,Superficial bite,64,55,No,Calm,Medium,Low
+No,Stray,Hand,Deep bite,180,64,No,Calm,Medium,High
+No,Pet,Leg,Scratch,78,38,No,Calm,High,High
+No,Pet,Leg,Deep bite,3,68,No,Aggressive,Medium,High
+No,Stray,Face,Scratch,129,21,No,Calm,High,High
+Yes,Pet,Leg,Superficial bite,119,20,No,Playful,Low,Low
+No,Pet,Arm,Deep bite,35,15,No,Calm,Medium,Low
+No,Stray,Arm,Superficial bite,52,34,No,Calm,Medium,High
+No,Stray,Finger,Superficial bite,223,76,No,Playful,Low,High
+No,Stray,Arm,Scratch,45,74,No,Calm,High,Low
+No,Pet,Arm,Deep bite,141,35,No,Calm,High,Low
+No,Stray,Face,Scratch,5,53,No,Calm,Low,High
+No,Pet,Hand,Deep bite,12,65,No,Playful,Low,Low
+Yes,Pet,Hand,Scratch,34,22,No,Calm,Low,Low
+Yes,Stray,Face,Deep bite,52,15,No,Sick,High,High
+Yes,Pet,Leg,Superficial bite,101,87,No,Calm,Medium,Low
+No,Stray,Arm,Deep bite,266,55,No,Calm,Low,Low
+Yes,Stray,Leg,Superficial bite,29,88,No,Calm,Medium,Low
+No,Pet,Hand,Deep bite,2,31,No,Calm,Low,High
+No,Pet,Hand,Scratch,96,63,No,Calm,Medium,Low
+Yes,Stray,Leg,Scratch,55,20,No,Calm,Low,Low
+No,Pet,Finger,Superficial bite,13,24,No,Calm,Low,High
+No,Pet,Neck,Scratch,40,46,No,Aggressive,Medium,High
+Yes,Stray,Finger,Scratch,81,29,No,Sick,Low,Low
+Yes,Pet,Leg,Multiple deep wounds,88,15,No,Aggressive,Low,High
+Yes,Stray,Leg,Multiple deep wounds,41,24,Yes,Sick,Low,Low
+Yes,Stray,Arm,Superficial bite,21,4,No,Calm,Low,Low
+No,Stray,Neck,Deep bite,218,63,No,Aggressive,Low,High
+No,Pet,Hand,Superficial bite,65,44,No,Calm,High,Low
+No,Pet,Leg,Scratch,31,9,No,Calm,Medium,Low
+No,Stray,Arm,Deep bite,19,16,Yes,Calm,High,High
+No,Stray,Finger,Deep bite,78,10,No,Calm,High,High
+Yes,Pet,Arm,Multiple deep wounds,16,55,No,Aggressive,Low,Low
+No,Stray,Hand,Scratch,11,9,No,Playful,Low,Low
+No,Pet,Leg,Deep bite,45,68,No,Aggressive,Low,Low
+No,Pet,Hand,Scratch,20,2,No,Calm,Medium,Low
+No,Stray,Arm,Scratch,59,23,No,Calm,Medium,Low
+Yes,Pet,Leg,Scratch,7,80,No,Calm,Low,Low
+Yes,Stray,Finger,Multiple deep wounds,63,64,No,Calm,Low,Low
+Yes,Pet,Leg,Deep bite,19,7,No,Calm,Medium,Low
+No,Pet,Leg,Deep bite,0,74,No,Calm,Medium,High
+No,Pet,Leg,Superficial bite,8,44,No,Calm,High,Low
+No,Stray,Finger,Superficial bite,162,76,No,Aggressive,Low,Low
+Yes,Pet,Hand,Scratch,121,54,No,Calm,High,Low
+No,Stray,Face,Scratch,15,61,No,Calm,Low,Low
+No,Stray,Hand,Superficial bite,90,89,No,Aggressive,Medium,Low
+Yes,Stray,Hand,Deep bite,56,21,No,Calm,High,Low
+Yes,Stray,Leg,Superficial bite,212,56,No,Calm,High,Low
+Yes,Stray,Leg,Scratch,28,41,Yes,Calm,Low,Low
+No,Pet,Leg,Scratch,68,4,Yes,Calm,Low,Low
+Yes,Pet,Face,Scratch,3,2,No,Calm,Low,Low
+No,Stray,Leg,Superficial bite,30,11,No,Calm,Low,Low
+No,Pet,Hand,Multiple deep wounds,199,58,No,Aggressive,Medium,Low
+No,Stray,Leg,Superficial bite,46,51,Yes,Calm,High,Low
+No,Pet,Leg,Deep bite,20,50,No,Calm,Low,Low
+No,Pet,Arm,Superficial bite,7,3,No,Calm,Low,Low
+Yes,Stray,Hand,Superficial bite,72,42,No,Calm,Low,Low
+No,Pet,Hand,Scratch,62,83,No,Calm,High,Low
+Yes,Stray,Leg,Deep bite,28,36,No,Calm,High,Low
+Yes,Stray,Finger,Deep bite,180,56,No,Calm,Low,High
+Yes,Pet,Leg,Scratch,1,70,No,Calm,Low,Low
+No,Stray,Hand,Superficial bite,21,70,Yes,Calm,Medium,Low
+No,Stray,Arm,Superficial bite,152,47,Yes,Calm,Medium,Low
+Yes,Stray,Leg,Superficial bite,23,77,No,Aggressive,Low,Low
+Yes,Pet,Leg,Multiple deep wounds,17,35,No,Aggressive,High,Low
+No,Stray,Hand,Superficial bite,45,80,No,Calm,High,Low
+Yes,Stray,Face,Superficial bite,104,22,No,Sick,Medium,Low
+Yes,Pet,Leg,Scratch,6,25,No,Calm,Medium,Low
+No,Pet,Arm,Scratch,171,5,No,Aggressive,Low,High
+No,Stray,Hand,Scratch,95,71,No,Calm,Medium,High
+Yes,Stray,Face,Scratch,11,38,No,Sick,Low,High
+No,Stray,Leg,Deep bite,74,21,Yes,Sick,Low,Low
+No,Stray,Leg,Deep bite,29,21,Yes,Calm,Low,High
+Yes,Stray,Finger,Scratch,30,81,No,Sick,Low,Low
+No,Pet,Leg,Deep bite,91,75,No,Aggressive,Low,Low
+No,Pet,Arm,Scratch,197,50,No,Aggressive,Medium,Low
+No,Pet,Hand,Superficial bite,8,55,No,Aggressive,Medium,Low
+No,Stray,Leg,Scratch,32,43,No,Calm,Medium,Low
+No,Pet,Arm,Superficial bite,39,35,No,Aggressive,Low,Low
+Yes,Stray,Leg,Scratch,28,82,No,Calm,Low,Low
+No,Pet,Arm,Superficial bite,27,12,No,Calm,Medium,Low
+Yes,Pet,Hand,Superficial bite,3,38,No,Calm,Low,Low
+Yes,Stray,Hand,Multiple deep wounds,69,31,No,Sick,High,Low
+Yes,Pet,Hand,Scratch,34,45,No,Aggressive,Low,Low
+No,Stray,Hand,Scratch,12,41,No,Calm,Medium,High
+No,Pet,Hand,Scratch,101,47,No,Calm,Low,Low
+Yes,Stray,Finger,Superficial bite,97,13,No,Aggressive,Medium,Low
+No,Stray,Arm,Scratch,39,46,Yes,Calm,High,Low
+Yes,Pet,Leg,Deep bite,21,22,No,Sick,High,High
+No,Stray,Leg,Superficial bite,60,17,No,Sick,High,Low
+Yes,Pet,Finger,Superficial bite,20,6,No,Sick,Low,Low
+No,Stray,Leg,Superficial bite,16,68,Yes,Calm,Medium,Low
+No,Pet,Leg,Scratch,78,39,No,Calm,Low,Low
+No,Pet,Hand,Scratch,2,56,No,Aggressive,Medium,Low
+Yes,Stray,Hand,Superficial bite,5,65,Yes,Calm,Low,Low
+Yes,Stray,Arm,Superficial bite,0,61,No,Aggressive,High,Low
+Yes,Stray,Leg,Scratch,9,42,No,Calm,High,Low
+No,Stray,Leg,Scratch,4,35,No,Sick,Low,High
+No,Stray,Hand,Multiple deep wounds,328,34,No,Calm,Low,High
+Yes,Pet,Hand,Scratch,20,57,Yes,Calm,Low,Low
+No,Pet,Leg,Deep bite,9,45,No,Calm,Medium,High
+No,Pet,Hand,Deep bite,16,76,No,Calm,Low,High
+No,Pet,Leg,Scratch,165,78,No,Playful,High,Low
+No,Pet,Leg,Scratch,44,16,No,Calm,Medium,High
+Yes,Pet,Leg,Scratch,27,13,No,Calm,Medium,Low
+Yes,Stray,Leg,Deep bite,123,57,No,Calm,Medium,Low
+No,Pet,Leg,Superficial bite,30,27,No,Aggressive,Low,Low
+No,Pet,Arm,Deep bite,24,2,No,Calm,High,High
+No,Stray,Leg,Multiple deep wounds,13,80,No,Sick,Medium,High
+Yes,Stray,Leg,Deep bite,28,21,No,Aggressive,High,Low
+Yes,Stray,Hand,Scratch,22,83,No,Aggressive,Medium,Low
+No,Stray,Face,Scratch,67,64,No,Aggressive,Medium,Low
+No,Pet,Hand,Deep bite,20,68,No,Calm,Low,Low
+No,Stray,Arm,Scratch,51,18,No,Calm,Medium,Low
+No,Stray,Leg,Scratch,4,21,No,Calm,Medium,Low
+No,Pet,Leg,Deep bite,12,47,No,Calm,Medium,Low
+Yes,Stray,Hand,Superficial bite,31,16,No,Sick,Medium,Low
+Yes,Stray,Hand,Deep bite,165,28,No,Calm,Low,Low
+No,Stray,Finger,Deep bite,28,29,No,Sick,High,Low
+No,Pet,Hand,Scratch,65,15,Yes,Sick,High,High
+Yes,Pet,Arm,Multiple deep wounds,17,19,Yes,Calm,Low,Low
+Yes,Stray,Leg,Scratch,8,71,No,Calm,High,Low
+No,Pet,Leg,Superficial bite,3,15,No,Sick,Low,Low
+Yes,Stray,Hand,Superficial bite,21,3,No,Sick,Medium,Low
+Yes,Pet,Neck,Scratch,10,57,No,Aggressive,Low,Low
+No,Pet,Hand,Superficial bite,11,87,No,Aggressive,High,High
+No,Pet,Leg,Scratch,85,30,No,Playful,Low,High
+No,Stray,Leg,Superficial bite,0,11,No,Calm,Low,High
+Yes,Pet,Hand,Superficial bite,48,51,No,Sick,Low,Low
+No,Pet,Leg,Deep bite,28,81,No,Calm,Low,Low
+Yes,Stray,Leg,Deep bite,42,70,No,Aggressive,Medium,Low
+Yes,Pet,Face,Scratch,49,56,No,Aggressive,Low,Low
+No,Stray,Arm,Superficial bite,22,29,No,Aggressive,Medium,High
+No,Pet,Leg,Superficial bite,20,49,Yes,Aggressive,High,High
+No,Stray,Hand,Scratch,79,9,No,Calm,Medium,Low
+No,Pet,Hand,Deep bite,123,61,Yes,Calm,High,Low
+No,Stray,Leg,Deep bite,12,65,Yes,Playful,Low,Low
+Yes,Stray,Finger,Scratch,6,86,No,Calm,Low,Low
+No,Stray,Leg,Superficial bite,136,24,No,Calm,Medium,Low
+Yes,Stray,Leg,Scratch,25,2,No,Calm,Low,Low
+Yes,Stray,Leg,Superficial bite,48,49,No,Calm,High,Low
+No,Stray,Arm,Scratch,26,63,No,Calm,Low,Low
+No,Stray,Leg,Multiple deep wounds,8,71,Yes,Aggressive,High,Low
+No,Stray,Arm,Deep bite,53,18,No,Aggressive,Low,Low
+No,Stray,Hand,Superficial bite,44,24,No,Aggressive,Medium,High
+No,Pet,Leg,Superficial bite,13,46,No,Aggressive,Low,High
+No,Stray,Leg,Deep bite,36,30,No,Calm,Low,Low
+No,Pet,Arm,Superficial bite,95,77,Yes,Aggressive,Medium,Low
+No,Pet,Finger,Scratch,53,43,No,Sick,Low,High
+Yes,Pet,Face,Superficial bite,6,72,No,Sick,Medium,High
+No,Stray,Hand,Deep bite,47,52,No,Playful,Medium,Low
+Yes,Pet,Neck,Superficial bite,72,69,No,Sick,Low,High
+Yes,Stray,Leg,Deep bite,94,30,No,Calm,High,High
+No,Stray,Leg,Deep bite,59,74,No,Calm,Low,High
+Yes,Stray,Arm,Deep bite,9,25,No,Aggressive,Medium,Low
+No,Pet,Leg,Deep bite,74,49,Yes,Sick,Medium,Low
+No,Stray,Arm,Scratch,67,20,Yes,Sick,Medium,Low
+No,Stray,Leg,Superficial bite,1,43,No,Sick,Low,High
+No,Pet,Arm,Deep bite,31,29,No,Calm,Low,High
+Yes,Pet,Arm,Deep bite,24,24,Yes,Calm,Medium,Low
+No,Stray,Finger,Superficial bite,66,87,Yes,Aggressive,Low,Low
+No,Stray,Hand,Scratch,14,15,Yes,Aggressive,Low,Low
+No,Pet,Hand,Deep bite,53,71,Yes,Calm,Medium,Low
+No,Stray,Leg,Deep bite,146,88,No,Calm,Medium,High
+No,Stray,Finger,Scratch,95,2,No,Playful,Low,High
+Yes,Stray,Arm,Superficial bite,152,63,No,Aggressive,Low,Low
+No,Pet,Neck,Scratch,230,23,No,Sick,Low,High
+No,Pet,Arm,Superficial bite,0,4,No,Calm,Low,Low
+Yes,Pet,Arm,Scratch,58,36,No,Sick,Low,Low
+Yes,Pet,Hand,Superficial bite,31,84,No,Sick,Low,Low
+No,Stray,Leg,Superficial bite,117,2,No,Sick,High,High
+No,Stray,Finger,Superficial bite,17,53,No,Calm,Medium,High
+No,Stray,Arm,Deep bite,237,45,No,Sick,Low,High
+No,Stray,Arm,Deep bite,57,78,No,Aggressive,Low,Low
+Yes,Stray,Arm,Scratch,94,8,No,Aggressive,Medium,Low
+No,Pet,Hand,Scratch,5,61,No,Calm,Low,Low
+No,Pet,Finger,Deep bite,12,61,No,Sick,Medium,High
+Yes,Pet,Arm,Scratch,85,60,No,Calm,High,Low
+No,Stray,Arm,Multiple deep wounds,1,84,Yes,Sick,Medium,Low
+No,Pet,Leg,Deep bite,101,74,No,Calm,Low,Low
+No,Pet,Arm,Superficial bite,0,4,No,Aggressive,Medium,Low
+No,Stray,Leg,Multiple deep wounds,64,42,Yes,Sick,High,Low
+No,Pet,Neck,Scratch,27,36,No,Aggressive,Medium,High
+No,Stray,Leg,Superficial bite,56,28,No,Sick,Medium,High
+Yes,Stray,Finger,Superficial bite,71,41,Yes,Calm,Low,Low
+No,Stray,Leg,Superficial bite,25,35,No,Calm,Low,High
+No,Stray,Finger,Deep bite,6,39,Yes,Calm,Medium,Low
+No,Stray,Hand,Scratch,4,88,No,Aggressive,High,Low
+No,Pet,Arm,Superficial bite,53,8,No,Calm,Medium,Low
+No,Pet,Leg,Superficial bite,44,83,No,Aggressive,Medium,Low
+No,Pet,Leg,Deep bite,81,43,No,Aggressive,Low,Low
+No,Pet,Arm,Scratch,42,56,No,Aggressive,Low,High
+No,Stray,Arm,Superficial bite,32,74,No,Calm,Medium,Low
+No,Pet,Hand,Deep bite,30,33,No,Calm,Low,High
+No,Stray,Arm,Scratch,1,39,No,Calm,Medium,Low
+No,Stray,Hand,Deep bite,24,37,No,Sick,Low,Low
+Yes,Stray,Leg,Superficial bite,223,34,No,Calm,Medium,Low
+No,Stray,Hand,Deep bite,124,83,No,Calm,Medium,High
+Yes,Stray,Neck,Deep bite,23,74,No,Calm,Low,Low
+No,Stray,Leg,Scratch,53,10,No,Calm,Low,Low
+Yes,Stray,Leg,Superficial bite,112,10,No,Calm,Medium,Low
+No,Pet,Leg,Deep bite,34,39,No,Aggressive,High,High
+No,Stray,Leg,Superficial bite,1,9,No,Sick,Medium,Low
+Yes,Stray,Arm,Multiple deep wounds,4,56,Yes,Calm,Low,Low
+No,Stray,Leg,Superficial bite,42,13,Yes,Aggressive,Low,Low
+Yes,Pet,Leg,Scratch,209,47,No,Calm,Low,Low
+Yes,Stray,Neck,Superficial bite,70,1,No,Aggressive,Low,Low
+No,Stray,Leg,Multiple deep wounds,4,29,No,Aggressive,Medium,High
+No,Stray,Finger,Superficial bite,12,61,No,Aggressive,Medium,Low
+Yes,Stray,Arm,Deep bite,88,44,No,Calm,Low,Low
+No,Stray,Hand,Deep bite,110,88,No,Calm,Low,Low
+No,Stray,Hand,Superficial bite,57,78,No,Sick,Low,High
+Yes,Stray,Hand,Scratch,62,32,No,Aggressive,High,Low
+No,Stray,Arm,Deep bite,1,5,Yes,Calm,Medium,Low
+Yes,Stray,Leg,Superficial bite,105,76,No,Calm,Medium,Low
+Yes,Pet,Hand,Deep bite,93,82,No,Aggressive,Low,Low
+No,Stray,Finger,Superficial bite,17,74,No,Calm,Medium,High
+No,Stray,Leg,Superficial bite,73,12,No,Aggressive,Low,High
+No,Stray,Leg,Deep bite,14,89,No,Aggressive,Low,Low
+No,Pet,Leg,Superficial bite,2,24,No,Calm,Medium,Low
+No,Stray,Hand,Superficial bite,13,65,No,Calm,Medium,Low
+No,Stray,Arm,Superficial bite,11,81,No,Aggressive,Low,Low
+Yes,Pet,Leg,Superficial bite,24,21,No,Aggressive,Low,Low
+No,Stray,Leg,Superficial bite,32,81,No,Aggressive,Low,Low
+Yes,Stray,Leg,Deep bite,42,28,No,Aggressive,Low,Low
+No,Stray,Hand,Superficial bite,38,87,No,Aggressive,Medium,High
+Yes,Pet,Finger,Superficial bite,18,26,No,Calm,High,Low
+Yes,Stray,Hand,Deep bite,1,85,No,Calm,Low,Low
+No,Pet,Leg,Scratch,55,5,No,Calm,Low,Low
+No,Pet,Finger,Scratch,30,64,No,Calm,Low,Low
+No,Stray,Hand,Multiple deep wounds,21,48,No,Calm,Medium,Low
+No,Stray,Leg,Deep bite,121,43,No,Aggressive,Low,High
+Yes,Stray,Face,Superficial bite,82,20,No,Aggressive,Medium,Low
+Yes,Stray,Arm,Superficial bite,117,63,Yes,Sick,Low,Low
+Yes,Stray,Arm,Scratch,40,17,No,Aggressive,Medium,Low
+No,Pet,Leg,Superficial bite,8,50,No,Aggressive,High,High
+No,Pet,Finger,Superficial bite,71,23,No,Aggressive,High,Low
+No,Pet,Leg,Superficial bite,13,86,No,Calm,High,Low
+Yes,Stray,Arm,Superficial bite,34,3,No,Calm,Medium,Low
+No,Pet,Leg,Scratch,4,18,No,Playful,High,High
+No,Pet,Finger,Scratch,104,22,No,Sick,Low,High
+No,Pet,Face,Multiple deep wounds,8,37,No,Calm,Low,High
+No,Stray,Finger,Superficial bite,140,21,Yes,Calm,Low,Low
+No,Pet,Hand,Superficial bite,119,44,No,Calm,Medium,High
+Yes,Stray,Leg,Scratch,37,78,No,Aggressive,High,Low
+No,Stray,Hand,Scratch,81,64,No,Aggressive,Low,Low
+No,Stray,Hand,Deep bite,57,52,No,Aggressive,Medium,High
+Yes,Pet,Arm,Superficial bite,97,8,No,Aggressive,Medium,Low
+Yes,Pet,Leg,Superficial bite,33,62,No,Aggressive,High,Low
+Yes,Stray,Arm,Scratch,92,15,No,Calm,Medium,Low
+Yes,Stray,Neck,Deep bite,37,70,Yes,Playful,High,Low
+No,Stray,Leg,Scratch,169,23,No,Calm,Low,Low
+No,Stray,Finger,Scratch,39,38,No,Playful,Low,High
+No,Stray,Arm,Superficial bite,37,32,No,Calm,Medium,Low
+Yes,Stray,Hand,Scratch,92,77,No,Calm,Low,Low
+No,Pet,Arm,Scratch,103,12,No,Calm,Low,Low
+No,Stray,Face,Superficial bite,48,51,No,Aggressive,Medium,High
+Yes,Stray,Leg,Deep bite,11,13,No,Aggressive,Medium,Low
+No,Stray,Leg,Deep bite,37,63,No,Sick,Medium,Low
+No,Pet,Leg,Superficial bite,206,81,No,Playful,Low,Low
+No,Pet,Arm,Scratch,83,39,No,Aggressive,Medium,Low
+No,Pet,Leg,Scratch,100,44,No,Aggressive,Low,Low
+Yes,Stray,Leg,Multiple deep wounds,2,83,No,Calm,Low,Low
+No,Stray,Leg,Superficial bite,37,47,Yes,Aggressive,Medium,Low
+No,Stray,Leg,Deep bite,62,44,No,Calm,Low,High
+No,Pet,Leg,Scratch,106,52,No,Aggressive,Low,High
+No,Pet,Leg,Superficial bite,3,62,No,Calm,Medium,Low
+No,Pet,Arm,Scratch,114,10,No,Calm,Low,Low
+Yes,Pet,Finger,Superficial bite,47,74,No,Calm,High,Low
+Yes,Pet,Leg,Deep bite,13,39,No,Aggressive,Medium,High
+No,Stray,Leg,Multiple deep wounds,22,7,No,Calm,High,Low
+Yes,Pet,Hand,Superficial bite,19,70,No,Playful,Low,Low
+No,Stray,Leg,Superficial bite,45,34,No,Calm,Medium,Low
+No,Stray,Leg,Multiple deep wounds,3,9,No,Sick,Low,High
+No,Stray,Hand,Deep bite,10,57,No,Sick,Medium,High
+No,Stray,Neck,Scratch,100,79,No,Playful,Low,High
+No,Stray,Leg,Superficial bite,8,80,No,Calm,Low,Low
+No,Stray,Leg,Scratch,15,86,No,Calm,High,Low
+No,Stray,Arm,Superficial bite,36,78,Yes,Sick,Low,Low
+No,Stray,Hand,Superficial bite,43,1,No,Aggressive,Low,High
+No,Stray,Leg,Superficial bite,86,34,No,Calm,Low,High
+No,Stray,Hand,Superficial bite,35,73,No,Playful,Medium,Low
+No,Stray,Arm,Scratch,93,33,No,Calm,Low,Low
+Yes,Stray,Hand,Superficial bite,57,54,No,Playful,Low,Low
+Yes,Pet,Hand,Deep bite,7,54,No,Calm,Low,Low
+Yes,Pet,Hand,Deep bite,10,33,Yes,Sick,Medium,Low
+Yes,Pet,Arm,Superficial bite,34,81,No,Calm,Medium,Low
+Yes,Pet,Neck,Multiple deep wounds,30,45,No,Calm,Low,Low
+No,Stray,Arm,Deep bite,81,42,No,Calm,Low,Low
+Yes,Pet,Arm,Scratch,52,89,No,Sick,Low,Low
+Yes,Stray,Arm,Scratch,29,44,No,Sick,Low,Low
+No,Stray,Arm,Deep bite,11,16,Yes,Sick,Low,Low
+Yes,Pet,Leg,Deep bite,15,46,No,Calm,Low,Low
+No,Stray,Hand,Multiple deep wounds,51,73,No,Calm,Medium,Low
+Yes,Pet,Arm,Deep bite,33,70,No,Aggressive,High,Low
+Yes,Pet,Neck,Superficial bite,43,71,No,Sick,Low,High
+No,Pet,Neck,Superficial bite,11,64,No,Calm,Medium,High
+No,Pet,Leg,Scratch,65,23,No,Calm,Medium,Low
+No,Stray,Leg,Scratch,114,77,No,Aggressive,Medium,Low
+No,Stray,Leg,Superficial bite,17,80,No,Sick,High,High
+No,Stray,Leg,Superficial bite,40,18,No,Sick,Low,Low
+Yes,Stray,Finger,Superficial bite,222,12,No,Sick,Low,Low
+Yes,Pet,Face,Deep bite,24,87,No,Calm,Medium,High
+No,Pet,Hand,Scratch,54,78,No,Calm,Low,Low
+No,Pet,Face,Superficial bite,5,80,No,Calm,Low,Low
+No,Stray,Hand,Scratch,55,79,No,Aggressive,Low,High
+No,Stray,Leg,Superficial bite,5,49,No,Sick,Low,Low
+No,Stray,Leg,Deep bite,191,58,No,Aggressive,Medium,High
+No,Stray,Face,Deep bite,75,49,No,Calm,Low,High
+Yes,Pet,Finger,Multiple deep wounds,93,5,No,Calm,Low,High
+No,Stray,Leg,Scratch,73,67,No,Calm,Low,Low
+No,Stray,Hand,Superficial bite,53,45,No,Sick,Low,High
+No,Stray,Neck,Superficial bite,35,58,No,Aggressive,High,High
+No,Pet,Hand,Superficial bite,117,45,No,Calm,Low,Low
+No,Pet,Hand,Deep bite,188,44,No,Aggressive,High,High
+Yes,Stray,Hand,Deep bite,41,16,No,Aggressive,Medium,Low
+No,Stray,Arm,Deep bite,160,25,No,Calm,Medium,Low
+No,Stray,Hand,Scratch,52,15,No,Aggressive,Low,Low
+No,Stray,Arm,Deep bite,46,18,No,Calm,Low,Low
+Yes,Pet,Finger,Scratch,36,87,No,Calm,High,High
+No,Pet,Leg,Deep bite,14,14,Yes,Aggressive,High,High
+No,Stray,Finger,Superficial bite,0,24,Yes,Aggressive,Low,Low
+Yes,Stray,Hand,Superficial bite,16,53,No,Calm,Low,Low
+No,Pet,Arm,Superficial bite,42,55,No,Sick,Low,High
+Yes,Stray,Leg,Multiple deep wounds,28,14,No,Calm,High,Low
+Yes,Pet,Neck,Scratch,35,71,No,Calm,Low,Low
+No,Stray,Face,Superficial bite,236,70,No,Calm,Medium,Low
+No,Stray,Leg,Deep bite,25,22,No,Calm,Medium,Low
+No,Stray,Leg,Superficial bite,36,26,No,Aggressive,Medium,Low
+No,Stray,Arm,Scratch,8,84,No,Calm,Medium,Low
+No,Pet,Arm,Superficial bite,2,74,Yes,Calm,Low,Low
+Yes,Stray,Arm,Superficial bite,89,63,Yes,Calm,High,Low
+Yes,Stray,Face,Deep bite,50,8,No,Calm,Medium,Low
+No,Stray,Arm,Deep bite,85,38,No,Playful,Medium,Low
+No,Stray,Hand,Superficial bite,9,50,No,Aggressive,Low,Low
+No,Stray,Hand,Multiple deep wounds,50,17,No,Playful,Medium,Low
+No,Stray,Finger,Superficial bite,17,40,No,Calm,Low,High
+Yes,Pet,Leg,Scratch,15,54,No,Calm,Low,Low
+No,Stray,Leg,Scratch,0,30,No,Aggressive,Medium,Low
+Yes,Stray,Hand,Superficial bite,8,70,No,Calm,Medium,Low
+No,Pet,Arm,Scratch,22,75,No,Calm,Medium,Low
+No,Stray,Hand,Multiple deep wounds,7,29,No,Calm,Low,Low
+No,Pet,Hand,Deep bite,255,75,No,Aggressive,Medium,High
+No,Stray,Hand,Scratch,22,10,No,Calm,Low,Low
+Yes,Pet,Leg,Superficial bite,8,75,No,Aggressive,Medium,Low
+Yes,Pet,Leg,Deep bite,13,14,No,Playful,Low,Low
+No,Pet,Leg,Multiple deep wounds,53,8,Yes,Sick,Medium,Low
+No,Pet,Arm,Deep bite,3,58,No,Aggressive,Medium,High
+Yes,Stray,Finger,Superficial bite,119,43,No,Sick,Low,Low
+Yes,Pet,Neck,Deep bite,195,81,No,Sick,Low,Low
+No,Stray,Hand,Superficial bite,17,33,No,Calm,Medium,High
+Yes,Stray,Arm,Superficial bite,35,26,No,Calm,Medium,Low
+No,Stray,Leg,Scratch,1,45,No,Calm,Medium,Low
+No,Stray,Finger,Scratch,61,41,No,Calm,Medium,Low
+Yes,Stray,Hand,Superficial bite,32,31,No,Calm,Low,Low
+Yes,Stray,Leg,Scratch,18,62,No,Calm,Low,Low
+No,Stray,Leg,Scratch,13,68,No,Calm,Low,High
+No,Pet,Hand,Deep bite,63,76,No,Aggressive,Low,Low
+No,Pet,Arm,Scratch,32,87,No,Sick,Medium,High
+No,Stray,Arm,Superficial bite,11,24,No,Calm,Low,Low
+No,Stray,Finger,Superficial bite,70,64,Yes,Calm,High,High
+No,Stray,Hand,Multiple deep wounds,49,36,No,Sick,Medium,High
+No,Stray,Leg,Superficial bite,117,61,No,Calm,High,Low
+No,Stray,Arm,Scratch,7,43,No,Calm,High,High
+Yes,Stray,Leg,Superficial bite,92,89,No,Playful,Low,Low
+No,Stray,Arm,Deep bite,67,65,No,Sick,Medium,High
+No,Pet,Leg,Multiple deep wounds,7,85,No,Aggressive,Low,Low
+No,Stray,Leg,Superficial bite,71,75,Yes,Calm,Low,Low
+No,Stray,Leg,Superficial bite,34,81,No,Playful,Medium,High
+Yes,Stray,Leg,Deep bite,174,73,No,Calm,Low,Low
+No,Stray,Neck,Scratch,9,41,No,Calm,High,High
+Yes,Stray,Leg,Superficial bite,61,23,No,Aggressive,Medium,Low
+No,Pet,Hand,Superficial bite,28,33,No,Aggressive,Medium,Low
+Yes,Stray,Arm,Scratch,188,2,No,Calm,Low,Low
+Yes,Stray,Leg,Superficial bite,24,47,No,Calm,Medium,Low
+Yes,Pet,Arm,Scratch,196,45,No,Playful,Low,Low
+No,Pet,Arm,Deep bite,139,47,No,Calm,Medium,Low
+No,Pet,Finger,Multiple deep wounds,18,87,No,Aggressive,Low,Low
+No,Stray,Hand,Scratch,97,82,No,Aggressive,Medium,High
+No,Pet,Leg,Deep bite,325,15,No,Playful,Low,High
+No,Stray,Arm,Scratch,17,33,No,Calm,Low,Low
+Yes,Stray,Hand,Superficial bite,34,38,No,Calm,Low,Low
+No,Stray,Hand,Scratch,44,33,No,Sick,Low,High
+Yes,Stray,Finger,Multiple deep wounds,20,72,No,Calm,Medium,Low
+No,Stray,Leg,Deep bite,0,47,No,Aggressive,Low,High
+Yes,Stray,Finger,Deep bite,14,51,No,Sick,Low,Low
+No,Pet,Finger,Deep bite,19,76,No,Playful,Medium,Low
+Yes,Pet,Hand,Superficial bite,35,72,No,Aggressive,Low,Low
+No,Pet,Arm,Multiple deep wounds,11,12,No,Sick,Low,High
+No,Stray,Leg,Deep bite,123,64,No,Calm,Medium,Low
+No,Pet,Arm,Deep bite,73,39,No,Calm,Low,Low
+Yes,Stray,Arm,Superficial bite,5,27,No,Sick,Low,Low
+No,Pet,Arm,Scratch,63,5,No,Playful,Low,Low
+No,Stray,Leg,Superficial bite,63,44,No,Calm,Low,Low
+No,Pet,Leg,Scratch,187,32,Yes,Aggressive,Medium,Low
+No,Stray,Hand,Superficial bite,0,23,No,Aggressive,Low,Low
+No,Pet,Arm,Superficial bite,17,62,No,Calm,Medium,Low
+No,Pet,Leg,Superficial bite,157,69,No,Aggressive,Low,Low
+No,Stray,Leg,Scratch,161,22,Yes,Calm,Low,Low
+No,Stray,Hand,Scratch,76,5,No,Aggressive,Low,Low
+No,Pet,Leg,Superficial bite,87,76,No,Calm,Medium,Low
+Yes,Stray,Face,Multiple deep wounds,5,1,No,Aggressive,High,High
+Yes,Pet,Arm,Superficial bite,43,84,Yes,Sick,Medium,Low
+No,Stray,Leg,Superficial bite,15,56,No,Aggressive,High,Low
+No,Stray,Leg,Deep bite,11,29,No,Calm,Low,Low
+No,Stray,Hand,Superficial bite,99,22,No,Sick,Low,Low
+No,Stray,Leg,Scratch,8,1,No,Calm,Low,High
+Yes,Pet,Leg,Superficial bite,37,21,No,Aggressive,Low,Low
+Yes,Stray,Leg,Scratch,167,13,No,Aggressive,Low,Low
+No,Stray,Leg,Multiple deep wounds,12,55,Yes,Calm,Low,Low
+No,Stray,Leg,Scratch,228,15,No,Calm,Low,Low
+No,Stray,Arm,Superficial bite,309,48,No,Calm,Low,Low
+Yes,Pet,Hand,Scratch,48,53,No,Calm,Low,Low
+No,Pet,Hand,Scratch,11,27,No,Calm,Low,High
+No,Stray,Arm,Deep bite,22,4,No,Calm,High,High
+No,Pet,Leg,Scratch,33,4,No,Calm,Low,Low
+No,Pet,Arm,Scratch,22,3,Yes,Sick,Medium,Low
+Yes,Stray,Hand,Superficial bite,19,66,No,Aggressive,Medium,Low
+No,Pet,Face,Scratch,215,29,No,Calm,Low,High
+No,Stray,Arm,Scratch,9,71,No,Aggressive,Low,Low
+Yes,Stray,Hand,Deep bite,79,39,No,Calm,Low,Low
+No,Pet,Leg,Deep bite,0,41,No,Sick,Medium,High
+No,Stray,Face,Deep bite,54,46,No,Calm,Low,High
+No,Pet,Leg,Deep bite,148,64,No,Sick,Low,High
+No,Pet,Finger,Deep bite,20,25,No,Calm,Low,High
+No,Stray,Hand,Scratch,12,11,No,Sick,High,High
+No,Pet,Arm,Deep bite,63,50,No,Calm,Low,Low
+No,Stray,Hand,Deep bite,74,30,No,Aggressive,Medium,Low
+No,Stray,Leg,Deep bite,69,40,No,Aggressive,Low,Low
+Yes,Pet,Leg,Superficial bite,23,58,No,Calm,High,Low
+Yes,Pet,Arm,Scratch,17,44,No,Aggressive,Medium,Low
+No,Stray,Arm,Deep bite,187,56,No,Calm,Low,Low
+No,Stray,Finger,Deep bite,154,49,No,Calm,High,High
+No,Pet,Hand,Multiple deep wounds,36,66,No,Playful,Medium,High
+Yes,Pet,Face,Scratch,112,63,No,Calm,Low,Low
+No,Pet,Leg,Scratch,36,48,Yes,Calm,Low,Low
+No,Stray,Leg,Scratch,33,61,No,Sick,Medium,High
+No,Stray,Finger,Deep bite,10,78,No,Sick,Medium,High
+No,Stray,Leg,Scratch,33,39,No,Aggressive,Medium,Low
+No,Pet,Leg,Scratch,46,37,Yes,Calm,Medium,Low
+No,Stray,Arm,Multiple deep wounds,1,69,No,Calm,Medium,Low
+No,Stray,Leg,Scratch,35,52,Yes,Calm,Low,Low
+Yes,Pet,Finger,Deep bite,91,7,Yes,Calm,Medium,Low
+Yes,Stray,Leg,Superficial bite,68,80,No,Sick,Low,Low
+No,Pet,Hand,Deep bite,60,3,No,Calm,High,Low
+No,Pet,Hand,Superficial bite,144,67,No,Calm,Medium,High
+No,Pet,Hand,Deep bite,1,68,No,Playful,Medium,High
+No,Stray,Hand,Deep bite,48,85,Yes,Aggressive,Low,Low
+No,Stray,Hand,Scratch,92,5,No,Calm,Low,Low
+No,Pet,Leg,Scratch,46,54,No,Calm,Low,Low
+No,Pet,Leg,Scratch,23,39,No,Aggressive,Medium,Low
+No,Pet,Arm,Deep bite,8,30,No,Calm,Medium,High
+Yes,Stray,Leg,Deep bite,131,9,No,Aggressive,Low,Low
+No,Pet,Hand,Superficial bite,38,51,No,Sick,Medium,High
+Yes,Pet,Hand,Superficial bite,126,43,Yes,Calm,Medium,Low
+No,Pet,Hand,Scratch,52,10,Yes,Calm,Low,Low
+No,Pet,Arm,Deep bite,67,55,No,Calm,Low,Low
+Yes,Pet,Hand,Multiple deep wounds,97,66,No,Aggressive,Medium,Low
+No,Pet,Hand,Scratch,64,69,No,Calm,Medium,Low
+No,Stray,Arm,Superficial bite,30,81,No,Calm,Medium,Low
+No,Stray,Leg,Scratch,43,37,Yes,Calm,Medium,Low
+Yes,Stray,Face,Superficial bite,97,85,No,Calm,High,High
+No,Stray,Leg,Superficial bite,28,78,No,Calm,Low,Low
+No,Stray,Leg,Scratch,29,27,No,Calm,Low,Low
+No,Stray,Leg,Superficial bite,6,15,No,Calm,Low,High
+No,Stray,Finger,Superficial bite,147,39,No,Calm,Low,Low
+No,Stray,Face,Superficial bite,5,36,No,Aggressive,Low,Low
+No,Pet,Hand,Superficial bite,62,52,No,Calm,Low,Low
+No,Pet,Finger,Scratch,31,52,No,Sick,High,High
+No,Stray,Arm,Deep bite,31,67,No,Calm,High,High
+No,Pet,Leg,Deep bite,68,46,No,Calm,Low,Low
+Yes,Stray,Leg,Superficial bite,4,10,No,Calm,Medium,Low
+Yes,Stray,Leg,Scratch,54,77,No,Calm,Medium,Low
+No,Stray,Finger,Deep bite,88,28,No,Calm,Medium,Low
+No,Stray,Finger,Multiple deep wounds,105,87,No,Aggressive,Medium,Low
+No,Pet,Leg,Scratch,11,11,No,Calm,Low,Low
+Yes,Pet,Hand,Superficial bite,136,86,No,Aggressive,Medium,Low
+Yes,Stray,Leg,Scratch,64,9,No,Calm,Medium,Low
+Yes,Stray,Face,Superficial bite,128,21,No,Sick,Medium,High
+No,Stray,Hand,Scratch,39,5,No,Calm,High,High
+No,Stray,Finger,Superficial bite,46,63,No,Aggressive,High,Low
+No,Stray,Hand,Deep bite,150,76,No,Playful,Medium,Low
+No,Stray,Hand,Superficial bite,138,39,Yes,Sick,Medium,Low
+No,Pet,Hand,Superficial bite,35,83,No,Calm,High,Low
+Yes,Pet,Leg,Superficial bite,19,53,No,Calm,Low,Low
+No,Stray,Arm,Superficial bite,29,57,No,Aggressive,Low,High
+No,Pet,Leg,Scratch,29,76,No,Sick,Low,High
+No,Stray,Hand,Scratch,20,27,Yes,Calm,High,Low
+No,Stray,Leg,Deep bite,18,32,No,Sick,Medium,Low
+No,Stray,Leg,Scratch,118,81,No,Calm,Low,High
+No,Pet,Hand,Deep bite,4,81,No,Calm,High,Low
+Yes,Pet,Arm,Deep bite,67,87,Yes,Playful,Medium,Low
+No,Pet,Hand,Scratch,11,81,No,Calm,High,Low
+No,Stray,Finger,Superficial bite,25,12,No,Aggressive,Low,High
+Yes,Pet,Leg,Superficial bite,3,74,Yes,Aggressive,Medium,Low
+No,Stray,Finger,Deep bite,18,37,No,Calm,Medium,High
+No,Pet,Hand,Multiple deep wounds,87,89,No,Aggressive,Medium,Low
+No,Stray,Leg,Deep bite,129,43,No,Calm,Medium,High
+Yes,Stray,Leg,Scratch,15,50,No,Calm,Medium,Low
+No,Stray,Leg,Deep bite,37,48,No,Calm,Low,Low
+Yes,Pet,Finger,Superficial bite,38,29,No,Calm,Medium,Low
+Yes,Stray,Arm,Superficial bite,124,7,No,Playful,Low,Low
+Yes,Pet,Hand,Scratch,86,80,No,Aggressive,Low,Low
+Yes,Stray,Leg,Scratch,43,72,No,Calm,Low,Low
+Yes,Pet,Leg,Deep bite,66,13,No,Aggressive,Low,Low
+Yes,Pet,Leg,Superficial bite,112,70,No,Calm,Low,Low
+No,Pet,Hand,Superficial bite,0,56,No,Playful,Medium,High
+Yes,Stray,Arm,Superficial bite,30,37,No,Sick,Medium,Low
+Yes,Stray,Hand,Deep bite,142,23,No,Calm,Low,Low
+No,Stray,Arm,Deep bite,80,77,Yes,Calm,Medium,Low
+No,Pet,Leg,Scratch,46,63,Yes,Sick,Low,Low
+No,Stray,Leg,Scratch,45,49,No,Sick,Low,High
+Yes,Stray,Hand,Scratch,25,55,No,Playful,Medium,High
+Yes,Stray,Arm,Deep bite,44,9,No,Calm,Medium,Low
+Yes,Stray,Hand,Superficial bite,63,43,No,Playful,Medium,Low
+Yes,Pet,Hand,Superficial bite,32,18,No,Aggressive,Low,Low
+Yes,Stray,Leg,Superficial bite,75,19,No,Calm,Medium,Low
+Yes,Pet,Finger,Superficial bite,118,59,No,Aggressive,Medium,High
+Yes,Stray,Arm,Deep bite,10,82,No,Calm,High,Low
+Yes,Stray,Leg,Superficial bite,36,36,No,Calm,Low,Low
+No,Stray,Finger,Scratch,31,19,No,Sick,Medium,Low
+Yes,Stray,Leg,Scratch,69,58,No,Calm,Medium,Low
+No,Stray,Hand,Superficial bite,17,78,No,Calm,High,High
+No,Pet,Finger,Multiple deep wounds,61,67,No,Calm,Low,Low
+No,Stray,Arm,Superficial bite,125,78,No,Calm,Medium,Low
+Yes,Pet,Arm,Deep bite,32,48,No,Calm,Low,Low
+No,Stray,Neck,Deep bite,145,67,Yes,Sick,Medium,High
+No,Stray,Arm,Scratch,299,13,No,Calm,Low,Low
+Yes,Pet,Hand,Scratch,6,31,No,Calm,Low,Low
+No,Stray,Hand,Scratch,15,35,No,Calm,Medium,Low
+No,Stray,Hand,Deep bite,180,46,No,Sick,Low,High
+Yes,Stray,Leg,Scratch,190,83,Yes,Calm,Low,Low
+Yes,Stray,Leg,Superficial bite,6,78,No,Calm,Low,Low
+No,Pet,Hand,Superficial bite,0,12,No,Calm,Low,Low
+No,Stray,Leg,Deep bite,10,16,No,Calm,High,High
+Yes,Pet,Leg,Scratch,331,32,No,Sick,Medium,Low
+Yes,Pet,Leg,Superficial bite,11,26,No,Calm,Medium,Low
+No,Stray,Hand,Superficial bite,41,55,No,Calm,Low,Low
+No,Pet,Leg,Superficial bite,113,81,No,Sick,High,High
+No,Stray,Finger,Deep bite,1,86,No,Calm,Low,Low
+No,Pet,Leg,Scratch,55,59,No,Calm,Medium,Low
+No,Stray,Arm,Deep bite,19,75,No,Calm,Low,High
+No,Pet,Arm,Deep bite,118,47,No,Calm,Medium,High
+Yes,Stray,Leg,Superficial bite,19,19,No,Calm,Medium,Low
+Yes,Stray,Arm,Deep bite,69,47,No,Aggressive,Low,Low
+No,Pet,Hand,Superficial bite,67,50,No,Sick,Low,Low
+No,Pet,Hand,Scratch,15,67,Yes,Calm,Medium,Low
+No,Stray,Leg,Deep bite,2,20,Yes,Aggressive,Low,Low
+No,Stray,Leg,Superficial bite,31,33,No,Calm,Low,Low
+Yes,Pet,Hand,Superficial bite,20,33,No,Calm,Low,Low
+No,Pet,Finger,Superficial bite,99,86,No,Aggressive,Medium,Low
+No,Pet,Hand,Deep bite,96,40,No,Calm,Medium,Low
+Yes,Pet,Leg,Superficial bite,36,68,No,Calm,Low,Low
+Yes,Pet,Leg,Scratch,55,67,No,Calm,Low,Low
+No,Pet,Leg,Superficial bite,55,24,No,Calm,Medium,Low
+Yes,Stray,Finger,Deep bite,105,51,No,Calm,Medium,Low
+Yes,Stray,Hand,Deep bite,33,80,No,Calm,Low,Low
+Yes,Pet,Leg,Superficial bite,19,43,No,Calm,Medium,Low
+Yes,Pet,Hand,Deep bite,18,85,No,Calm,Low,Low
+Yes,Stray,Leg,Scratch,46,20,No,Calm,Low,Low
+No,Stray,Leg,Superficial bite,35,7,No,Calm,High,Low
+No,Pet,Leg,Deep bite,34,80,No,Sick,High,High
+No,Stray,Hand,Deep bite,5,76,No,Calm,Low,Low
+No,Stray,Leg,Deep bite,76,89,No,Sick,Low,High
+No,Stray,Hand,Deep bite,14,61,No,Calm,Low,Low
+Yes,Stray,Neck,Scratch,13,84,No,Aggressive,Low,High
+No,Stray,Leg,Deep bite,31,74,No,Calm,Low,High
+No,Stray,Arm,Superficial bite,15,76,No,Calm,Low,Low
+No,Stray,Leg,Scratch,52,51,No,Calm,High,Low
+No,Pet,Arm,Scratch,27,35,No,Calm,High,Low
+Yes,Stray,Hand,Superficial bite,35,84,No,Sick,Medium,Low
+Yes,Pet,Leg,Scratch,46,39,No,Calm,Medium,Low
+No,Pet,Leg,Superficial bite,13,48,Yes,Calm,Low,Low
+No,Stray,Hand,Scratch,10,40,No,Aggressive,Low,Low
+No,Pet,Leg,Scratch,127,51,No,Playful,Low,Low
+No,Stray,Arm,Superficial bite,34,42,No,Sick,Medium,High
+No,Pet,Leg,Superficial bite,31,5,No,Calm,Low,Low
+No,Stray,Arm,Superficial bite,2,79,No,Calm,High,Low
+Yes,Pet,Leg,Deep bite,41,40,No,Calm,Medium,Low
+Yes,Pet,Leg,Deep bite,48,53,No,Aggressive,Low,High
+Yes,Stray,Leg,Deep bite,49,13,No,Calm,Low,Low
+Yes,Stray,Hand,Superficial bite,73,1,No,Aggressive,Medium,Low
+Yes,Pet,Leg,Deep bite,11,22,No,Calm,High,Low
+Yes,Pet,Leg,Scratch,17,63,No,Calm,Medium,Low
+Yes,Stray,Leg,Scratch,99,9,Yes,Calm,Low,Low
+Yes,Pet,Arm,Superficial bite,176,81,Yes,Calm,Medium,Low
+No,Stray,Leg,Deep bite,8,20,Yes,Sick,Low,Low
+Yes,Pet,Leg,Scratch,41,19,No,Aggressive,High,Low
+No,Stray,Hand,Scratch,14,17,Yes,Calm,Medium,Low
+No,Pet,Arm,Scratch,3,2,No,Aggressive,Medium,High
+No,Stray,Finger,Deep bite,23,69,No,Aggressive,Low,High
+Yes,Stray,Face,Superficial bite,9,78,No,Aggressive,Medium,Low
+No,Stray,Finger,Scratch,74,55,No,Calm,Low,Low
+No,Stray,Leg,Superficial bite,45,17,No,Calm,Low,Low
+No,Stray,Leg,Superficial bite,9,26,No,Sick,Low,Low
+No,Stray,Hand,Deep bite,0,43,No,Calm,High,High
+Yes,Pet,Hand,Scratch,99,85,No,Aggressive,Medium,Low
+Yes,Stray,Finger,Deep bite,11,23,No,Calm,Low,Low
+No,Stray,Hand,Superficial bite,55,66,No,Aggressive,High,High
+No,Stray,Leg,Deep bite,24,40,No,Calm,Low,High
+No,Stray,Arm,Scratch,52,27,No,Aggressive,Low,High
+No,Stray,Hand,Superficial bite,22,41,No,Calm,Low,Low
+Yes,Stray,Face,Superficial bite,5,7,No,Calm,Medium,High
+No,Stray,Leg,Superficial bite,15,72,No,Playful,Medium,Low
+Yes,Stray,Finger,Scratch,12,22,No,Calm,Low,Low
+Yes,Stray,Arm,Deep bite,33,65,No,Sick,Medium,Low
+No,Stray,Arm,Scratch,64,7,No,Aggressive,Low,Low
+No,Stray,Arm,Deep bite,18,86,No,Sick,Medium,Low
+Yes,Stray,Arm,Deep bite,0,18,No,Calm,Low,Low
+Yes,Pet,Arm,Superficial bite,43,79,No,Aggressive,Medium,Low
+No,Stray,Leg,Deep bite,55,73,No,Calm,Medium,Low
+Yes,Pet,Arm,Deep bite,197,87,No,Aggressive,Medium,Low
+No,Stray,Arm,Superficial bite,53,43,No,Calm,Low,Low
+Yes,Pet,Hand,Deep bite,38,65,No,Aggressive,Medium,High
+No,Pet,Finger,Scratch,51,33,No,Calm,Low,Low
+No,Stray,Hand,Superficial bite,157,17,No,Playful,High,High
+Yes,Pet,Neck,Deep bite,105,40,No,Aggressive,Low,Low
+Yes,Stray,Leg,Superficial bite,23,15,No,Calm,Low,Low
+Yes,Stray,Leg,Superficial bite,16,88,No,Calm,Medium,Low
+Yes,Pet,Arm,Superficial bite,18,9,No,Sick,Medium,High
+No,Pet,Arm,Deep bite,42,53,No,Calm,Low,Low
+Yes,Stray,Leg,Deep bite,81,56,No,Calm,High,Low
+No,Stray,Hand,Superficial bite,41,48,No,Calm,High,Low
+Yes,Stray,Leg,Deep bite,4,59,No,Calm,Medium,Low
+No,Stray,Leg,Deep bite,77,11,No,Aggressive,Low,Low
+No,Pet,Arm,Scratch,98,50,No,Calm,Medium,Low
+No,Stray,Arm,Scratch,20,26,No,Aggressive,Low,Low
+No,Stray,Hand,Deep bite,65,84,No,Calm,Low,Low
+No,Stray,Leg,Deep bite,33,68,No,Calm,High,Low
+Yes,Stray,Arm,Deep bite,131,87,No,Calm,High,High
+No,Stray,Hand,Superficial bite,111,4,Yes,Aggressive,High,Low
+No,Pet,Leg,Scratch,44,26,Yes,Sick,Low,Low
+No,Pet,Finger,Superficial bite,70,18,No,Sick,Low,High
+Yes,Pet,Arm,Scratch,128,1,No,Aggressive,Low,Low
+No,Stray,Finger,Scratch,41,22,Yes,Calm,Low,Low
+No,Pet,Arm,Deep bite,22,61,No,Calm,Low,Low
+Yes,Pet,Neck,Scratch,84,21,Yes,Aggressive,Low,Low
+Yes,Pet,Hand,Deep bite,14,46,No,Calm,Medium,Low
+No,Stray,Arm,Superficial bite,29,80,No,Calm,Medium,Low
+No,Stray,Hand,Superficial bite,120,62,No,Sick,Medium,High
+No,Stray,Face,Scratch,77,36,No,Sick,Medium,High
+Yes,Stray,Finger,Superficial bite,31,34,No,Calm,Low,High
+No,Stray,Leg,Scratch,14,41,No,Calm,Low,High
+Yes,Stray,Leg,Multiple deep wounds,26,16,No,Sick,Medium,High
+Yes,Stray,Hand,Deep bite,20,57,No,Sick,Medium,Low
+Yes,Pet,Hand,Superficial bite,11,33,No,Playful,Medium,Low
+No,Stray,Neck,Scratch,81,76,No,Aggressive,Low,Low
+No,Stray,Leg,Multiple deep wounds,17,68,No,Aggressive,Low,Low
+No,Pet,Finger,Superficial bite,36,55,No,Calm,Medium,Low
+No,Pet,Arm,Scratch,29,33,No,Calm,High,Low
+No,Pet,Hand,Superficial bite,241,19,No,Aggressive,High,Low
+No,Pet,Arm,Multiple deep wounds,29,70,No,Aggressive,Medium,High
+No,Stray,Arm,Scratch,5,44,No,Sick,Medium,High
+No,Pet,Arm,Scratch,5,21,No,Sick,Medium,Low
+No,Stray,Leg,Multiple deep wounds,53,18,No,Calm,Medium,High
+No,Stray,Leg,Scratch,54,15,No,Sick,Medium,Low
+Yes,Stray,Hand,Scratch,32,70,No,Calm,High,Low
+No,Stray,Face,Superficial bite,33,21,No,Sick,Medium,High
+No,Stray,Finger,Deep bite,3,47,No,Calm,High,Low
+Yes,Pet,Hand,Superficial bite,43,41,No,Aggressive,Low,High
+No,Pet,Neck,Multiple deep wounds,42,52,No,Calm,Medium,Low
+No,Stray,Hand,Deep bite,9,79,Yes,Calm,Medium,High
+No,Stray,Face,Scratch,6,78,No,Calm,Low,High
+No,Pet,Arm,Multiple deep wounds,7,41,No,Aggressive,Medium,High
+No,Pet,Leg,Superficial bite,6,2,No,Playful,Low,Low
+Yes,Stray,Arm,Scratch,56,38,Yes,Aggressive,Medium,Low
+No,Pet,Arm,Superficial bite,13,54,No,Aggressive,Medium,Low
+No,Stray,Leg,Superficial bite,17,50,No,Calm,Low,Low
+Yes,Stray,Arm,Scratch,11,58,Yes,Calm,Low,Low
+Yes,Pet,Leg,Scratch,189,14,No,Calm,Medium,Low
+No,Stray,Leg,Superficial bite,115,58,No,Calm,Medium,High
+No,Stray,Face,Deep bite,15,17,No,Calm,Low,High
+No,Pet,Leg,Superficial bite,23,67,No,Calm,High,High
+No,Pet,Arm,Multiple deep wounds,14,31,No,Calm,Medium,Low
+No,Stray,Finger,Scratch,40,64,No,Aggressive,Medium,Low
+Yes,Stray,Arm,Scratch,1,5,No,Calm,Low,Low
+Yes,Stray,Finger,Scratch,66,37,No,Sick,High,High
+Yes,Pet,Leg,Scratch,44,63,No,Aggressive,Low,Low
+No,Stray,Hand,Scratch,137,21,No,Calm,Medium,High
+Yes,Stray,Leg,Deep bite,10,71,No,Sick,Medium,Low
+No,Pet,Finger,Deep bite,97,57,No,Calm,Low,Low
+No,Stray,Leg,Multiple deep wounds,94,53,No,Calm,Medium,Low
+No,Stray,Hand,Scratch,8,32,No,Playful,Low,Low
+Yes,Stray,Leg,Deep bite,30,43,No,Aggressive,Medium,Low
+No,Pet,Arm,Superficial bite,11,54,No,Aggressive,Medium,Low
+Yes,Stray,Face,Scratch,17,43,No,Sick,High,Low
+No,Stray,Arm,Deep bite,18,63,No,Sick,High,Low
+Yes,Pet,Hand,Superficial bite,48,39,No,Calm,Medium,Low
+No,Stray,Leg,Scratch,31,19,No,Calm,Medium,Low
+No,Stray,Arm,Superficial bite,177,20,No,Sick,Medium,High
+Yes,Stray,Leg,Scratch,8,1,No,Calm,Low,Low
+Yes,Stray,Face,Deep bite,218,27,No,Calm,Medium,High
+No,Stray,Hand,Superficial bite,15,67,No,Aggressive,High,Low
+No,Stray,Hand,Multiple deep wounds,88,71,No,Calm,Low,Low
+No,Stray,Hand,Scratch,24,19,No,Sick,Low,Low
+No,Stray,Neck,Superficial bite,9,86,No,Sick,Low,High
+No,Pet,Hand,Superficial bite,117,45,No,Playful,Low,High
+Yes,Pet,Leg,Superficial bite,22,82,No,Sick,Low,High
+Yes,Pet,Hand,Superficial bite,64,63,No,Calm,Low,Low
+Yes,Pet,Arm,Deep bite,50,65,No,Calm,Low,Low
+No,Stray,Arm,Deep bite,38,8,No,Calm,Medium,Low
+No,Pet,Leg,Multiple deep wounds,41,20,Yes,Calm,Low,Low
+No,Stray,Finger,Deep bite,79,1,No,Calm,Medium,Low
+No,Pet,Arm,Deep bite,5,64,No,Aggressive,High,Low
+No,Pet,Arm,Superficial bite,66,31,No,Sick,High,High
+Yes,Pet,Hand,Deep bite,135,71,No,Calm,Medium,Low
+No,Pet,Finger,Superficial bite,3,31,No,Calm,Low,Low
+No,Stray,Neck,Superficial bite,9,73,No,Calm,High,Low
+No,Stray,Hand,Superficial bite,75,12,No,Calm,Medium,Low
+Yes,Stray,Hand,Superficial bite,34,16,No,Aggressive,Low,High
+No,Stray,Hand,Scratch,31,31,No,Sick,Low,Low
+No,Stray,Hand,Multiple deep wounds,8,37,No,Calm,Low,Low
+No,Pet,Leg,Superficial bite,42,32,No,Aggressive,Low,Low
+No,Pet,Hand,Scratch,8,68,No,Calm,Low,Low
+No,Stray,Leg,Superficial bite,38,9,No,Calm,High,Low
+No,Pet,Hand,Scratch,86,32,No,Playful,Medium,Low
+Yes,Pet,Neck,Scratch,17,75,Yes,Sick,Medium,Low
+No,Pet,Finger,Scratch,39,6,No,Sick,Medium,High
+No,Pet,Hand,Superficial bite,289,84,Yes,Aggressive,Medium,Low
+No,Stray,Leg,Superficial bite,69,88,No,Aggressive,High,High
+No,Pet,Leg,Deep bite,110,8,No,Calm,High,Low
+No,Pet,Neck,Deep bite,32,26,No,Calm,Low,Low
+No,Stray,Finger,Superficial bite,87,34,No,Sick,High,High
+No,Stray,Hand,Superficial bite,2,70,No,Calm,Medium,High
+Yes,Pet,Leg,Superficial bite,7,54,No,Playful,Low,Low
+No,Stray,Hand,Deep bite,13,58,No,Calm,Medium,Low
+No,Pet,Leg,Scratch,30,68,No,Calm,Medium,Low
+Yes,Pet,Face,Scratch,112,11,No,Calm,High,High
+No,Stray,Arm,Deep bite,25,75,Yes,Aggressive,Low,High
+No,Stray,Leg,Superficial bite,63,63,Yes,Calm,Medium,Low
+No,Pet,Finger,Scratch,74,52,Yes,Calm,Low,Low
+No,Stray,Finger,Scratch,52,80,No,Calm,Low,High
+No,Stray,Leg,Multiple deep wounds,26,63,No,Calm,Low,High
+Yes,Stray,Finger,Deep bite,51,18,No,Aggressive,Medium,High
+Yes,Stray,Hand,Deep bite,25,39,No,Calm,Medium,High
+No,Pet,Hand,Superficial bite,5,44,No,Calm,Low,Low
+Yes,Stray,Hand,Superficial bite,296,5,No,Aggressive,Medium,High
+Yes,Pet,Arm,Multiple deep wounds,8,85,No,Calm,Low,Low
+No,Stray,Arm,Multiple deep wounds,4,12,No,Calm,Low,Low
+No,Stray,Leg,Scratch,126,63,No,Calm,Medium,Low
+No,Pet,Hand,Deep bite,21,46,No,Aggressive,Low,Low
+Yes,Pet,Leg,Scratch,63,3,No,Calm,Medium,Low
+Yes,Stray,Hand,Scratch,23,83,Yes,Calm,Low,Low
+No,Stray,Hand,Deep bite,29,76,No,Calm,Low,Low
+No,Stray,Arm,Superficial bite,18,47,Yes,Sick,Medium,Low
+Yes,Stray,Leg,Multiple deep wounds,25,21,No,Calm,Medium,Low
+No,Pet,Leg,Scratch,31,11,No,Calm,Low,Low
+Yes,Stray,Leg,Superficial bite,76,33,No,Sick,Medium,Low
+Yes,Stray,Hand,Deep bite,42,23,No,Calm,Medium,Low
+No,Stray,Leg,Deep bite,172,46,No,Calm,Medium,Low
+No,Pet,Hand,Scratch,2,87,No,Calm,Low,Low
+No,Pet,Arm,Superficial bite,41,52,No,Calm,Medium,High
+No,Stray,Arm,Superficial bite,52,80,No,Calm,Medium,Low
+No,Pet,Face,Scratch,151,58,No,Aggressive,Low,Low
+No,Stray,Hand,Multiple deep wounds,3,43,No,Calm,High,High
+Yes,Stray,Finger,Deep bite,51,77,No,Aggressive,High,Low
+No,Pet,Finger,Scratch,115,42,No,Calm,High,Low
+Yes,Pet,Arm,Scratch,16,78,No,Aggressive,Medium,Low
+No,Pet,Face,Scratch,125,26,No,Calm,Medium,High
+Yes,Stray,Hand,Deep bite,1,12,No,Calm,Medium,Low
+No,Stray,Arm,Scratch,79,77,No,Calm,Medium,Low
+Yes,Pet,Finger,Superficial bite,162,53,No,Calm,Medium,Low
+No,Stray,Hand,Superficial bite,64,80,No,Playful,Medium,Low
+No,Stray,Leg,Superficial bite,34,84,Yes,Calm,Low,Low
+No,Stray,Hand,Scratch,2,5,No,Calm,Low,Low
+Yes,Pet,Finger,Scratch,151,45,No,Sick,High,Low
+No,Stray,Arm,Multiple deep wounds,38,34,No,Calm,Low,High
+Yes,Stray,Leg,Deep bite,1,56,No,Calm,Medium,Low
+No,Pet,Arm,Deep bite,70,71,No,Aggressive,High,High
+Yes,Stray,Leg,Scratch,39,25,No,Calm,Medium,Low
+Yes,Stray,Hand,Superficial bite,7,50,No,Sick,High,Low
+Yes,Stray,Hand,Superficial bite,14,64,No,Calm,Medium,Low
+No,Stray,Finger,Scratch,3,12,No,Calm,Low,Low
+No,Stray,Finger,Deep bite,51,73,No,Calm,Medium,High
+Yes,Stray,Finger,Superficial bite,58,54,No,Sick,Low,Low
+No,Pet,Leg,Scratch,42,85,No,Calm,Low,Low
+No,Stray,Leg,Deep bite,101,31,No,Calm,Low,Low
+No,Pet,Neck,Multiple deep wounds,118,10,No,Aggressive,Low,High
+No,Stray,Arm,Scratch,57,46,No,Calm,Low,High
+No,Stray,Hand,Superficial bite,0,8,No,Calm,Low,Low
+No,Stray,Leg,Superficial bite,71,87,No,Aggressive,Medium,High
+Yes,Stray,Arm,Superficial bite,32,4,No,Calm,Medium,Low
+Yes,Pet,Hand,Scratch,50,68,No,Calm,Low,Low
+No,Stray,Leg,Superficial bite,62,47,No,Aggressive,Low,High
+No,Stray,Leg,Multiple deep wounds,25,33,No,Calm,Medium,High
+No,Pet,Arm,Superficial bite,149,6,No,Aggressive,Medium,High
+Yes,Pet,Hand,Scratch,8,56,No,Calm,High,Low
+No,Pet,Hand,Superficial bite,66,53,No,Calm,Low,Low
+No,Stray,Hand,Superficial bite,0,25,Yes,Calm,High,High
+Yes,Pet,Hand,Deep bite,155,82,No,Calm,Medium,Low
+Yes,Stray,Leg,Superficial bite,7,28,No,Calm,Medium,Low
+No,Stray,Leg,Scratch,5,41,No,Aggressive,Low,High
+No,Stray,Leg,Scratch,24,49,No,Sick,Low,Low
+Yes,Stray,Arm,Deep bite,28,9,No,Calm,Low,Low
+Yes,Stray,Leg,Scratch,14,83,No,Aggressive,Low,Low
+Yes,Stray,Hand,Deep bite,52,34,No,Sick,Medium,High
+No,Pet,Arm,Scratch,35,8,No,Aggressive,Medium,Low
+Yes,Stray,Leg,Superficial bite,2,35,No,Calm,Medium,Low
+Yes,Stray,Hand,Superficial bite,23,54,No,Calm,Medium,Low
+No,Stray,Hand,Multiple deep wounds,99,46,Yes,Calm,Medium,Low
+Yes,Pet,Finger,Multiple deep wounds,70,62,Yes,Sick,Low,Low
+No,Stray,Arm,Scratch,77,5,No,Calm,High,Low
+Yes,Stray,Leg,Superficial bite,71,26,No,Aggressive,Medium,Low
+Yes,Pet,Face,Scratch,22,73,No,Sick,Low,Low
+Yes,Pet,Leg,Superficial bite,6,8,No,Sick,Low,High
+No,Stray,Hand,Superficial bite,19,77,No,Calm,Medium,High
+No,Pet,Neck,Deep bite,106,9,No,Calm,Medium,High
+No,Pet,Leg,Multiple deep wounds,236,75,No,Aggressive,Low,High
+No,Pet,Hand,Superficial bite,40,33,No,Calm,Medium,Low
+No,Stray,Arm,Superficial bite,0,55,No,Aggressive,Medium,High
+Yes,Pet,Hand,Deep bite,9,14,Yes,Aggressive,Medium,Low
+Yes,Stray,Hand,Deep bite,23,6,No,Calm,Low,Low
+No,Stray,Hand,Scratch,51,20,No,Aggressive,Low,Low
+Yes,Stray,Hand,Superficial bite,4,12,No,Aggressive,High,High
+Yes,Stray,Finger,Superficial bite,172,28,Yes,Calm,High,Low
+Yes,Stray,Face,Scratch,27,46,No,Aggressive,Low,High
+Yes,Pet,Arm,Scratch,146,53,No,Aggressive,Low,Low
+Yes,Stray,Hand,Scratch,90,71,Yes,Aggressive,Low,Low
+No,Stray,Hand,Superficial bite,84,59,No,Aggressive,Low,Low
+No,Stray,Finger,Scratch,55,55,No,Calm,Medium,High
+No,Stray,Hand,Scratch,59,37,No,Sick,High,High
+No,Pet,Finger,Scratch,60,43,No,Calm,Low,Low
+Yes,Stray,Hand,Deep bite,59,37,No,Calm,Low,Low
+Yes,Stray,Leg,Deep bite,48,75,No,Aggressive,High,Low
+No,Stray,Leg,Superficial bite,257,21,No,Aggressive,Low,High
+No,Stray,Finger,Superficial bite,79,1,No,Calm,High,Low
+Yes,Stray,Leg,Multiple deep wounds,90,58,No,Calm,Medium,Low
+No,Pet,Leg,Scratch,123,19,No,Calm,High,Low
+No,Pet,Hand,Scratch,14,80,Yes,Calm,Low,Low
+No,Stray,Hand,Scratch,5,77,No,Calm,Low,Low
+No,Pet,Finger,Scratch,39,7,No,Aggressive,Low,Low
+Yes,Pet,Hand,Superficial bite,43,10,No,Calm,Low,Low
+No,Pet,Arm,Deep bite,106,45,No,Calm,Low,Low
+No,Stray,Leg,Superficial bite,35,55,Yes,Calm,High,Low
+Yes,Stray,Arm,Superficial bite,50,25,No,Calm,Medium,Low
+No,Stray,Finger,Multiple deep wounds,44,64,No,Calm,Medium,High
+No,Pet,Leg,Scratch,2,53,No,Sick,Low,High
+No,Pet,Leg,Scratch,57,29,No,Sick,Medium,Low
+No,Stray,Finger,Superficial bite,105,3,No,Calm,Medium,High
+No,Stray,Face,Superficial bite,10,67,No,Calm,Low,High
+Yes,Pet,Hand,Scratch,54,20,No,Calm,High,Low
+Yes,Pet,Arm,Superficial bite,54,75,No,Sick,Low,Low
+No,Pet,Hand,Superficial bite,10,38,No,Calm,Low,Low
+No,Pet,Leg,Deep bite,7,52,No,Aggressive,Low,High
+Yes,Stray,Finger,Superficial bite,234,78,No,Calm,Medium,Low
+Yes,Stray,Arm,Superficial bite,30,77,No,Aggressive,Medium,Low
+No,Pet,Arm,Scratch,15,34,No,Calm,Low,Low
+No,Stray,Finger,Superficial bite,11,19,No,Calm,Low,Low
+No,Stray,Arm,Scratch,66,69,No,Calm,Low,Low
+Yes,Pet,Arm,Multiple deep wounds,56,39,No,Aggressive,Low,High
+Yes,Stray,Arm,Superficial bite,61,18,No,Sick,Low,Low
+Yes,Pet,Finger,Superficial bite,5,81,No,Calm,Low,Low
+No,Stray,Leg,Deep bite,134,18,Yes,Sick,Low,Low
+Yes,Pet,Leg,Superficial bite,29,3,No,Calm,High,High
+No,Stray,Leg,Superficial bite,22,2,No,Calm,Medium,Low
+Yes,Stray,Arm,Deep bite,37,56,No,Calm,Medium,Low
+No,Pet,Arm,Deep bite,29,59,No,Aggressive,Low,High
+No,Stray,Leg,Deep bite,119,28,Yes,Aggressive,Low,Low
+No,Pet,Arm,Scratch,158,29,No,Calm,Low,Low
+Yes,Pet,Leg,Superficial bite,21,31,No,Aggressive,Low,Low
+Yes,Stray,Finger,Deep bite,119,61,No,Playful,Low,Low
+Yes,Stray,Leg,Scratch,91,6,No,Aggressive,High,High
+No,Stray,Leg,Scratch,160,83,No,Calm,High,Low
+No,Stray,Leg,Deep bite,16,20,No,Calm,Low,Low
+No,Pet,Leg,Scratch,51,89,Yes,Calm,Low,Low
+No,Pet,Arm,Deep bite,19,16,No,Calm,High,Low
+No,Pet,Neck,Superficial bite,104,69,No,Aggressive,Low,High
+Yes,Pet,Arm,Superficial bite,0,20,No,Calm,Medium,Low
+No,Stray,Leg,Scratch,49,8,No,Calm,High,Low
+No,Pet,Arm,Deep bite,24,78,No,Calm,High,High
+No,Pet,Leg,Superficial bite,23,77,No,Calm,Low,Low
+No,Pet,Arm,Superficial bite,62,36,No,Sick,Low,Low
+Yes,Pet,Leg,Deep bite,114,63,No,Sick,Low,Low
+Yes,Stray,Hand,Deep bite,56,50,No,Calm,High,Low
+No,Pet,Leg,Multiple deep wounds,115,76,No,Calm,High,Low
+Yes,Stray,Leg,Superficial bite,18,29,Yes,Calm,Medium,Low
+No,Stray,Hand,Superficial bite,43,47,Yes,Calm,Medium,Low
+Yes,Stray,Hand,Multiple deep wounds,35,44,No,Sick,Medium,Low
+No,Pet,Leg,Superficial bite,0,32,No,Aggressive,Medium,High
+Yes,Pet,Arm,Scratch,48,80,Yes,Calm,Medium,Low
+No,Pet,Hand,Scratch,64,15,No,Calm,Medium,High
+No,Pet,Finger,Deep bite,53,14,No,Calm,Medium,High
+Yes,Stray,Leg,Superficial bite,79,52,No,Calm,Low,Low
+No,Pet,Finger,Deep bite,50,59,No,Calm,Medium,Low
+No,Stray,Arm,Superficial bite,4,18,No,Calm,Low,Low
+No,Stray,Arm,Scratch,7,35,No,Playful,Low,Low
+No,Stray,Finger,Superficial bite,54,85,No,Calm,Medium,High
+No,Pet,Arm,Scratch,19,22,No,Aggressive,Medium,Low
+Yes,Pet,Leg,Superficial bite,4,60,No,Aggressive,High,Low
+Yes,Stray,Hand,Superficial bite,33,66,No,Aggressive,Low,Low
+Yes,Stray,Arm,Superficial bite,48,40,No,Calm,Medium,Low
+No,Pet,Hand,Deep bite,23,84,Yes,Calm,Low,Low
+Yes,Stray,Hand,Deep bite,76,66,Yes,Aggressive,High,Low
+No,Pet,Face,Deep bite,61,41,No,Calm,Low,High
+No,Pet,Face,Scratch,24,51,No,Calm,Medium,High
+Yes,Stray,Finger,Scratch,84,62,No,Calm,Medium,Low
+No,Stray,Hand,Superficial bite,62,53,No,Calm,Low,Low
+Yes,Pet,Leg,Multiple deep wounds,60,79,Yes,Playful,High,Low
+Yes,Pet,Leg,Deep bite,48,32,No,Calm,High,Low
+No,Stray,Leg,Deep bite,0,27,No,Calm,Low,Low
+No,Pet,Hand,Superficial bite,71,20,No,Calm,Low,Low
+No,Stray,Leg,Superficial bite,28,4,No,Calm,Low,Low
+No,Stray,Leg,Superficial bite,171,4,Yes,Calm,Low,Low
+Yes,Pet,Leg,Scratch,102,78,No,Calm,High,Low
+No,Pet,Leg,Scratch,53,61,Yes,Sick,High,High
+No,Stray,Finger,Multiple deep wounds,17,59,No,Sick,Low,High
+No,Pet,Leg,Scratch,13,55,No,Calm,Low,High
+Yes,Stray,Arm,Scratch,24,76,Yes,Aggressive,Medium,Low
+No,Stray,Leg,Scratch,38,43,Yes,Calm,Low,Low
+No,Stray,Neck,Deep bite,21,78,No,Calm,Low,Low
+Yes,Pet,Finger,Superficial bite,43,32,No,Calm,Low,High
+No,Stray,Hand,Deep bite,10,83,No,Aggressive,Medium,High
+Yes,Stray,Hand,Deep bite,228,63,No,Aggressive,Medium,High
+No,Stray,Leg,Superficial bite,6,23,No,Calm,Medium,Low
+No,Pet,Leg,Superficial bite,161,51,Yes,Calm,Low,Low
+Yes,Pet,Arm,Scratch,146,48,No,Calm,Medium,Low
+No,Pet,Arm,Scratch,44,13,Yes,Calm,Medium,Low
+No,Stray,Leg,Deep bite,77,53,No,Calm,High,High
+No,Pet,Arm,Deep bite,34,29,No,Aggressive,Low,High
+No,Stray,Leg,Superficial bite,59,5,Yes,Aggressive,High,Low
+No,Pet,Hand,Superficial bite,24,85,No,Aggressive,High,High
+No,Pet,Leg,Superficial bite,21,58,No,Calm,Low,Low
+No,Stray,Leg,Scratch,51,79,No,Calm,Low,Low
+Yes,Pet,Hand,Scratch,41,61,No,Calm,High,High
+No,Stray,Arm,Scratch,51,32,No,Aggressive,Medium,High
+Yes,Stray,Hand,Scratch,20,46,No,Aggressive,High,Low
+No,Stray,Leg,Deep bite,27,61,No,Aggressive,Medium,Low
+No,Stray,Leg,Scratch,5,86,No,Playful,Medium,Low
+Yes,Stray,Leg,Scratch,3,23,No,Calm,Low,Low
+No,Pet,Hand,Superficial bite,17,78,No,Sick,Low,High
+No,Stray,Hand,Deep bite,4,83,No,Sick,High,High
+Yes,Pet,Face,Scratch,6,60,No,Calm,Low,High
+No,Stray,Hand,Scratch,100,83,No,Calm,Low,High
+No,Stray,Leg,Superficial bite,2,36,No,Aggressive,Medium,Low
+Yes,Pet,Leg,Deep bite,64,85,No,Calm,Medium,High
+No,Stray,Leg,Superficial bite,19,63,No,Calm,Low,High
+Yes,Stray,Arm,Deep bite,123,4,No,Sick,Low,Low
+No,Pet,Finger,Multiple deep wounds,39,81,No,Aggressive,Low,High
+No,Stray,Leg,Deep bite,21,44,No,Calm,Low,Low
+No,Stray,Finger,Superficial bite,43,41,No,Aggressive,Medium,High
+No,Stray,Arm,Superficial bite,28,51,Yes,Sick,Low,Low
+No,Pet,Hand,Scratch,49,14,Yes,Calm,High,Low
+No,Pet,Neck,Multiple deep wounds,7,42,No,Calm,Medium,High
+Yes,Pet,Leg,Superficial bite,348,74,No,Calm,Medium,High
+No,Pet,Hand,Scratch,33,2,No,Calm,Low,High
+Yes,Stray,Hand,Deep bite,25,25,No,Calm,Medium,Low
+No,Stray,Leg,Scratch,74,1,No,Sick,Low,Low
+Yes,Pet,Leg,Superficial bite,27,37,No,Aggressive,Low,Low
+Yes,Stray,Leg,Superficial bite,107,65,Yes,Sick,Medium,Low
+Yes,Stray,Hand,Superficial bite,36,72,Yes,Calm,Low,Low
+No,Stray,Arm,Deep bite,76,85,No,Sick,Medium,High
+Yes,Stray,Leg,Scratch,6,55,No,Calm,Low,Low
+No,Pet,Finger,Superficial bite,112,23,No,Calm,Low,Low
+Yes,Stray,Leg,Superficial bite,79,83,No,Sick,High,Low
+Yes,Stray,Finger,Deep bite,14,70,No,Calm,Medium,High
+No,Stray,Leg,Deep bite,9,52,No,Calm,Medium,Low
+No,Pet,Leg,Superficial bite,22,62,No,Aggressive,Medium,High
+Yes,Stray,Hand,Superficial bite,223,83,No,Aggressive,Low,High
+No,Stray,Leg,Scratch,17,64,No,Calm,Medium,Low
+No,Pet,Leg,Multiple deep wounds,36,33,No,Calm,Low,Low
+No,Pet,Leg,Superficial bite,1,64,No,Calm,Medium,High
+Yes,Stray,Arm,Deep bite,30,4,No,Aggressive,Medium,High
+Yes,Stray,Arm,Scratch,50,35,No,Calm,High,Low
+No,Stray,Arm,Scratch,183,37,No,Calm,Medium,Low
+Yes,Stray,Arm,Superficial bite,43,15,No,Calm,Low,Low
+No,Stray,Hand,Deep bite,102,3,No,Sick,Medium,High
+No,Stray,Leg,Superficial bite,47,12,No,Calm,Low,High
+No,Stray,Hand,Deep bite,2,59,No,Aggressive,Low,Low
+No,Stray,Hand,Superficial bite,22,72,No,Sick,Low,Low
+No,Pet,Arm,Superficial bite,51,88,Yes,Calm,Medium,Low
+No,Pet,Leg,Scratch,180,31,No,Calm,Low,Low
+No,Pet,Arm,Deep bite,117,54,No,Aggressive,Low,Low
+No,Stray,Hand,Scratch,15,84,Yes,Calm,High,High
+No,Stray,Leg,Deep bite,14,15,No,Aggressive,Medium,High
+No,Pet,Arm,Deep bite,13,64,No,Calm,Low,Low
+No,Stray,Finger,Multiple deep wounds,153,68,No,Aggressive,Low,High
+No,Stray,Finger,Superficial bite,114,8,No,Aggressive,Medium,Low
+No,Stray,Arm,Deep bite,89,77,No,Aggressive,High,Low
+No,Pet,Hand,Deep bite,29,73,No,Aggressive,Low,High
+No,Pet,Leg,Scratch,42,3,No,Aggressive,Medium,High
+No,Stray,Face,Superficial bite,37,9,No,Calm,Medium,High
+Yes,Stray,Arm,Scratch,17,5,No,Aggressive,Medium,Low
+Yes,Pet,Arm,Superficial bite,42,30,No,Calm,High,Low
+No,Stray,Finger,Scratch,1,46,No,Aggressive,Medium,Low
+Yes,Pet,Face,Scratch,8,48,No,Sick,High,High
+Yes,Pet,Leg,Superficial bite,130,24,No,Sick,Low,High
+Yes,Pet,Leg,Superficial bite,83,82,No,Aggressive,Medium,Low
+Yes,Stray,Arm,Superficial bite,32,33,No,Calm,Medium,Low
+Yes,Stray,Hand,Scratch,43,5,No,Aggressive,Low,Low
+No,Stray,Finger,Superficial bite,27,27,No,Sick,Medium,High
+No,Pet,Arm,Scratch,81,48,No,Calm,Low,Low
+No,Pet,Leg,Superficial bite,92,37,No,Aggressive,Low,Low
+No,Stray,Hand,Superficial bite,86,25,No,Calm,Low,High
+Yes,Stray,Arm,Superficial bite,76,12,No,Aggressive,Medium,High
+No,Pet,Arm,Deep bite,13,73,No,Calm,High,Low
+No,Pet,Neck,Superficial bite,24,89,No,Calm,Low,High
+Yes,Pet,Hand,Deep bite,38,30,No,Calm,Medium,Low
+No,Stray,Leg,Superficial bite,24,34,No,Calm,Low,Low
+No,Stray,Hand,Superficial bite,84,56,No,Aggressive,High,Low
+No,Pet,Hand,Superficial bite,23,64,No,Aggressive,Medium,Low
+No,Pet,Arm,Scratch,8,35,Yes,Aggressive,Medium,Low
+No,Stray,Leg,Deep bite,30,81,No,Sick,Medium,High
+Yes,Stray,Neck,Superficial bite,234,50,No,Aggressive,Low,Low
+No,Stray,Leg,Superficial bite,15,41,No,Calm,Medium,Low
+Yes,Stray,Hand,Scratch,56,58,No,Calm,High,Low
+No,Stray,Face,Scratch,34,85,No,Aggressive,Low,High
+No,Pet,Neck,Deep bite,4,71,No,Calm,Medium,Low
+No,Stray,Leg,Deep bite,40,4,No,Calm,High,High
+No,Pet,Hand,Scratch,72,30,Yes,Calm,Low,Low
+Yes,Stray,Face,Superficial bite,43,42,No,Calm,High,Low
+Yes,Pet,Arm,Superficial bite,123,28,No,Calm,High,Low
+Yes,Pet,Leg,Deep bite,20,63,No,Calm,Medium,Low
+Yes,Stray,Hand,Scratch,5,74,Yes,Calm,Low,Low
+No,Stray,Arm,Scratch,165,66,No,Calm,Low,High
+No,Stray,Face,Deep bite,28,89,No,Aggressive,Low,High
+Yes,Stray,Arm,Scratch,51,25,No,Calm,Medium,Low
+No,Pet,Leg,Scratch,94,78,No,Aggressive,Medium,High
+No,Pet,Leg,Multiple deep wounds,23,69,No,Aggressive,Medium,Low
+No,Stray,Arm,Superficial bite,75,33,No,Calm,Low,Low
+No,Stray,Hand,Scratch,8,66,No,Sick,Low,Low
+Yes,Stray,Hand,Scratch,20,10,No,Sick,Medium,Low
+No,Pet,Arm,Scratch,9,71,No,Aggressive,Medium,Low
+No,Stray,Hand,Scratch,100,48,No,Calm,High,High
+No,Stray,Leg,Deep bite,15,27,No,Calm,Medium,Low
+Yes,Pet,Finger,Superficial bite,75,59,No,Aggressive,Medium,Low
+No,Pet,Finger,Deep bite,172,58,No,Calm,Medium,High
+Yes,Stray,Leg,Deep bite,45,19,No,Calm,Medium,Low
+Yes,Pet,Leg,Superficial bite,46,3,Yes,Sick,Low,Low
+No,Stray,Leg,Scratch,37,39,No,Aggressive,High,Low
+No,Stray,Hand,Superficial bite,23,51,No,Aggressive,Medium,High
+No,Pet,Leg,Deep bite,38,79,No,Sick,Low,High
+Yes,Pet,Arm,Deep bite,55,83,No,Calm,Low,Low
+No,Stray,Arm,Scratch,256,48,No,Sick,Low,High
+Yes,Stray,Leg,Deep bite,166,68,No,Aggressive,Medium,Low
+Yes,Stray,Hand,Superficial bite,118,40,No,Calm,Low,Low
+No,Stray,Hand,Deep bite,131,67,No,Calm,Low,High
+No,Stray,Finger,Scratch,37,19,Yes,Aggressive,Medium,High
+No,Stray,Neck,Superficial bite,64,34,Yes,Calm,Low,High
+No,Stray,Arm,Deep bite,135,57,No,Calm,Medium,Low
+No,Pet,Finger,Superficial bite,29,2,Yes,Aggressive,Low,Low
+No,Pet,Leg,Superficial bite,195,65,Yes,Calm,Medium,Low
+Yes,Pet,Leg,Scratch,32,75,No,Calm,Low,Low
+No,Stray,Hand,Scratch,55,36,No,Calm,Low,Low
+No,Pet,Arm,Superficial bite,74,40,No,Sick,Low,Low
+Yes,Pet,Leg,Multiple deep wounds,180,76,No,Calm,Medium,Low
+No,Pet,Leg,Scratch,16,70,No,Calm,Medium,Low
+No,Pet,Arm,Superficial bite,82,26,No,Playful,Low,Low
+Yes,Pet,Hand,Deep bite,44,29,No,Sick,Medium,High
+Yes,Stray,Face,Scratch,18,61,No,Aggressive,Low,Low
+No,Stray,Finger,Superficial bite,89,51,No,Calm,High,High
+Yes,Pet,Arm,Deep bite,48,15,No,Aggressive,High,Low
+No,Pet,Leg,Deep bite,64,28,No,Aggressive,Medium,High
+No,Pet,Neck,Superficial bite,23,81,Yes,Calm,Medium,High
+No,Stray,Leg,Deep bite,39,62,No,Calm,Medium,Low
+No,Stray,Finger,Scratch,57,88,Yes,Sick,Medium,Low
+No,Stray,Leg,Multiple deep wounds,31,69,No,Calm,Medium,Low
+Yes,Pet,Hand,Scratch,13,84,No,Playful,High,Low
+No,Stray,Leg,Deep bite,195,20,No,Calm,Medium,Low
+No,Stray,Leg,Scratch,42,69,Yes,Calm,Medium,Low
+Yes,Stray,Arm,Multiple deep wounds,79,2,Yes,Calm,Medium,Low
+No,Stray,Leg,Deep bite,31,60,No,Playful,Medium,High
+No,Pet,Leg,Deep bite,26,42,No,Calm,Medium,High
+No,Pet,Finger,Scratch,31,31,No,Calm,Low,Low
+No,Pet,Leg,Superficial bite,31,77,No,Sick,Low,High
+No,Stray,Hand,Superficial bite,47,77,No,Aggressive,Low,Low
+No,Pet,Hand,Deep bite,47,2,No,Calm,Medium,Low
+No,Stray,Hand,Scratch,41,55,Yes,Sick,Low,Low
+No,Pet,Finger,Multiple deep wounds,8,33,Yes,Playful,High,High
+No,Stray,Leg,Deep bite,41,37,No,Aggressive,Medium,High
+No,Stray,Leg,Scratch,11,75,No,Calm,Medium,Low
+No,Pet,Hand,Deep bite,8,28,Yes,Calm,Low,Low
+Yes,Pet,Hand,Superficial bite,161,84,No,Aggressive,Medium,Low
+No,Stray,Leg,Superficial bite,55,16,No,Calm,Medium,High
+No,Pet,Arm,Superficial bite,64,59,No,Calm,Medium,High
+Yes,Stray,Hand,Superficial bite,30,60,No,Calm,Low,Low
+No,Stray,Leg,Deep bite,143,23,No,Calm,Medium,Low
+Yes,Stray,Face,Superficial bite,60,29,No,Calm,Medium,Low
+Yes,Stray,Hand,Superficial bite,87,75,No,Calm,Medium,Low
+No,Stray,Arm,Deep bite,27,68,Yes,Calm,High,High
+Yes,Stray,Hand,Deep bite,193,30,No,Calm,High,Low
+No,Stray,Finger,Scratch,103,48,Yes,Aggressive,High,Low
+No,Pet,Hand,Deep bite,115,6,No,Aggressive,Medium,High
+No,Stray,Hand,Superficial bite,11,19,No,Aggressive,High,High
+Yes,Pet,Hand,Scratch,18,44,No,Calm,Medium,High
+Yes,Stray,Leg,Scratch,20,8,No,Calm,Low,Low
+No,Pet,Arm,Superficial bite,18,76,No,Aggressive,Low,Low
+No,Stray,Leg,Deep bite,116,64,No,Aggressive,Low,Low
+No,Stray,Face,Superficial bite,1,84,No,Calm,Low,High
+Yes,Stray,Face,Deep bite,4,62,No,Calm,Low,Low
+No,Stray,Arm,Scratch,19,84,No,Playful,Low,Low
+No,Stray,Leg,Superficial bite,13,50,No,Calm,Medium,Low
+No,Pet,Finger,Multiple deep wounds,15,54,No,Calm,Low,Low
+Yes,Pet,Hand,Deep bite,95,87,No,Calm,Low,High
+No,Pet,Leg,Scratch,49,58,No,Calm,Medium,Low
+No,Pet,Finger,Superficial bite,0,3,No,Aggressive,Medium,Low
+No,Stray,Arm,Scratch,33,65,Yes,Aggressive,High,Low
+Yes,Stray,Leg,Superficial bite,31,81,Yes,Aggressive,Medium,Low
+No,Stray,Hand,Deep bite,7,71,Yes,Calm,Low,Low
+No,Stray,Finger,Deep bite,67,52,No,Calm,Low,Low
+Yes,Stray,Leg,Scratch,72,60,No,Aggressive,Low,Low
+No,Stray,Finger,Deep bite,76,89,No,Calm,Low,Low
+No,Stray,Leg,Superficial bite,78,9,No,Calm,Low,Low
+Yes,Stray,Arm,Superficial bite,0,60,No,Calm,High,Low
+Yes,Pet,Finger,Superficial bite,184,26,No,Aggressive,Low,High
+No,Pet,Hand,Superficial bite,100,57,No,Calm,Low,Low
+Yes,Stray,Arm,Superficial bite,140,55,No,Playful,Low,Low
+No,Pet,Leg,Superficial bite,0,14,No,Aggressive,Medium,Low
+Yes,Pet,Leg,Superficial bite,162,19,Yes,Calm,Low,Low
+No,Stray,Finger,Scratch,99,56,No,Aggressive,Low,High
+Yes,Stray,Hand,Deep bite,108,12,No,Aggressive,Low,Low
+No,Stray,Leg,Superficial bite,5,24,No,Calm,Low,Low
+No,Pet,Leg,Scratch,80,75,No,Sick,Low,High
+No,Pet,Neck,Deep bite,193,30,No,Sick,Medium,High
+No,Stray,Arm,Multiple deep wounds,68,44,No,Aggressive,Low,Low
+Yes,Stray,Hand,Multiple deep wounds,50,84,No,Calm,Medium,High
+No,Stray,Hand,Superficial bite,174,21,Yes,Calm,Medium,High
+Yes,Stray,Finger,Scratch,35,35,No,Calm,Medium,Low
+Yes,Stray,Leg,Superficial bite,54,54,No,Calm,Low,Low
+Yes,Pet,Leg,Scratch,38,68,No,Aggressive,Low,Low
+No,Pet,Finger,Multiple deep wounds,162,81,No,Calm,Low,High
+No,Pet,Arm,Scratch,4,82,No,Calm,Medium,Low
+No,Pet,Leg,Scratch,41,70,No,Calm,Medium,Low
+No,Pet,Arm,Superficial bite,69,21,No,Calm,Low,Low
+Yes,Stray,Leg,Superficial bite,94,3,No,Aggressive,Medium,Low
+No,Pet,Hand,Deep bite,52,35,No,Aggressive,Medium,Low
+No,Stray,Finger,Superficial bite,143,13,No,Sick,Medium,High
+No,Pet,Hand,Scratch,170,64,No,Calm,Low,Low
+Yes,Stray,Hand,Scratch,3,59,No,Sick,Medium,Low
+No,Pet,Leg,Superficial bite,30,4,No,Aggressive,Low,High
+No,Stray,Arm,Scratch,1,75,Yes,Calm,Medium,Low
+Yes,Stray,Leg,Superficial bite,23,23,No,Calm,Low,Low
+Yes,Stray,Arm,Superficial bite,46,39,No,Sick,Low,Low
+No,Stray,Leg,Deep bite,145,60,No,Aggressive,High,High
+No,Pet,Hand,Multiple deep wounds,112,39,No,Aggressive,Medium,High
+Yes,Pet,Neck,Deep bite,8,40,No,Calm,Low,High
+No,Stray,Hand,Multiple deep wounds,5,6,No,Sick,Low,High
+Yes,Stray,Arm,Scratch,53,36,No,Sick,Medium,Low
+No,Stray,Hand,Scratch,45,69,No,Playful,High,Low
+No,Stray,Arm,Superficial bite,18,82,No,Playful,Medium,Low
+No,Stray,Arm,Deep bite,137,37,No,Aggressive,High,High
+No,Pet,Neck,Multiple deep wounds,157,38,No,Aggressive,Low,High
+No,Stray,Leg,Deep bite,30,63,No,Aggressive,Medium,Low
+Yes,Stray,Finger,Scratch,132,84,No,Calm,Medium,Low
+No,Stray,Hand,Multiple deep wounds,29,24,Yes,Sick,Medium,High
+No,Stray,Leg,Superficial bite,80,40,No,Sick,Low,Low
+No,Stray,Leg,Scratch,38,71,Yes,Aggressive,Medium,Low
+Yes,Pet,Arm,Superficial bite,7,55,No,Calm,Medium,Low
+Yes,Stray,Leg,Scratch,157,10,No,Sick,Medium,Low
+Yes,Stray,Arm,Superficial bite,36,56,Yes,Calm,Medium,Low
+No,Stray,Arm,Superficial bite,79,17,No,Aggressive,Medium,Low
+No,Stray,Face,Superficial bite,27,46,No,Calm,Medium,High
+No,Stray,Leg,Superficial bite,1,48,No,Calm,Low,Low
+No,Pet,Leg,Deep bite,6,78,No,Calm,Low,High
+No,Pet,Face,Deep bite,41,42,No,Calm,Medium,Low
+Yes,Stray,Arm,Superficial bite,70,25,No,Aggressive,High,Low
+No,Stray,Finger,Deep bite,24,21,No,Playful,Low,Low
+No,Stray,Arm,Deep bite,71,78,Yes,Calm,Medium,High
+No,Stray,Arm,Scratch,71,16,No,Calm,Low,Low
+No,Pet,Finger,Superficial bite,73,38,No,Playful,Low,Low
+No,Pet,Leg,Scratch,40,17,No,Aggressive,Medium,Low
+No,Stray,Leg,Scratch,147,69,No,Aggressive,Medium,Low
+Yes,Stray,Leg,Deep bite,40,43,No,Sick,Low,Low
+Yes,Stray,Leg,Deep bite,35,32,No,Calm,Medium,High
+No,Pet,Arm,Scratch,13,33,No,Calm,Medium,Low
+No,Pet,Arm,Deep bite,22,76,No,Calm,High,Low
+No,Stray,Arm,Deep bite,2,50,No,Aggressive,Low,Low
+No,Stray,Finger,Deep bite,60,64,No,Calm,Medium,High
+Yes,Pet,Leg,Scratch,17,80,No,Aggressive,Low,Low
+Yes,Stray,Hand,Deep bite,21,81,No,Calm,Low,Low
+No,Stray,Leg,Superficial bite,88,30,No,Calm,Medium,High
+No,Stray,Arm,Superficial bite,23,85,No,Sick,Medium,High
+Yes,Pet,Neck,Scratch,16,3,Yes,Calm,Low,Low
+No,Stray,Leg,Scratch,11,34,No,Aggressive,High,High
+Yes,Stray,Arm,Deep bite,89,80,Yes,Sick,Medium,Low
+No,Pet,Leg,Superficial bite,8,25,No,Calm,Medium,High
+Yes,Stray,Hand,Scratch,36,25,No,Calm,Medium,Low
+No,Stray,Leg,Scratch,42,27,No,Sick,Low,Low
+Yes,Stray,Leg,Deep bite,69,55,No,Calm,Medium,Low
+No,Stray,Neck,Scratch,60,40,No,Calm,Low,High
+Yes,Pet,Finger,Deep bite,99,65,No,Calm,High,Low
+Yes,Stray,Arm,Scratch,2,80,No,Calm,Low,Low
+No,Stray,Hand,Scratch,21,61,Yes,Aggressive,Low,High
+No,Stray,Arm,Superficial bite,19,19,No,Calm,Medium,Low
+No,Pet,Leg,Superficial bite,9,84,No,Aggressive,Low,Low
+Yes,Pet,Hand,Superficial bite,20,24,No,Aggressive,Low,Low
+No,Stray,Hand,Superficial bite,22,14,No,Aggressive,Low,Low
+No,Stray,Hand,Multiple deep wounds,44,9,No,Calm,High,Low
+No,Pet,Hand,Superficial bite,65,51,No,Calm,Medium,High
+Yes,Stray,Leg,Scratch,28,11,No,Calm,Low,Low
+No,Pet,Arm,Superficial bite,76,13,No,Calm,Low,Low
+Yes,Pet,Hand,Deep bite,24,27,No,Calm,Low,Low
+Yes,Pet,Hand,Superficial bite,20,26,No,Calm,Medium,Low
+No,Stray,Arm,Scratch,46,54,No,Calm,Medium,Low
+Yes,Stray,Finger,Deep bite,1,73,No,Calm,Low,High
+No,Pet,Arm,Superficial bite,4,68,No,Playful,Low,Low
+No,Stray,Finger,Superficial bite,32,24,No,Sick,Low,High
+No,Stray,Arm,Scratch,171,22,Yes,Sick,Low,Low
+No,Pet,Hand,Scratch,76,86,No,Sick,Low,Low
+Yes,Pet,Finger,Superficial bite,5,1,No,Calm,Medium,Low
+Yes,Stray,Arm,Scratch,112,79,No,Calm,Low,Low
+No,Stray,Leg,Superficial bite,79,18,No,Calm,Medium,Low
+Yes,Stray,Finger,Superficial bite,56,85,No,Calm,Medium,Low
+No,Pet,Neck,Scratch,102,31,No,Sick,Low,High
+Yes,Pet,Hand,Multiple deep wounds,31,40,No,Calm,Medium,Low
+Yes,Stray,Leg,Deep bite,15,63,No,Playful,Medium,Low
+No,Stray,Hand,Deep bite,43,53,No,Calm,Low,Low
+Yes,Pet,Hand,Scratch,47,29,Yes,Sick,Medium,Low
+No,Stray,Face,Scratch,46,50,No,Calm,Low,Low
+No,Stray,Face,Superficial bite,49,66,Yes,Calm,High,Low
+No,Pet,Leg,Scratch,178,4,No,Calm,Medium,Low
+Yes,Stray,Hand,Multiple deep wounds,139,1,No,Calm,Medium,High
+Yes,Pet,Arm,Scratch,125,41,No,Sick,High,Low
+Yes,Stray,Leg,Superficial bite,96,12,No,Aggressive,Medium,Low
+No,Stray,Arm,Superficial bite,172,60,No,Calm,Medium,High
+No,Pet,Face,Superficial bite,6,20,Yes,Calm,Medium,Low
+Yes,Stray,Leg,Scratch,18,39,No,Playful,Low,Low
+No,Pet,Face,Superficial bite,40,18,No,Calm,Medium,Low
+Yes,Stray,Leg,Scratch,112,49,No,Aggressive,Low,Low
+No,Stray,Finger,Deep bite,42,11,No,Calm,Low,High
+No,Stray,Arm,Scratch,82,3,No,Calm,Medium,Low
+No,Stray,Leg,Deep bite,8,5,No,Aggressive,Low,Low
+No,Stray,Arm,Deep bite,17,85,No,Calm,Low,High
+No,Stray,Arm,Scratch,78,13,No,Sick,Medium,High
+Yes,Stray,Finger,Deep bite,10,64,No,Sick,Low,Low
+No,Stray,Finger,Scratch,25,7,No,Aggressive,Low,Low
+Yes,Pet,Arm,Multiple deep wounds,18,10,No,Playful,Medium,Low
+No,Pet,Leg,Superficial bite,25,46,No,Calm,Medium,Low
+No,Pet,Finger,Superficial bite,73,42,No,Aggressive,Medium,High
+No,Stray,Finger,Superficial bite,27,85,No,Aggressive,Medium,High
+No,Stray,Arm,Scratch,48,85,No,Aggressive,Medium,Low
+No,Pet,Arm,Multiple deep wounds,6,70,Yes,Sick,Medium,Low
+No,Stray,Hand,Scratch,98,54,No,Aggressive,Low,High
+No,Stray,Finger,Deep bite,27,41,No,Aggressive,Medium,Low
+Yes,Pet,Hand,Superficial bite,62,32,No,Calm,High,Low
+Yes,Pet,Leg,Multiple deep wounds,77,85,No,Calm,Low,Low
+Yes,Stray,Hand,Scratch,14,54,No,Calm,Low,Low
+Yes,Stray,Hand,Superficial bite,129,52,No,Calm,Low,Low
+No,Pet,Arm,Superficial bite,57,21,No,Aggressive,Medium,Low
+Yes,Stray,Finger,Deep bite,33,5,No,Sick,Low,High
+No,Pet,Neck,Scratch,12,85,No,Aggressive,Medium,High
+Yes,Pet,Leg,Scratch,171,28,Yes,Calm,Medium,Low
+Yes,Pet,Hand,Scratch,84,40,No,Calm,Medium,High
+No,Stray,Hand,Deep bite,13,11,No,Aggressive,Low,Low
+No,Stray,Arm,Scratch,24,75,No,Playful,Medium,High
+No,Pet,Arm,Superficial bite,99,3,No,Calm,Low,Low
+No,Pet,Hand,Scratch,71,75,No,Aggressive,Medium,High
+No,Pet,Hand,Deep bite,87,13,No,Sick,Medium,Low
+Yes,Stray,Hand,Multiple deep wounds,34,79,No,Calm,Low,Low
+No,Stray,Hand,Superficial bite,75,65,No,Calm,High,Low
+No,Pet,Finger,Superficial bite,29,15,No,Calm,Low,Low
+No,Pet,Finger,Scratch,14,51,No,Sick,High,Low
+Yes,Pet,Arm,Scratch,60,28,No,Aggressive,Low,Low
+No,Pet,Leg,Scratch,223,16,No,Calm,Low,Low
+Yes,Stray,Finger,Deep bite,22,77,No,Calm,Low,Low
+Yes,Pet,Face,Superficial bite,37,36,No,Aggressive,Low,Low
+Yes,Pet,Leg,Multiple deep wounds,67,36,No,Calm,Medium,Low
+No,Stray,Finger,Superficial bite,46,16,Yes,Calm,Medium,Low
+No,Pet,Hand,Deep bite,111,35,No,Calm,Medium,Low
+No,Stray,Hand,Superficial bite,86,78,No,Aggressive,Low,Low
+No,Stray,Finger,Superficial bite,3,33,No,Calm,Low,High
+No,Pet,Leg,Scratch,387,85,No,Sick,Medium,Low
+Yes,Stray,Face,Superficial bite,83,85,No,Calm,Low,High
+No,Stray,Hand,Superficial bite,119,13,No,Calm,Medium,Low
+No,Stray,Arm,Deep bite,63,16,No,Aggressive,Medium,Low
+Yes,Stray,Leg,Multiple deep wounds,116,77,No,Calm,Low,Low
+No,Stray,Leg,Superficial bite,7,35,No,Aggressive,Medium,High
+No,Stray,Finger,Scratch,25,1,No,Calm,Medium,High
+No,Pet,Hand,Superficial bite,125,25,No,Calm,Medium,High
+No,Stray,Leg,Superficial bite,13,54,No,Sick,Low,Low
+No,Stray,Leg,Scratch,4,72,Yes,Calm,Low,Low
+No,Stray,Arm,Deep bite,93,12,No,Calm,Low,Low
+No,Pet,Hand,Multiple deep wounds,108,10,Yes,Calm,Low,Low
+No,Stray,Finger,Multiple deep wounds,10,83,No,Sick,Low,Low
+Yes,Pet,Leg,Scratch,115,67,No,Calm,Medium,Low
+No,Pet,Arm,Deep bite,69,53,No,Calm,Medium,High
+No,Pet,Leg,Deep bite,44,69,No,Sick,Medium,High
+Yes,Stray,Hand,Superficial bite,106,39,No,Aggressive,Low,Low
+No,Pet,Leg,Superficial bite,32,68,No,Aggressive,High,Low
+No,Stray,Leg,Deep bite,12,34,No,Aggressive,Low,Low
+No,Pet,Arm,Superficial bite,20,22,No,Sick,Medium,High
+Yes,Pet,Finger,Superficial bite,42,65,No,Aggressive,High,Low
+No,Stray,Leg,Superficial bite,45,38,No,Sick,Medium,Low
+No,Stray,Arm,Superficial bite,98,88,No,Calm,High,High
+Yes,Stray,Leg,Scratch,94,32,No,Aggressive,Medium,Low
+Yes,Pet,Hand,Deep bite,52,83,No,Calm,Low,Low
+No,Stray,Arm,Deep bite,91,84,No,Aggressive,Low,High
+Yes,Stray,Arm,Superficial bite,12,22,No,Calm,Low,Low
+No,Stray,Arm,Scratch,3,72,Yes,Calm,Low,Low
+No,Pet,Leg,Superficial bite,124,39,No,Calm,Medium,Low
+Yes,Pet,Arm,Scratch,4,82,No,Aggressive,Low,Low
+No,Pet,Leg,Scratch,16,41,No,Calm,Medium,Low
+No,Pet,Leg,Superficial bite,71,67,No,Sick,Low,Low
+No,Stray,Arm,Superficial bite,31,42,No,Calm,Low,Low
+No,Stray,Leg,Superficial bite,125,21,No,Sick,High,High
+No,Pet,Hand,Scratch,21,18,No,Aggressive,Low,Low
+Yes,Stray,Hand,Superficial bite,0,38,Yes,Sick,Medium,Low
+No,Stray,Arm,Scratch,21,68,No,Calm,Medium,High
+No,Stray,Hand,Multiple deep wounds,51,54,No,Aggressive,Low,Low
+Yes,Stray,Face,Superficial bite,28,62,No,Sick,Medium,High
+No,Stray,Leg,Deep bite,45,26,No,Sick,Low,Low
+Yes,Pet,Arm,Superficial bite,125,43,No,Calm,Medium,Low
+No,Stray,Arm,Scratch,146,4,No,Aggressive,Medium,Low
+Yes,Stray,Finger,Multiple deep wounds,18,73,No,Calm,Low,Low
+No,Stray,Leg,Scratch,37,89,No,Calm,Medium,Low
+No,Pet,Leg,Superficial bite,47,37,No,Sick,Low,Low
+Yes,Stray,Hand,Superficial bite,178,1,Yes,Aggressive,Medium,Low
+Yes,Pet,Leg,Scratch,395,16,No,Sick,High,Low
+Yes,Pet,Leg,Deep bite,16,59,No,Calm,High,High
+No,Stray,Leg,Superficial bite,77,55,No,Sick,Medium,Low
+Yes,Pet,Leg,Scratch,28,71,Yes,Sick,Low,Low
+No,Pet,Arm,Scratch,0,23,No,Calm,High,Low
+No,Pet,Hand,Scratch,0,68,No,Calm,Low,Low
+Yes,Pet,Arm,Deep bite,37,62,No,Sick,Medium,Low
+No,Stray,Arm,Deep bite,40,29,Yes,Calm,Low,Low
+No,Stray,Leg,Scratch,1,49,Yes,Calm,High,Low
+Yes,Stray,Hand,Scratch,69,14,No,Calm,Medium,Low
+Yes,Stray,Finger,Deep bite,20,41,No,Aggressive,Medium,Low
+Yes,Pet,Finger,Superficial bite,49,79,No,Sick,Low,Low
+No,Stray,Hand,Superficial bite,21,38,No,Aggressive,Medium,Low
+No,Pet,Arm,Superficial bite,10,75,No,Sick,Medium,Low
+No,Pet,Finger,Scratch,31,53,No,Calm,Medium,High
+No,Pet,Finger,Deep bite,15,18,No,Calm,Low,High
+No,Pet,Arm,Multiple deep wounds,45,52,No,Calm,Low,High
+No,Stray,Hand,Scratch,13,46,No,Calm,Low,Low
+No,Stray,Arm,Superficial bite,42,36,No,Calm,Low,Low
+Yes,Stray,Leg,Superficial bite,10,11,No,Calm,Low,Low
+Yes,Stray,Hand,Superficial bite,66,38,No,Calm,Low,High
+Yes,Stray,Leg,Scratch,84,7,Yes,Sick,Low,Low
+Yes,Stray,Neck,Deep bite,7,9,No,Calm,Low,High
+No,Pet,Face,Superficial bite,37,38,No,Calm,Low,High
+No,Stray,Arm,Superficial bite,4,28,No,Calm,High,Low
+Yes,Stray,Arm,Superficial bite,54,83,Yes,Aggressive,Medium,Low
+Yes,Pet,Hand,Scratch,18,34,No,Calm,Low,Low
+No,Stray,Arm,Scratch,44,68,No,Calm,Medium,High
+No,Stray,Hand,Deep bite,43,48,No,Calm,Medium,Low
+Yes,Pet,Hand,Scratch,154,63,No,Calm,High,Low
+No,Pet,Hand,Deep bite,47,24,No,Calm,Low,Low
+Yes,Pet,Finger,Superficial bite,52,84,No,Aggressive,Low,Low
+Yes,Stray,Arm,Superficial bite,30,48,No,Calm,High,Low
+No,Pet,Arm,Superficial bite,178,74,No,Sick,Low,Low
+No,Pet,Leg,Superficial bite,90,33,No,Calm,Low,Low
+Yes,Stray,Finger,Scratch,20,9,No,Calm,Low,High
+No,Pet,Hand,Superficial bite,111,60,No,Aggressive,Low,High
+No,Pet,Leg,Deep bite,33,1,No,Sick,High,High
+No,Stray,Leg,Deep bite,105,43,No,Calm,Low,Low
+No,Stray,Leg,Scratch,103,18,Yes,Calm,High,Low
+No,Pet,Hand,Superficial bite,12,56,No,Playful,High,High
+No,Pet,Leg,Scratch,72,88,No,Calm,Medium,Low
+No,Stray,Neck,Scratch,20,42,No,Calm,Low,High
+Yes,Pet,Leg,Scratch,21,73,No,Calm,Low,Low
+Yes,Stray,Leg,Deep bite,21,46,No,Aggressive,Low,Low
+Yes,Stray,Hand,Scratch,77,45,No,Calm,Low,Low
+No,Stray,Leg,Scratch,15,83,No,Aggressive,Medium,High
+Yes,Pet,Face,Scratch,0,80,No,Calm,Low,Low
+No,Pet,Leg,Scratch,75,70,No,Aggressive,High,Low
+No,Stray,Arm,Superficial bite,11,27,No,Sick,Medium,Low
+Yes,Stray,Hand,Scratch,6,49,No,Aggressive,Medium,Low
+No,Stray,Hand,Scratch,16,20,No,Calm,High,High
+No,Pet,Finger,Superficial bite,28,40,No,Calm,Low,High
+No,Pet,Neck,Superficial bite,38,44,No,Calm,Low,High
+Yes,Pet,Hand,Deep bite,2,75,No,Calm,Low,Low
+No,Pet,Arm,Superficial bite,211,80,No,Calm,Low,Low
+No,Pet,Leg,Scratch,75,37,No,Calm,Medium,Low
+No,Stray,Leg,Deep bite,23,2,No,Calm,Low,High
+No,Stray,Hand,Scratch,23,77,No,Calm,Low,Low
+No,Stray,Hand,Superficial bite,35,16,No,Calm,High,High
+No,Pet,Hand,Superficial bite,59,56,No,Aggressive,Low,Low
+No,Pet,Hand,Scratch,9,3,No,Playful,Medium,Low
+No,Stray,Arm,Superficial bite,12,36,No,Calm,Low,Low
+Yes,Pet,Leg,Deep bite,117,88,No,Aggressive,Low,Low
+No,Stray,Hand,Multiple deep wounds,17,9,No,Calm,Medium,High
+No,Stray,Arm,Superficial bite,28,38,Yes,Sick,High,High
+No,Pet,Arm,Superficial bite,123,28,Yes,Aggressive,Low,High
+Yes,Pet,Finger,Scratch,65,81,No,Calm,Low,Low
+No,Pet,Finger,Scratch,25,78,No,Calm,Low,High
+No,Stray,Leg,Superficial bite,69,22,No,Aggressive,Low,Low
+No,Stray,Hand,Superficial bite,1,8,No,Sick,Low,Low
+Yes,Pet,Neck,Deep bite,79,56,No,Calm,Medium,Low
+No,Stray,Hand,Superficial bite,40,30,No,Calm,Low,Low
+No,Stray,Hand,Superficial bite,100,60,No,Sick,Low,Low
+Yes,Pet,Arm,Superficial bite,185,3,No,Calm,Medium,Low
+No,Stray,Leg,Deep bite,156,12,No,Sick,Low,Low
+No,Pet,Leg,Deep bite,143,62,No,Calm,Low,Low
+No,Pet,Leg,Superficial bite,43,19,No,Calm,High,Low
+No,Stray,Arm,Superficial bite,26,77,No,Sick,Low,Low
+No,Stray,Leg,Deep bite,37,6,No,Aggressive,Medium,High
+No,Pet,Hand,Scratch,70,20,No,Calm,Low,Low
+No,Pet,Neck,Deep bite,129,89,No,Calm,Low,High
+No,Pet,Leg,Superficial bite,13,39,No,Aggressive,Low,Low
+Yes,Pet,Face,Superficial bite,150,63,No,Calm,Low,High
+No,Pet,Arm,Superficial bite,101,17,Yes,Aggressive,Low,Low
+No,Pet,Hand,Deep bite,231,55,Yes,Calm,Low,High
+No,Stray,Leg,Scratch,127,65,No,Calm,High,High
+No,Stray,Leg,Deep bite,19,28,No,Playful,Medium,High
+No,Stray,Hand,Superficial bite,6,74,No,Aggressive,Low,Low
+No,Stray,Leg,Superficial bite,7,54,No,Calm,Medium,Low
+Yes,Stray,Hand,Scratch,20,35,Yes,Aggressive,High,Low
+No,Stray,Arm,Superficial bite,57,50,No,Calm,Medium,Low
+Yes,Pet,Leg,Superficial bite,97,52,Yes,Calm,Low,Low
+Yes,Stray,Leg,Superficial bite,137,15,No,Calm,High,Low
+No,Stray,Finger,Deep bite,58,36,No,Sick,Low,High
+No,Stray,Hand,Superficial bite,0,31,No,Sick,Low,Low
+No,Stray,Leg,Multiple deep wounds,12,36,No,Aggressive,Medium,High
+No,Stray,Leg,Superficial bite,6,68,No,Calm,High,Low
+No,Stray,Finger,Deep bite,27,43,No,Calm,High,High
+Yes,Stray,Hand,Scratch,41,84,No,Calm,High,Low
+No,Pet,Leg,Superficial bite,2,27,No,Aggressive,Low,Low
+Yes,Pet,Leg,Superficial bite,25,37,No,Calm,High,Low
+Yes,Pet,Hand,Superficial bite,11,71,No,Calm,Low,Low
+No,Pet,Arm,Deep bite,62,49,No,Calm,Low,Low
+No,Stray,Arm,Scratch,37,49,No,Sick,Medium,High
+No,Pet,Leg,Scratch,41,5,No,Calm,Low,Low
+No,Pet,Finger,Deep bite,33,36,Yes,Aggressive,Medium,Low
+No,Stray,Leg,Scratch,187,25,No,Aggressive,Low,Low
+No,Pet,Leg,Deep bite,14,89,No,Sick,High,Low
+No,Stray,Arm,Superficial bite,43,28,No,Playful,Low,High
+No,Pet,Neck,Deep bite,79,79,No,Calm,Low,High
+Yes,Pet,Hand,Scratch,48,61,No,Calm,High,Low
+Yes,Stray,Arm,Scratch,158,31,Yes,Sick,Low,Low
+No,Pet,Hand,Superficial bite,28,49,No,Calm,Medium,High
+No,Pet,Hand,Multiple deep wounds,37,75,No,Sick,Medium,High
+No,Pet,Arm,Superficial bite,5,79,No,Calm,Medium,Low
+No,Stray,Hand,Superficial bite,56,15,No,Calm,Medium,Low
+No,Pet,Hand,Superficial bite,20,31,No,Calm,Low,Low
+No,Stray,Arm,Multiple deep wounds,10,30,No,Aggressive,High,Low
+No,Stray,Hand,Deep bite,47,4,No,Calm,Low,Low
+No,Stray,Finger,Multiple deep wounds,45,54,No,Calm,Low,High
+No,Pet,Leg,Scratch,4,77,No,Sick,Low,Low
+Yes,Pet,Leg,Scratch,71,34,No,Calm,Medium,Low
+Yes,Pet,Hand,Superficial bite,58,66,Yes,Calm,Medium,Low
+Yes,Pet,Leg,Deep bite,12,56,No,Aggressive,High,Low
+No,Stray,Leg,Scratch,38,34,No,Aggressive,Medium,Low
+No,Stray,Leg,Scratch,76,13,No,Calm,Medium,High
+Yes,Stray,Hand,Deep bite,45,64,No,Calm,High,High
+No,Stray,Leg,Scratch,30,77,No,Calm,Low,Low
+Yes,Stray,Leg,Superficial bite,23,62,No,Aggressive,Medium,Low
+No,Stray,Leg,Superficial bite,56,2,No,Playful,Medium,Low
+No,Stray,Leg,Superficial bite,167,20,No,Calm,Low,Low
+Yes,Stray,Arm,Deep bite,66,7,No,Sick,Medium,Low
+No,Stray,Arm,Superficial bite,4,51,No,Calm,Low,Low
+Yes,Stray,Face,Superficial bite,37,68,No,Aggressive,Medium,Low
+Yes,Pet,Leg,Superficial bite,132,10,No,Calm,Medium,Low
+Yes,Pet,Hand,Superficial bite,5,75,No,Calm,High,Low
+No,Pet,Arm,Superficial bite,269,50,No,Calm,High,Low
+No,Stray,Hand,Scratch,178,62,Yes,Calm,Medium,Low
+Yes,Stray,Leg,Scratch,4,87,No,Aggressive,Medium,Low
+No,Pet,Hand,Scratch,162,8,No,Calm,Low,High
+No,Stray,Leg,Scratch,27,81,No,Sick,Low,Low
+Yes,Stray,Leg,Superficial bite,111,12,No,Aggressive,High,Low
+No,Stray,Hand,Deep bite,32,35,No,Calm,High,High
+Yes,Stray,Hand,Deep bite,34,76,No,Sick,High,Low
+Yes,Stray,Hand,Deep bite,60,81,No,Calm,Low,Low
+No,Stray,Leg,Superficial bite,89,46,No,Calm,High,Low
+Yes,Pet,Arm,Superficial bite,2,53,No,Calm,High,Low
+No,Stray,Arm,Superficial bite,53,64,No,Calm,Low,High
+No,Stray,Hand,Scratch,12,75,No,Calm,Medium,Low
+Yes,Pet,Leg,Scratch,25,11,No,Calm,Medium,Low
+No,Stray,Leg,Superficial bite,25,73,Yes,Aggressive,Medium,Low
+Yes,Stray,Leg,Multiple deep wounds,37,43,No,Calm,High,High
+No,Pet,Leg,Scratch,24,41,No,Calm,Low,Low
+No,Stray,Neck,Scratch,6,38,No,Calm,Medium,High
+No,Stray,Hand,Deep bite,9,46,No,Calm,Medium,Low
+No,Stray,Face,Scratch,2,85,No,Aggressive,Low,High
+Yes,Stray,Hand,Deep bite,38,49,No,Aggressive,High,Low
+No,Stray,Hand,Deep bite,185,85,Yes,Sick,Medium,Low
+No,Pet,Hand,Multiple deep wounds,7,17,No,Calm,Low,Low
+No,Stray,Arm,Superficial bite,175,65,No,Calm,Low,High
+No,Stray,Finger,Deep bite,79,73,No,Aggressive,Low,Low
+No,Stray,Leg,Superficial bite,60,61,No,Aggressive,Medium,Low
+Yes,Stray,Leg,Superficial bite,62,55,No,Calm,High,Low
+Yes,Pet,Leg,Superficial bite,105,51,No,Sick,Low,Low
+No,Stray,Hand,Scratch,6,77,No,Sick,Low,Low
+No,Stray,Leg,Superficial bite,42,74,No,Sick,Low,High
+No,Stray,Hand,Superficial bite,71,11,Yes,Sick,Medium,Low
+No,Stray,Leg,Deep bite,53,76,No,Sick,High,High
+No,Stray,Arm,Deep bite,107,37,Yes,Calm,Medium,Low
+Yes,Pet,Finger,Deep bite,4,23,No,Aggressive,Medium,High
+No,Stray,Hand,Scratch,70,78,No,Calm,Medium,High
+Yes,Stray,Hand,Deep bite,45,39,No,Aggressive,Low,High
+No,Stray,Finger,Superficial bite,28,72,No,Calm,Medium,High
+No,Pet,Face,Deep bite,24,24,No,Aggressive,Medium,Low
+No,Stray,Leg,Deep bite,58,1,No,Calm,Medium,High
+Yes,Pet,Leg,Scratch,132,45,No,Calm,High,Low
+No,Pet,Leg,Deep bite,41,9,No,Aggressive,Medium,High
+No,Pet,Finger,Scratch,104,68,No,Calm,Medium,Low
+No,Stray,Finger,Superficial bite,30,25,No,Sick,High,High
+Yes,Stray,Neck,Superficial bite,6,40,Yes,Calm,High,Low
+No,Pet,Leg,Scratch,3,8,No,Sick,Medium,Low
+No,Pet,Leg,Deep bite,3,26,No,Aggressive,Low,Low
+Yes,Pet,Leg,Scratch,28,70,No,Aggressive,Low,Low
+Yes,Stray,Hand,Scratch,24,14,No,Calm,Medium,Low
+Yes,Stray,Leg,Superficial bite,75,58,No,Calm,Low,Low
+No,Stray,Finger,Deep bite,81,82,No,Calm,Low,High
+No,Pet,Finger,Deep bite,3,61,No,Calm,Low,High
+No,Stray,Arm,Deep bite,14,73,No,Calm,Medium,High
+Yes,Stray,Face,Deep bite,19,10,No,Sick,Medium,Low
+No,Pet,Arm,Superficial bite,47,23,No,Calm,Low,Low
+No,Stray,Leg,Scratch,9,80,No,Aggressive,Low,Low
+No,Pet,Leg,Scratch,8,64,No,Calm,Medium,Low
+No,Stray,Arm,Superficial bite,172,57,No,Aggressive,Low,High
+Yes,Stray,Neck,Deep bite,97,60,Yes,Calm,Low,Low
+No,Stray,Arm,Superficial bite,11,37,No,Aggressive,Medium,Low
+No,Pet,Arm,Deep bite,31,4,No,Calm,Medium,Low
+No,Stray,Finger,Superficial bite,26,70,Yes,Aggressive,Low,Low
+No,Stray,Leg,Scratch,93,61,No,Aggressive,Medium,Low
+No,Pet,Hand,Scratch,42,43,No,Calm,Low,Low
+No,Stray,Arm,Deep bite,8,81,No,Calm,Medium,High
+Yes,Stray,Neck,Deep bite,80,30,No,Calm,Low,High
+Yes,Stray,Finger,Deep bite,30,27,No,Calm,Low,High
+No,Stray,Arm,Scratch,18,78,No,Aggressive,Medium,Low
+No,Pet,Arm,Multiple deep wounds,28,71,No,Calm,Medium,Low
+Yes,Stray,Arm,Scratch,41,46,No,Aggressive,Low,Low
+Yes,Stray,Leg,Scratch,25,12,No,Sick,Low,Low
+Yes,Stray,Leg,Multiple deep wounds,16,20,Yes,Calm,Medium,Low
+No,Pet,Leg,Scratch,30,59,No,Aggressive,Medium,Low
+Yes,Stray,Hand,Deep bite,1,35,No,Calm,Low,Low
+Yes,Stray,Hand,Scratch,88,75,No,Playful,Medium,High
+Yes,Stray,Hand,Superficial bite,11,85,No,Calm,Low,Low
+No,Stray,Leg,Deep bite,2,72,No,Sick,Medium,Low
+Yes,Stray,Face,Superficial bite,63,34,Yes,Calm,Low,Low
+No,Stray,Leg,Deep bite,89,71,No,Aggressive,Low,High
+Yes,Pet,Leg,Scratch,100,32,No,Calm,Low,Low
+No,Stray,Finger,Superficial bite,40,15,No,Calm,Low,Low
+Yes,Pet,Arm,Superficial bite,13,3,No,Calm,Low,Low
+No,Pet,Arm,Scratch,80,35,No,Calm,Low,Low
+No,Stray,Neck,Superficial bite,72,81,No,Calm,Low,High
+No,Stray,Leg,Scratch,16,22,No,Calm,Low,High
+No,Stray,Leg,Deep bite,140,19,No,Calm,Medium,High
+Yes,Pet,Hand,Superficial bite,6,87,No,Calm,Low,Low
+Yes,Stray,Arm,Scratch,243,3,No,Sick,Medium,Low
+No,Stray,Leg,Superficial bite,118,70,No,Calm,Low,High
+No,Stray,Leg,Superficial bite,69,29,Yes,Calm,Low,Low
+No,Pet,Hand,Deep bite,167,4,No,Calm,Medium,High
+No,Pet,Leg,Multiple deep wounds,76,82,Yes,Playful,High,Low
+No,Stray,Hand,Superficial bite,12,13,Yes,Calm,Low,Low
+No,Pet,Hand,Deep bite,35,50,No,Calm,Low,Low
+Yes,Stray,Finger,Superficial bite,4,25,No,Sick,Medium,Low
+No,Stray,Leg,Scratch,29,6,No,Sick,High,High
+No,Pet,Leg,Deep bite,81,5,No,Calm,High,Low
+Yes,Stray,Face,Superficial bite,29,11,No,Calm,Low,High
+No,Stray,Leg,Deep bite,24,7,No,Calm,Low,High
+Yes,Stray,Arm,Deep bite,54,68,No,Calm,Medium,Low
+No,Pet,Arm,Superficial bite,123,44,Yes,Sick,Medium,Low
+Yes,Pet,Leg,Deep bite,2,31,No,Sick,Medium,Low
+No,Pet,Hand,Deep bite,29,38,No,Aggressive,High,Low
+No,Pet,Leg,Superficial bite,10,83,No,Calm,Medium,Low
+Yes,Stray,Leg,Superficial bite,71,82,No,Calm,Low,Low
+No,Stray,Hand,Superficial bite,6,64,No,Playful,Low,Low
+No,Stray,Hand,Multiple deep wounds,65,79,No,Calm,Medium,High
+No,Stray,Hand,Deep bite,20,29,No,Calm,Low,High
+Yes,Stray,Neck,Scratch,13,34,No,Aggressive,Low,Low
+No,Pet,Leg,Superficial bite,165,55,No,Calm,Low,High
+Yes,Stray,Leg,Superficial bite,1,56,No,Aggressive,Low,Low
+No,Stray,Face,Scratch,34,43,No,Sick,Low,High
+No,Stray,Face,Scratch,1,36,No,Calm,Medium,High
+No,Stray,Leg,Superficial bite,39,88,No,Calm,Low,Low
+No,Pet,Leg,Superficial bite,41,74,No,Calm,Medium,Low
+No,Stray,Hand,Superficial bite,23,39,No,Sick,Low,Low
+No,Stray,Arm,Scratch,8,65,No,Calm,Low,Low
+Yes,Pet,Leg,Scratch,28,24,No,Aggressive,High,Low
+No,Stray,Hand,Deep bite,66,9,No,Sick,High,Low
+Yes,Stray,Face,Superficial bite,91,32,No,Sick,Low,High
+No,Stray,Leg,Scratch,45,36,No,Sick,Medium,Low
+No,Stray,Leg,Superficial bite,53,2,No,Aggressive,Low,Low
+No,Pet,Leg,Superficial bite,13,73,No,Aggressive,High,High
+Yes,Pet,Leg,Scratch,20,32,No,Aggressive,Low,Low
+Yes,Stray,Leg,Scratch,10,52,No,Aggressive,Low,Low
+Yes,Pet,Hand,Scratch,17,7,Yes,Calm,Medium,Low
+No,Stray,Arm,Deep bite,15,16,No,Aggressive,Medium,High
+Yes,Stray,Hand,Deep bite,43,80,No,Calm,Low,Low
+No,Stray,Hand,Deep bite,49,55,No,Calm,Medium,Low
+No,Stray,Leg,Deep bite,173,85,No,Calm,Low,Low
+Yes,Stray,Leg,Deep bite,13,89,No,Playful,High,Low
+No,Pet,Finger,Superficial bite,61,34,No,Aggressive,Low,Low
+No,Pet,Leg,Superficial bite,101,27,Yes,Calm,High,Low
+No,Stray,Hand,Scratch,49,77,No,Calm,Low,Low
+No,Stray,Hand,Superficial bite,17,89,No,Aggressive,Low,High
+No,Stray,Leg,Deep bite,18,57,No,Calm,High,High
+No,Stray,Leg,Superficial bite,2,71,No,Calm,High,Low
+No,Stray,Leg,Superficial bite,21,70,No,Calm,Medium,Low
+No,Stray,Leg,Scratch,81,32,No,Sick,Low,Low
+Yes,Pet,Leg,Superficial bite,2,52,No,Calm,Medium,Low
+No,Stray,Leg,Deep bite,14,75,No,Aggressive,Medium,High
+Yes,Stray,Neck,Deep bite,73,62,No,Calm,Medium,High
+No,Stray,Leg,Superficial bite,91,2,No,Aggressive,Medium,Low
+No,Stray,Leg,Deep bite,36,30,No,Calm,Low,Low
+No,Stray,Hand,Superficial bite,71,13,Yes,Calm,Medium,Low
+No,Pet,Leg,Deep bite,29,21,Yes,Aggressive,Medium,Low
+No,Stray,Hand,Superficial bite,10,81,No,Sick,Low,Low
+No,Pet,Finger,Superficial bite,30,4,No,Sick,Medium,High
+Yes,Stray,Face,Superficial bite,52,20,No,Sick,Medium,High
+Yes,Stray,Leg,Deep bite,177,28,No,Calm,Medium,Low
+No,Stray,Hand,Multiple deep wounds,4,55,No,Calm,Low,Low
+Yes,Pet,Leg,Scratch,42,48,No,Sick,Medium,High
+No,Stray,Hand,Scratch,23,20,No,Calm,Low,Low
+Yes,Pet,Hand,Multiple deep wounds,42,15,No,Sick,Medium,Low
+No,Stray,Arm,Superficial bite,1,22,No,Aggressive,Medium,High
+No,Pet,Finger,Superficial bite,22,45,No,Aggressive,Medium,Low
+No,Stray,Hand,Superficial bite,102,25,No,Calm,Low,Low
+Yes,Pet,Hand,Scratch,48,85,No,Calm,Medium,Low
+No,Stray,Leg,Deep bite,35,42,No,Calm,High,Low
+No,Pet,Arm,Deep bite,20,6,No,Sick,Low,High
+No,Stray,Finger,Superficial bite,21,65,No,Aggressive,High,High
+No,Stray,Hand,Superficial bite,28,30,No,Aggressive,Medium,Low
+No,Stray,Leg,Deep bite,108,59,No,Sick,Medium,High
+Yes,Pet,Hand,Scratch,205,25,No,Aggressive,Low,High
+No,Stray,Hand,Deep bite,34,51,Yes,Calm,Low,High
+No,Pet,Leg,Scratch,29,69,No,Calm,High,High
+Yes,Stray,Leg,Superficial bite,112,83,No,Aggressive,Low,Low
+No,Stray,Leg,Multiple deep wounds,33,24,No,Calm,Low,Low
+Yes,Stray,Hand,Deep bite,48,30,Yes,Calm,Medium,Low
+Yes,Pet,Arm,Superficial bite,15,42,No,Sick,Low,Low
+Yes,Pet,Arm,Deep bite,81,83,No,Calm,Medium,Low
+No,Pet,Finger,Superficial bite,45,81,No,Calm,Medium,High
+No,Stray,Hand,Scratch,99,8,No,Calm,High,Low
+No,Pet,Hand,Multiple deep wounds,91,12,No,Calm,Medium,Low
+No,Pet,Arm,Deep bite,14,45,No,Aggressive,Low,Low
+Yes,Stray,Leg,Superficial bite,75,10,No,Calm,Low,Low
+No,Pet,Hand,Superficial bite,96,31,No,Aggressive,Medium,Low
+No,Pet,Finger,Scratch,25,14,No,Aggressive,Low,Low
+Yes,Pet,Hand,Scratch,11,57,Yes,Calm,High,Low
+No,Pet,Finger,Superficial bite,0,85,No,Calm,Medium,Low
+Yes,Stray,Hand,Deep bite,35,89,No,Aggressive,Low,Low
+No,Stray,Leg,Superficial bite,26,34,No,Calm,High,High
+No,Pet,Finger,Deep bite,48,54,No,Calm,Low,Low
+Yes,Stray,Hand,Scratch,12,77,No,Aggressive,Low,Low
+Yes,Pet,Finger,Superficial bite,117,11,No,Sick,Medium,High
+No,Pet,Arm,Scratch,17,62,No,Aggressive,High,Low
+No,Pet,Finger,Superficial bite,15,37,No,Sick,Medium,High
+Yes,Pet,Leg,Scratch,39,19,No,Aggressive,Low,Low
+No,Stray,Hand,Multiple deep wounds,41,36,No,Sick,Low,High
+Yes,Stray,Hand,Scratch,14,7,No,Aggressive,Low,High
+No,Stray,Hand,Deep bite,19,62,No,Calm,Low,Low
+No,Stray,Hand,Superficial bite,11,23,No,Calm,Low,Low
+Yes,Stray,Hand,Multiple deep wounds,76,28,Yes,Calm,Medium,Low
+Yes,Stray,Hand,Superficial bite,88,11,No,Calm,High,Low
+Yes,Pet,Arm,Multiple deep wounds,37,77,No,Aggressive,Low,Low
+Yes,Pet,Leg,Scratch,75,44,No,Calm,Low,Low
+Yes,Stray,Hand,Deep bite,79,51,No,Aggressive,Medium,Low
+No,Stray,Hand,Deep bite,8,51,No,Sick,Medium,High
+Yes,Pet,Leg,Scratch,203,37,No,Aggressive,High,Low
+No,Stray,Hand,Scratch,103,18,No,Calm,Low,High
+No,Stray,Hand,Superficial bite,13,67,No,Calm,Low,High
+No,Stray,Hand,Multiple deep wounds,12,12,No,Calm,Medium,Low
+No,Stray,Finger,Superficial bite,8,10,No,Aggressive,Medium,Low
+Yes,Stray,Leg,Superficial bite,8,64,No,Calm,Low,Low
+No,Pet,Arm,Scratch,82,19,No,Calm,Medium,Low
+No,Stray,Leg,Scratch,38,28,No,Sick,Low,Low
+No,Stray,Leg,Deep bite,91,43,No,Calm,Low,Low
+Yes,Stray,Leg,Scratch,82,40,No,Calm,Medium,Low
+No,Stray,Leg,Superficial bite,55,64,No,Calm,Low,Low
+No,Pet,Leg,Deep bite,69,56,No,Calm,Medium,Low
+Yes,Pet,Hand,Scratch,1,58,No,Calm,Low,Low
+No,Pet,Face,Deep bite,22,64,No,Calm,Low,Low
+No,Stray,Arm,Scratch,60,27,No,Calm,Low,Low
+No,Pet,Finger,Superficial bite,0,29,No,Calm,Low,Low
+No,Pet,Leg,Scratch,2,39,Yes,Calm,Low,Low
+No,Pet,Leg,Deep bite,114,28,No,Sick,Medium,High
+Yes,Stray,Finger,Superficial bite,69,88,No,Calm,Medium,Low
+No,Stray,Hand,Superficial bite,18,73,Yes,Calm,Low,Low
+No,Stray,Leg,Superficial bite,69,15,No,Calm,Low,Low
+Yes,Pet,Leg,Scratch,94,1,No,Calm,High,Low
+Yes,Stray,Finger,Deep bite,21,4,No,Aggressive,Low,Low
+No,Stray,Finger,Superficial bite,2,22,No,Aggressive,Low,Low
+Yes,Pet,Leg,Deep bite,161,11,No,Aggressive,Low,Low
+No,Pet,Hand,Scratch,25,48,Yes,Calm,Medium,Low
+Yes,Pet,Leg,Deep bite,6,77,No,Sick,Low,High
+Yes,Stray,Hand,Scratch,40,66,No,Calm,Medium,High
+Yes,Pet,Leg,Superficial bite,87,20,No,Calm,Low,Low
+No,Stray,Finger,Scratch,15,36,No,Sick,Low,Low
+No,Stray,Arm,Deep bite,18,46,No,Sick,Low,High
+No,Stray,Leg,Scratch,16,73,No,Calm,Medium,High
+No,Stray,Arm,Deep bite,287,75,No,Calm,Medium,Low
+Yes,Stray,Arm,Deep bite,13,81,No,Aggressive,Low,Low
+No,Pet,Hand,Scratch,51,46,No,Aggressive,Low,High
+No,Stray,Leg,Superficial bite,155,62,Yes,Aggressive,Medium,Low
+No,Pet,Finger,Scratch,9,10,No,Calm,Medium,Low
+Yes,Stray,Finger,Superficial bite,212,51,Yes,Calm,Low,Low
+No,Stray,Hand,Deep bite,176,23,No,Aggressive,Medium,High
+Yes,Stray,Leg,Deep bite,129,39,No,Aggressive,Low,Low
+Yes,Stray,Leg,Superficial bite,14,57,No,Aggressive,Low,Low
+No,Stray,Hand,Scratch,60,23,Yes,Calm,Low,Low
+No,Stray,Neck,Superficial bite,85,5,No,Calm,Medium,High
+No,Stray,Hand,Scratch,256,1,No,Calm,Low,Low
+No,Stray,Finger,Deep bite,11,2,No,Calm,Medium,High
+No,Stray,Leg,Superficial bite,87,1,No,Calm,Medium,Low
+No,Pet,Leg,Deep bite,24,10,No,Aggressive,Medium,Low
+No,Stray,Hand,Scratch,11,22,No,Aggressive,Low,High
+No,Pet,Leg,Superficial bite,32,20,No,Sick,Low,Low
+No,Pet,Face,Superficial bite,94,88,No,Playful,High,High
+Yes,Pet,Arm,Scratch,37,28,No,Calm,Medium,Low
+No,Pet,Leg,Superficial bite,46,12,No,Sick,Medium,High
+No,Stray,Hand,Deep bite,319,49,No,Calm,Low,High
+Yes,Pet,Leg,Deep bite,30,77,No,Aggressive,Low,Low
+No,Pet,Hand,Superficial bite,57,61,No,Playful,Medium,Low
+Yes,Stray,Leg,Superficial bite,27,27,No,Aggressive,Low,Low
+No,Stray,Arm,Scratch,29,50,Yes,Calm,Medium,Low
+No,Stray,Leg,Deep bite,71,64,No,Calm,Low,High
+No,Pet,Hand,Scratch,166,65,No,Calm,Low,High
+No,Pet,Face,Multiple deep wounds,46,60,No,Calm,Low,High
+No,Stray,Finger,Superficial bite,87,78,No,Calm,Low,Low
+No,Stray,Hand,Superficial bite,5,78,No,Calm,Low,Low
+No,Stray,Leg,Deep bite,14,52,Yes,Calm,Medium,High
+Yes,Stray,Finger,Scratch,41,39,No,Calm,Low,Low
+No,Pet,Hand,Superficial bite,1,58,No,Playful,Low,Low
+Yes,Stray,Hand,Superficial bite,17,73,No,Calm,High,High
+No,Stray,Leg,Scratch,43,1,No,Calm,Low,Low
+No,Stray,Finger,Superficial bite,0,89,No,Aggressive,Low,Low
+No,Pet,Finger,Deep bite,18,17,No,Sick,Medium,High
+Yes,Stray,Arm,Deep bite,43,42,No,Aggressive,High,Low
+Yes,Pet,Leg,Scratch,51,78,No,Aggressive,Low,Low
+No,Stray,Hand,Multiple deep wounds,156,21,No,Calm,Low,Low
+Yes,Stray,Finger,Scratch,62,43,No,Sick,Medium,High
+Yes,Stray,Finger,Scratch,32,12,No,Aggressive,Low,Low
+Yes,Stray,Hand,Scratch,159,36,No,Aggressive,Medium,Low
+No,Stray,Hand,Scratch,92,16,No,Calm,High,Low
+No,Pet,Hand,Scratch,13,33,Yes,Calm,High,High
+No,Pet,Hand,Multiple deep wounds,8,34,No,Calm,Low,Low
+Yes,Pet,Leg,Superficial bite,67,89,No,Calm,Low,Low
+Yes,Stray,Arm,Scratch,49,89,No,Calm,High,Low
+No,Pet,Hand,Scratch,93,11,No,Aggressive,Low,Low
+No,Stray,Arm,Deep bite,80,65,No,Aggressive,Low,Low
+Yes,Stray,Finger,Deep bite,58,5,No,Sick,Medium,High
+Yes,Stray,Leg,Scratch,257,3,No,Sick,Low,Low
+Yes,Stray,Arm,Scratch,45,10,No,Aggressive,Low,Low
+No,Pet,Hand,Scratch,7,86,No,Aggressive,High,High
+No,Stray,Finger,Scratch,105,84,Yes,Aggressive,Low,Low
+Yes,Stray,Leg,Scratch,17,18,No,Calm,Low,Low
+Yes,Pet,Hand,Superficial bite,90,15,No,Calm,Low,Low
+Yes,Stray,Neck,Scratch,188,22,No,Calm,Medium,Low
+No,Stray,Neck,Superficial bite,71,46,No,Calm,Low,High
+Yes,Stray,Hand,Scratch,54,51,No,Calm,Low,Low
+No,Pet,Leg,Multiple deep wounds,37,20,No,Sick,Medium,Low
+No,Pet,Finger,Deep bite,27,68,No,Aggressive,Medium,High
+No,Stray,Arm,Superficial bite,26,28,No,Aggressive,Low,Low
+Yes,Stray,Leg,Superficial bite,60,83,No,Aggressive,Medium,Low
+Yes,Stray,Arm,Superficial bite,83,59,No,Sick,Low,Low
+No,Pet,Leg,Superficial bite,68,39,No,Calm,Medium,Low
+No,Stray,Leg,Deep bite,13,71,No,Calm,Low,Low
+No,Stray,Hand,Superficial bite,40,73,No,Aggressive,Low,Low
+No,Stray,Arm,Deep bite,94,26,No,Calm,Medium,Low
+Yes,Stray,Leg,Multiple deep wounds,38,31,No,Calm,Low,Low
+No,Stray,Neck,Superficial bite,46,84,Yes,Calm,Low,Low
+No,Pet,Arm,Superficial bite,88,15,Yes,Calm,Low,Low
+Yes,Stray,Leg,Scratch,64,4,No,Aggressive,Medium,Low
+No,Stray,Finger,Scratch,31,41,No,Calm,Low,Low
+No,Pet,Arm,Superficial bite,135,72,No,Calm,Low,Low
+No,Pet,Leg,Scratch,10,69,No,Calm,Low,Low
+No,Stray,Arm,Deep bite,324,82,No,Aggressive,Low,Low
+No,Stray,Leg,Scratch,7,48,No,Sick,Low,High
+No,Stray,Leg,Superficial bite,0,9,No,Calm,Low,High
+Yes,Pet,Finger,Superficial bite,132,53,No,Sick,Low,Low
+Yes,Stray,Arm,Deep bite,16,70,No,Calm,Low,Low
+No,Pet,Leg,Superficial bite,78,9,No,Sick,Medium,High
+Yes,Pet,Leg,Deep bite,99,16,No,Sick,Medium,Low
+No,Stray,Arm,Superficial bite,117,2,No,Calm,High,Low
+No,Stray,Hand,Superficial bite,286,53,No,Sick,Low,High
+No,Stray,Hand,Scratch,20,79,No,Calm,High,Low
+No,Stray,Face,Superficial bite,74,60,No,Calm,Low,Low
+No,Stray,Leg,Deep bite,7,88,No,Aggressive,High,Low
+Yes,Pet,Hand,Superficial bite,31,6,No,Calm,Low,High
+Yes,Pet,Hand,Deep bite,113,81,No,Calm,Low,High
+Yes,Stray,Leg,Superficial bite,27,73,No,Calm,Low,Low
+No,Pet,Hand,Scratch,53,28,No,Aggressive,Low,High
+No,Stray,Arm,Scratch,42,87,No,Calm,Medium,Low
+Yes,Stray,Hand,Superficial bite,62,26,No,Aggressive,Medium,Low
+No,Stray,Finger,Deep bite,216,80,No,Calm,High,High
+No,Pet,Leg,Deep bite,3,79,No,Aggressive,Medium,High
+No,Pet,Leg,Scratch,51,68,Yes,Sick,Low,Low
+No,Pet,Arm,Superficial bite,119,51,No,Aggressive,Low,High
+Yes,Stray,Leg,Superficial bite,39,11,No,Calm,High,Low
+No,Stray,Hand,Superficial bite,4,48,Yes,Sick,Medium,High
+No,Stray,Face,Scratch,49,32,No,Calm,Medium,Low
+No,Stray,Face,Scratch,24,71,No,Aggressive,Low,Low
+No,Pet,Leg,Scratch,10,68,No,Calm,Medium,Low
+No,Pet,Arm,Scratch,113,82,No,Aggressive,High,Low
+No,Pet,Arm,Scratch,44,2,No,Playful,Low,Low
+Yes,Stray,Face,Scratch,162,73,No,Calm,Low,High
+No,Stray,Arm,Superficial bite,98,84,No,Calm,Low,Low
+No,Stray,Leg,Superficial bite,70,71,No,Calm,Medium,Low
+No,Stray,Arm,Multiple deep wounds,0,12,No,Aggressive,Low,Low
+Yes,Stray,Leg,Scratch,33,8,No,Calm,Low,Low
+Yes,Pet,Hand,Superficial bite,13,2,No,Sick,Low,Low
+Yes,Pet,Leg,Superficial bite,145,56,No,Sick,Medium,Low
+No,Stray,Leg,Scratch,11,57,No,Calm,Low,Low
+No,Stray,Hand,Deep bite,20,88,No,Calm,Low,Low
+Yes,Stray,Hand,Scratch,43,36,No,Aggressive,High,High
+No,Stray,Leg,Multiple deep wounds,18,30,No,Calm,High,High
+No,Pet,Leg,Deep bite,14,56,No,Calm,Low,Low
+No,Stray,Arm,Superficial bite,54,74,No,Calm,Medium,High
+No,Stray,Hand,Superficial bite,5,84,Yes,Sick,Medium,High
+No,Stray,Leg,Deep bite,3,72,No,Aggressive,Low,High
+No,Pet,Leg,Superficial bite,27,38,No,Aggressive,Low,Low
+Yes,Stray,Arm,Superficial bite,76,57,No,Aggressive,Low,Low
+No,Stray,Arm,Scratch,48,77,No,Aggressive,Low,High
+No,Stray,Hand,Scratch,32,44,No,Aggressive,Low,Low
+No,Pet,Leg,Superficial bite,50,20,No,Calm,Medium,Low
+No,Pet,Arm,Superficial bite,27,16,No,Calm,Low,Low
+No,Stray,Finger,Deep bite,165,1,Yes,Aggressive,Medium,High
+Yes,Pet,Arm,Scratch,3,64,No,Calm,Low,Low
+No,Pet,Arm,Deep bite,67,10,No,Aggressive,Medium,Low
+Yes,Pet,Leg,Scratch,133,22,No,Calm,Low,Low
+Yes,Pet,Finger,Superficial bite,97,27,Yes,Calm,Medium,Low
+No,Pet,Leg,Superficial bite,12,50,No,Calm,Medium,Low
+No,Stray,Arm,Superficial bite,21,36,No,Sick,Medium,Low
+Yes,Pet,Leg,Scratch,75,61,No,Aggressive,Low,Low
+No,Stray,Leg,Superficial bite,5,5,No,Calm,Medium,High
+No,Pet,Arm,Deep bite,100,12,No,Sick,High,Low
+Yes,Stray,Hand,Superficial bite,76,45,No,Calm,Medium,High
+No,Pet,Arm,Superficial bite,78,30,No,Calm,Low,High
+No,Pet,Hand,Deep bite,6,27,No,Calm,Medium,Low
+No,Stray,Finger,Deep bite,75,6,No,Calm,Low,High
+Yes,Pet,Arm,Superficial bite,68,80,No,Sick,High,Low
+No,Stray,Finger,Scratch,106,62,No,Aggressive,Medium,Low
+No,Pet,Leg,Deep bite,2,11,No,Aggressive,Low,High
+No,Stray,Leg,Superficial bite,1,6,No,Calm,Low,Low
+Yes,Stray,Leg,Scratch,28,87,No,Aggressive,Low,Low
+No,Pet,Hand,Scratch,9,61,No,Calm,High,High
+Yes,Stray,Arm,Deep bite,49,38,No,Aggressive,Low,High
+No,Pet,Hand,Scratch,149,63,No,Aggressive,Low,High
+Yes,Stray,Leg,Multiple deep wounds,29,68,No,Aggressive,High,Low
+No,Stray,Arm,Scratch,111,70,No,Sick,Low,High
+No,Stray,Leg,Deep bite,0,43,Yes,Aggressive,Low,Low
+Yes,Stray,Hand,Superficial bite,11,39,No,Aggressive,Medium,Low
+Yes,Stray,Hand,Superficial bite,1,1,No,Aggressive,Low,Low
+Yes,Stray,Arm,Deep bite,23,83,No,Sick,Low,Low
+No,Stray,Finger,Superficial bite,143,54,No,Calm,Low,High
+No,Stray,Leg,Superficial bite,6,19,No,Calm,Medium,Low
+No,Pet,Arm,Scratch,55,82,No,Aggressive,High,High
+No,Pet,Arm,Scratch,36,82,No,Sick,Low,High
+No,Stray,Hand,Scratch,167,89,No,Calm,Low,Low
+No,Pet,Finger,Deep bite,7,78,No,Calm,Low,High
+No,Stray,Leg,Scratch,14,89,No,Calm,Medium,Low
+No,Pet,Hand,Scratch,1,22,No,Sick,Low,Low
+No,Pet,Leg,Superficial bite,34,75,No,Calm,High,Low
+No,Pet,Hand,Superficial bite,19,74,No,Sick,Low,High
+Yes,Stray,Finger,Deep bite,122,21,Yes,Sick,High,Low
+No,Pet,Hand,Scratch,55,9,No,Aggressive,Medium,Low
+No,Stray,Leg,Scratch,57,88,No,Calm,Medium,Low
+No,Pet,Hand,Multiple deep wounds,45,27,No,Aggressive,Low,High
+Yes,Stray,Leg,Scratch,5,78,No,Sick,Medium,Low
+No,Pet,Leg,Deep bite,35,1,Yes,Aggressive,Low,Low
+No,Pet,Leg,Deep bite,456,2,Yes,Sick,Low,High
+No,Pet,Leg,Deep bite,108,42,No,Calm,Low,Low
+Yes,Stray,Finger,Scratch,134,22,No,Calm,High,Low
+No,Pet,Neck,Deep bite,103,62,No,Aggressive,Medium,High
+No,Stray,Arm,Deep bite,6,51,No,Calm,Medium,Low
+No,Pet,Hand,Superficial bite,15,7,Yes,Sick,Medium,High
+No,Stray,Finger,Superficial bite,0,15,No,Aggressive,Low,Low
+No,Stray,Arm,Scratch,21,35,No,Calm,Medium,Low
+No,Stray,Leg,Scratch,6,17,No,Aggressive,Medium,High
+Yes,Stray,Leg,Superficial bite,38,71,No,Calm,Medium,Low
+No,Stray,Hand,Superficial bite,67,38,No,Aggressive,Low,Low
+No,Stray,Hand,Superficial bite,124,9,No,Calm,High,High
+Yes,Stray,Hand,Superficial bite,82,44,No,Sick,High,High
+Yes,Pet,Arm,Superficial bite,167,9,No,Calm,Medium,High
+Yes,Pet,Hand,Superficial bite,3,12,No,Calm,Low,Low
+No,Stray,Face,Deep bite,0,22,Yes,Calm,Medium,Low
+No,Stray,Leg,Scratch,64,77,No,Aggressive,Medium,Low
+No,Stray,Finger,Superficial bite,20,83,No,Calm,Low,Low
+No,Stray,Arm,Scratch,17,74,No,Calm,Low,Low
+No,Pet,Arm,Superficial bite,24,30,Yes,Aggressive,Low,Low
+Yes,Pet,Face,Deep bite,18,25,No,Calm,Medium,High
+Yes,Stray,Leg,Multiple deep wounds,42,49,No,Calm,Low,Low
+No,Stray,Leg,Scratch,34,65,No,Calm,Low,Low
+Yes,Stray,Hand,Multiple deep wounds,43,89,No,Sick,Medium,Low
+Yes,Pet,Hand,Scratch,67,12,No,Aggressive,Medium,Low
+No,Pet,Leg,Superficial bite,29,5,No,Calm,Low,Low
+No,Stray,Leg,Scratch,17,62,No,Calm,Low,Low
+No,Stray,Face,Deep bite,10,75,No,Aggressive,High,High
+No,Pet,Leg,Superficial bite,25,76,No,Sick,Medium,Low
+No,Pet,Hand,Deep bite,81,61,Yes,Calm,Low,Low
+No,Stray,Arm,Deep bite,84,85,No,Calm,High,Low
+No,Stray,Leg,Scratch,65,46,No,Calm,Low,Low
+No,Stray,Leg,Scratch,15,82,No,Aggressive,High,Low
+Yes,Stray,Arm,Deep bite,53,87,No,Calm,Low,Low
+No,Stray,Finger,Superficial bite,50,76,No,Calm,Low,High
+No,Stray,Arm,Scratch,39,28,No,Calm,Low,Low
+No,Stray,Leg,Superficial bite,47,18,Yes,Calm,Low,Low
+No,Stray,Arm,Superficial bite,40,49,No,Calm,Medium,High
+No,Pet,Finger,Scratch,50,41,No,Calm,Medium,High
+Yes,Stray,Finger,Scratch,75,79,No,Calm,Medium,Low
+No,Stray,Hand,Scratch,6,9,No,Calm,Low,Low
+Yes,Stray,Finger,Superficial bite,83,23,No,Calm,Low,Low
+Yes,Stray,Leg,Deep bite,8,67,No,Calm,Low,Low
+Yes,Pet,Leg,Multiple deep wounds,4,9,No,Sick,Low,Low
+No,Stray,Hand,Superficial bite,223,29,No,Aggressive,Medium,Low
+Yes,Stray,Leg,Scratch,188,35,No,Sick,Low,Low
+No,Pet,Leg,Deep bite,3,56,No,Calm,Medium,Low
+Yes,Stray,Hand,Superficial bite,35,15,No,Calm,Medium,Low
+No,Pet,Finger,Scratch,12,77,No,Sick,Low,Low
+Yes,Stray,Face,Deep bite,39,40,No,Calm,Medium,High
+No,Stray,Hand,Deep bite,106,82,No,Sick,Low,High
+No,Stray,Leg,Deep bite,180,42,Yes,Aggressive,Low,High
+No,Stray,Leg,Deep bite,60,25,No,Aggressive,Medium,High
+Yes,Pet,Leg,Scratch,26,13,Yes,Calm,Low,Low
+No,Pet,Face,Scratch,55,1,No,Sick,Low,High
+No,Stray,Finger,Deep bite,22,48,No,Sick,Medium,Low
+No,Stray,Face,Scratch,144,10,No,Calm,Low,High
+Yes,Pet,Hand,Superficial bite,122,35,No,Calm,Medium,Low
+Yes,Pet,Face,Deep bite,49,53,No,Calm,Low,Low
+No,Stray,Leg,Deep bite,23,25,Yes,Playful,Low,Low
+No,Stray,Finger,Superficial bite,20,16,No,Calm,High,Low
+No,Stray,Leg,Deep bite,2,69,Yes,Calm,Medium,Low
+No,Pet,Leg,Deep bite,101,85,Yes,Calm,Low,Low
+No,Stray,Face,Deep bite,35,9,Yes,Calm,Low,Low
+Yes,Stray,Leg,Scratch,23,14,No,Calm,High,Low
+No,Pet,Arm,Scratch,38,86,No,Playful,Low,High
+Yes,Stray,Arm,Superficial bite,102,4,No,Calm,Medium,Low
+No,Stray,Neck,Scratch,7,88,No,Sick,Medium,Low
+No,Stray,Leg,Scratch,116,1,No,Aggressive,Medium,Low
+No,Stray,Arm,Scratch,136,78,No,Calm,Medium,High
+Yes,Stray,Leg,Superficial bite,175,28,No,Calm,Medium,Low
+Yes,Stray,Arm,Deep bite,30,84,No,Calm,Medium,Low
+Yes,Stray,Hand,Scratch,14,29,No,Sick,Medium,High

@@ -1,0 +1,11 @@
+dog_vaccinated,bite_location,bite_severity,time_to_clean,age,previous_vaccine,risk
+Yes,Arm,Minor scratch,10,25,No,Low
+No,Face,Deep wound,180,12,No,High
+No,Leg,Multiple deep wounds,240,30,No,High
+Yes,Hand,Single puncture,30,45,Yes,Low
+No,Face,Single puncture,60,8,No,High
+Yes,Leg,Minor scratch,5,20,No,Low
+No,Face,Deep wound,200,40,Yes,High
+No,Hand,Multiple deep wounds,300,28,No,High
+Yes,Arm,Single puncture,20,50,Yes,Low
+No,Leg,Minor scratch,15,35,No,Low
