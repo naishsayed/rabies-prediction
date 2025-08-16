@@ -1,138 +1,217 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Rabies Risk Prediction</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+  <meta charset="utf-8">
+  <title>Rabies Risk Prediction</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap 5 CDN -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
-  </head>
-  <body class="bg-light">
-    <div class="container py-5">
-      <div class="mx-auto" style="max-width:900px;">
-        <div class="card shadow-sm">
-          <div class="card-body">
-            <h2 class="card-title text-success">Rabies Risk Prediction</h2>
-            <p class="text-muted">Enter bite details below and get a quick risk assessment with confidence score.</p>
+  <!-- Icons -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
 
-            <form id="predictForm">
-              <div class="row g-3">
-                <div class="col-md-4">
-                  <label class="form-label">Dog Vaccinated</label>
-                  <select class="form-select" name="dog_vaccinated" required>
-                    <option>Yes</option>
-                    <option selected>No</option>
-                  </select>
-                </div>
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body class="bg-dark text-light">
 
-                <div class="col-md-4">
-                  <label class="form-label">Dog Type</label>
-                  <select class="form-select" name="dog_type">
-                    <option>Stray</option>
-                    <option>Pet</option>
-                  </select>
-                </div>
+  <!-- Animated background -->
+  <div class="bg-gradient"></div>
 
-                <div class="col-md-4">
-                  <label class="form-label">Dog Behavior</label>
-                  <select class="form-select" name="dog_behavior">
-                    <option>Aggressive</option>
-                    <option selected>Calm</option>
-                    <option>Sick</option>
-                    <option>Playful</option>
-                  </select>
-                </div>
+  <div class="container py-5">
+    <div class="text-center mb-4">
+      <h1 class="display-6 fw-bold text-glow">🐾 Rabies Risk Prediction</h1>
+      <p class="text-secondary mb-0">Beautiful UI • Real ML • Instant Confidence Score</p>
+    </div>
 
-                <div class="col-md-4">
-                  <label class="form-label">Bite Location</label>
-                  <select class="form-select" name="bite_location">
-                    <option>Face</option>
-                    <option>Neck</option>
-                    <option>Hand</option>
-                    <option>Arm</option>
-                    <option selected>Leg</option>
-                    <option>Finger</option>
-                  </select>
-                </div>
+    <div class="row g-4">
+      <!-- FORM CARD -->
+      <div class="col-lg-7">
+        <div class="glass-card p-4">
+          <h5 class="mb-3"><i class="fa-solid fa-clipboard-list me-2"></i>Patient & Bite Details</h5>
 
-                <div class="col-md-4">
-                  <label class="form-label">Bite Severity</label>
-                  <select class="form-select" name="bite_severity">
-                    <option>Scratch</option>
-                    <option selected>Superficial bite</option>
-                    <option>Deep bite</option>
-                    <option>Multiple deep wounds</option>
-                  </select>
-                </div>
-
-                <div class="col-md-4">
-                  <label class="form-label">Region Rabies Prevalence</label>
-                  <select class="form-select" name="region_prevalence">
-                    <option selected>Low</option>
-                    <option>Medium</option>
-                    <option>High</option>
-                  </select>
-                </div>
-
-                <div class="col-md-4">
-                  <label class="form-label">Time to Clean Wound (minutes)</label>
-                  <input type="number" name="time_to_clean_minutes" class="form-control" value="30" min="0" required>
-                </div>
-
-                <div class="col-md-4">
-                  <label class="form-label">Victim Age</label>
-                  <input type="number" name="age" class="form-control" value="30" min="0" max="120" required>
-                </div>
-
-                <div class="col-md-4">
-                  <label class="form-label">Previous Rabies Vaccine</label>
-                  <select class="form-select" name="previous_vaccine">
-                    <option>Yes</option>
-                    <option selected>No</option>
-                  </select>
-                </div>
+          <!-- Wizard steps -->
+          <div id="step-1">
+            <div class="row g-3">
+              <div class="col-md-6">
+                <label class="form-label">Dog Vaccinated</label>
+                <select name="dog_vaccinated" class="form-select" required>
+                  <option>No</option>
+                  <option>Yes</option>
+                  <option>Unknown</option> <!-- New Option -->
+                </select>
               </div>
 
-              <div class="mt-4 d-flex gap-2">
-                <button type="submit" class="btn btn-success">Predict Risk</button>
-                <button id="resetBtn" type="button" class="btn btn-outline-secondary">Reset</button>
+              <div class="col-md-6">
+                <label class="form-label">Dog Type</label>
+                <select name="dog_type" class="form-select" required>
+                  <option>Stray</option>
+                  <option>Pet</option>
+                  <option>Wild</option> <!-- New Option -->
+                </select>
               </div>
-            </form>
 
-            <div id="resultCard" class="mt-4" style="display:none;">
-              <div class="card">
-                <div class="card-body">
-                  <h5 id="riskLabel" class="card-title"></h5>
-                  <p class="card-text" id="riskAdvice"></p>
+              <div class="col-md-6">
+                <label class="form-label">Dog Behavior</label>
+                <select name="dog_behavior" class="form-select" required>
+                  <option>Calm</option>
+                  <option>Aggressive</option>
+                  <option>Sick</option>
+                  <option>Playful</option>
+                  <option>Unusual Movements</option> <!-- New Option -->
+                </select>
+              </div>
 
-                  <div class="progress" style="height:20px;">
-                    <div id="probBar" class="progress-bar" role="progressbar" style="width:0%">0%</div>
-                  </div>
-
-                  <div class="mt-3">
-                    <button id="backBtn" class="btn btn-link">Make another prediction</button>
-                  </div>
-                </div>
+              <div class="col-md-6">
+                <label class="form-label">Region Prevalence</label>
+                <select name="region_prevalence" class="form-select" required>
+                  <option>Low</option>
+                  <option>Medium</option>
+                  <option>High</option>
+                  <option>Unknown</option> <!-- New Option -->
+                </select>
               </div>
             </div>
 
-            <div id="loading" class="mt-3" style="display:none;">
-              <div class="spinner-border text-success" role="status"><span class="visually-hidden">Loading...</span></div>
-              <span class="ms-2">Predicting...</span>
+            <div class="d-flex justify-content-end mt-4">
+              <button id="nextBtn" class="btn btn-gradient">
+                Next <i class="fa-solid fa-arrow-right ms-1"></i>
+              </button>
+            </div>
+          </div>
+
+          <div id="step-2" class="d-none">
+            <div class="row g-3">
+              <div class="col-md-6">
+                <label class="form-label">Bite Location</label>
+                <select name="bite_location" class="form-select" required>
+                  <option>Leg</option>
+                  <option>Arm</option>
+                  <option>Hand</option>
+                  <option>Finger</option>
+                  <option>Face</option>
+                  <option>Neck</option>
+                  <option>Torso</option> <!-- New Option -->
+                </select>
+              </div>
+
+              <div class="col-md-6">
+                <label class="form-label">Bite Severity</label>
+                <select name="bite_severity" class="form-select" required>
+                  <option>Scratch</option>
+                  <option>Superficial bite</option>
+                  <option>Deep bite</option>
+                  <option>Multiple deep wounds</option>
+                  <option>Severe tissue damage</option> <!-- New Option -->
+                </select>
+              </div>
+
+              <div class="col-md-6">
+                <label class="form-label">Time to Clean Wound (minutes)</label>
+                <input type="number" name="time_to_clean_minutes" class="form-control" min="0" value="30" required>
+              </div>
+
+              <div class="col-md-6">
+                <label class="form-label">Patient Age</label>
+                <input type="number" name="age" class="form-control" min="0" max="120" value="30" required>
+              </div>
+
+              <div class="col-md-6">
+                <label class="form-label">Previous Rabies Vaccine</label>
+                <select name="previous_vaccine" class="form-select" required>
+                  <option>No</option>
+                  <option>Yes</option>
+                  <option>Unknown</option> <!-- New Option -->
+                </select>
+              </div>
             </div>
 
+            <div class="d-flex justify-content-between mt-4">
+              <button id="backBtn" class="btn btn-outline-light">
+                <i class="fa-solid fa-arrow-left me-1"></i> Back
+              </button>
+              <button id="predictBtn" class="btn btn-gradient">
+                <i class="fa-solid fa-paw me-1"></i> Predict Risk
+              </button>
+            </div>
           </div>
         </div>
 
-        <p class="text-muted small mt-3">This is a predictive tool for educational purposes. For medical advice, contact healthcare professionals.</p>
+        <!-- Awareness -->
+        <div class="glass-card mt-4 p-4">
+          <h5 class="mb-3"><i class="fa-solid fa-lightbulb me-2"></i>Rabies First-Aid & Tips</h5>
+          <ul class="mb-0 small text-secondary">
+            <li>Wash the wound thoroughly with soap and running water for at least 15 minutes.</li>
+            <li>Seek medical attention immediately for PEP (Post-Exposure Prophylaxis).</li>
+            <li>Avoid alcohol/irritants on the wound; keep it clean and uncovered.</li>
+            <li>Observe the animal for 10 days (if possible) and report unusual behavior.</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- RESULT CARD -->
+      <div class="col-lg-5">
+        <div class="glass-card p-4 sticky-top" style="top: 24px;">
+          <h5 class="mb-3"><i class="fa-solid fa-gauge-high me-2"></i>Prediction</h5>
+
+          <div id="resultEmpty" class="text-center text-secondary">
+            <i class="fa-regular fa-circle-question fa-3x mb-2"></i>
+            <p class="mb-0">Fill the form and click <strong>Predict Risk</strong>.</p>
+          </div>
+
+          <div id="resultPanel" class="d-none">
+            <div class="d-flex align-items-center justify-content-between">
+              <h3 id="riskText" class="mb-0 fw-bold"></h3>
+              <span id="probBadge" class="badge rounded-pill bg-secondary">0%</span>
+            </div>
+
+            <!-- Donut chart with center percentage -->
+            <canvas id="probChart" class="mt-3" height="160"></canvas>
+
+            <!-- Confidence bar -->
+            <div class="progress mt-3" style="height: 18px;">
+              <div id="probBar" class="progress-bar" role="progressbar" style="width:0%">0%</div>
+            </div>
+
+            <p id="adviceText" class="mt-3 small mb-0"></p>
+          </div>
+        </div>
+
+        <!-- History -->
+        <div class="glass-card mt-4 p-4">
+          <h5 class="mb-3"><i class="fa-solid fa-clock-rotate-left me-2"></i>Prediction History</h5>
+          <div class="table-responsive">
+            <table class="table table-dark table-sm align-middle">
+              <thead>
+                <tr>
+                  <th>Date</th>
+                  <th>Location</th>
+                  <th>Severity</th>
+                  <th>Risk</th>
+                  <th>Conf.</th>
+                </tr>
+              </thead>
+              <tbody id="historyBody"></tbody>
+            </table>
+          </div>
+        </div>
       </div>
     </div>
 
-    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
-    <!-- Bootstrap bundle -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-  </body>
+    <footer class="text-center text-secondary small mt-4">
+      Built by <strong>Naish</strong> • Final-Year Project
+    </footer>
+  </div>
+
+  <!-- Chart.js (fixed CDN to avoid sourcemap error) -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js" integrity="sha384-Kc+IBFZmY6dB8iY5F6wW44M5uwGmPp7+9LtjFsB/9qzj4cKac2nnSnUl3STBfENx" crossorigin="anonymous"></script>
+
+  <!-- Custom JS -->
+  <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+
+  <!-- Bootstrap bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+
+</body>
 </html>

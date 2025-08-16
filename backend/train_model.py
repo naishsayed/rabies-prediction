@@ -1,150 +1,107 @@
-# train_model.py
+# backend/train_model.py
+import os
 import numpy as np
 import pandas as pd
-from sklearn.model_selection import train_test_split, GridSearchCV
-from sklearn.pipeline import Pipeline
+from joblib import dump
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import OneHotEncoder
 from sklearn.compose import ColumnTransformer
-from sklearn.preprocessing import OneHotEncoder, StandardScaler
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.metrics import classification_report, confusion_matrix, roc_auc_score
-import joblib
-import random
+from sklearn.pipeline import Pipeline
+from sklearn.metrics import classification_report
+from sklearn.ensemble import GradientBoostingClassifier  # robust on tabular
 
-RANDOM_STATE = 42
-np.random.seed(RANDOM_STATE)
-random.seed(RANDOM_STATE)
+rng = np.random.default_rng(42)
 
+def generate_synthetic(n=4000):
+    dog_vaccinated = rng.choice(["Yes","No","Unknown"], n, p=[0.45, 0.4, 0.15])
+    dog_type = rng.choice(["Stray","Pet","Wild"], n, p=[0.55, 0.35, 0.10])
+    dog_behavior = rng.choice(["Calm","Aggressive","Sick","Playful","Unusual Movements"], n,
+                              p=[0.35,0.30,0.15,0.10,0.10])
+    region_prevalence = rng.choice(["Low","Medium","High","Unknown"], n, p=[0.35,0.35,0.25,0.05])
+    bite_location = rng.choice(["Leg","Arm","Hand","Finger","Face","Neck","Torso"], n,
+                               p=[0.30,0.25,0.15,0.10,0.08,0.07,0.05])
+    bite_severity = rng.choice(["Scratch","Superficial bite","Deep bite","Multiple deep wounds","Severe tissue damage"], n,
+                               p=[0.35,0.30,0.20,0.10,0.05])
+    time_to_clean_minutes = np.maximum(0, rng.normal(40, 25, n).round().astype(int))
+    age = np.clip(rng.normal(32, 16, n).round().astype(int), 1, 90)
+    previous_vaccine = rng.choice(["Yes","No","Unknown"], n, p=[0.25,0.65,0.10])
 
-def generate_synthetic_data(n=2000):
-    dog_vaccinated = np.random.choice(['Yes', 'No'], size=n, p=[0.35, 0.65])  # many dogs unvaccinated
-    dog_type = np.random.choice(['Stray', 'Pet'], size=n, p=[0.6, 0.4])
-    bite_location = np.random.choice(['Face','Neck','Hand','Arm','Leg','Finger'], size=n,
-                                     p=[0.05,0.03,0.25,0.2,0.35,0.12])
-    bite_severity = np.random.choice(['Scratch','Superficial bite','Deep bite','Multiple deep wounds'],
-                                     size=n, p=[0.3,0.35,0.28,0.07])
-    time_to_clean = np.random.exponential(scale=60, size=n).astype(int)  # minutes; many small, some large
-    time_to_clean = np.clip(time_to_clean, 0, 1440)  # up to a day
-    age = np.random.choice(range(1, 90), size=n, p=np.repeat(1/89, 89))
-    previous_vaccine = np.random.choice(['Yes','No'], size=n, p=[0.12, 0.88])
-    dog_behavior = np.random.choice(['Aggressive','Calm','Sick','Playful'], size=n, p=[0.25,0.55,0.15,0.05])
-    region_prevalence = np.random.choice(['Low','Medium','High'], size=n, p=[0.5,0.35,0.15])
+    base = (
+        0.9 * (dog_type == "Wild") +
+        0.7 * (dog_type == "Stray") +
+        0.6 * (dog_behavior == "Aggressive") +
+        0.7 * (dog_behavior == "Sick") +
+        0.5 * (dog_behavior == "Unusual Movements") +
+        0.6 * (region_prevalence == "High") +
+        0.4 * (bite_location == "Face") + 0.35 * (bite_location == "Neck") +
+        0.55 * (bite_severity == "Deep bite") +
+        0.8 * (bite_severity == "Multiple deep wounds") +
+        1.0 * (bite_severity == "Severe tissue damage") +
+        0.004 * np.maximum(0, time_to_clean_minutes - 15) +
+        0.15 * (age < 10) + 0.12 * (age > 60) +
+        0.25 * (previous_vaccine == "No") +
+        0.10 * (dog_vaccinated == "No")
+    )
+
+    base -= 0.25 * (dog_vaccinated == "Yes")
+    base -= 0.35 * (previous_vaccine == "Yes")
+
+    prob_high = 1 / (1 + np.exp(-(base - 1.2)))
+    risk = np.where(rng.random(n) < prob_high, "High", "Low")
 
     df = pd.DataFrame({
-        'dog_vaccinated': dog_vaccinated,
-        'dog_type': dog_type,
-        'bite_location': bite_location,
-        'bite_severity': bite_severity,
-        'time_to_clean_minutes': time_to_clean,
-        'age': age,
-        'previous_vaccine': previous_vaccine,
-        'dog_behavior': dog_behavior,
-        'region_prevalence': region_prevalence,
+        "dog_vaccinated": dog_vaccinated,
+        "dog_type": dog_type,
+        "dog_behavior": dog_behavior,
+        "region_prevalence": region_prevalence,
+        "bite_location": bite_location,
+        "bite_severity": bite_severity,
+        "previous_vaccine": previous_vaccine,
+        "time_to_clean_minutes": time_to_clean_minutes,
+        "age": age,
+        "risk": risk
     })
 
-    # Heuristic to compute label probability (not perfect, but realistic)
-    def row_to_prob(r):
-        base = 0.05
-        # location: face/neck much riskier
-        if r['bite_location'] in ('Face','Neck'):
-            base += 0.45
-        elif r['bite_location'] in ('Hand','Finger'):
-            base += 0.18
-        elif r['bite_location'] in ('Arm','Leg'):
-            base += 0.08
+    # Ensure same column order as app.py expects
+    df = df[[
+        "dog_vaccinated", "dog_type", "dog_behavior", "region_prevalence",
+        "bite_location", "bite_severity", "previous_vaccine",
+        "time_to_clean_minutes", "age", "risk"
+    ]]
 
-        # severity
-        if r['bite_severity'] == 'Multiple deep wounds':
-            base += 0.25
-        elif r['bite_severity'] == 'Deep bite':
-            base += 0.18
-        elif r['bite_severity'] == 'Superficial bite':
-            base += 0.07
-        else:
-            base += 0.02
-
-        # dog vaccinated reduces risk
-        if r['dog_vaccinated'] == 'Yes':
-            base -= 0.25
-        # previous vaccine reduces risk
-        if r['previous_vaccine'] == 'Yes':
-            base -= 0.30
-
-        # time to clean: each hour adds ~0.03
-        base += min(0.6, (r['time_to_clean_minutes'] / 60) * 0.03)
-
-        # dog behavior
-        if r['dog_behavior'] == 'Sick':
-            base += 0.18
-        if r['dog_behavior'] == 'Aggressive':
-            base += 0.09
-
-        # region prevalence
-        if r['region_prevalence'] == 'High':
-            base += 0.12
-        elif r['region_prevalence'] == 'Medium':
-            base += 0.06
-
-        # clamp
-        base = max(0.01, min(0.99, base))
-        return base
-
-    probs = df.apply(row_to_prob, axis=1)
-    # Convert to label with noise
-    labels = (np.random.rand(len(probs)) < probs).astype(int)  # 1 = High risk, 0 = Low risk
-    df['risk'] = np.where(labels==1, 'High', 'Low')
     return df
 
+def train_and_save(df: pd.DataFrame, out_path: str):
+    X = df.drop(columns=["risk"])
+    y = df["risk"]
 
-def train_and_save(df, save_path='model.joblib'):
-    # features and target
-    X = df.drop('risk', axis=1)
-    y = df['risk']
+    cat_cols = [
+        "dog_vaccinated","dog_type","dog_behavior","region_prevalence",
+        "bite_location","bite_severity","previous_vaccine"
+    ]
+    num_cols = ["time_to_clean_minutes","age"]
 
-    # categorical and numerical columns
-    categorical_cols = ['dog_vaccinated','dog_type','bite_location','bite_severity','previous_vaccine','dog_behavior','region_prevalence']
-    numeric_cols = ['time_to_clean_minutes','age']
+    pre = ColumnTransformer(
+        transformers=[
+            ("cat", OneHotEncoder(handle_unknown="ignore", sparse_output=False), cat_cols),
+            ("num", "passthrough", num_cols),
+        ]
+    )
 
-    # Preprocessing
-    cat_pipe = OneHotEncoder(handle_unknown='ignore', sparse_output=False)
-    preprocessor = ColumnTransformer([
-        ('cat', cat_pipe, categorical_cols),
-        ('num', StandardScaler(), numeric_cols)
-    ], remainder='drop')
+    clf = GradientBoostingClassifier(random_state=42)
+    pipe = Pipeline(steps=[("pre", pre), ("clf", clf)])
 
-    # Pipeline
-    pipeline = Pipeline([
-        ('pre', preprocessor),
-        ('clf', RandomForestClassifier(n_estimators=200, random_state=RANDOM_STATE, class_weight='balanced'))
-    ])
+    Xtr, Xte, ytr, yte = train_test_split(X, y, test_size=0.2, random_state=42, stratify=y)
+    pipe.fit(Xtr, ytr)
 
-    # Split
-    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=RANDOM_STATE, stratify=y)
+    pred = pipe.predict(Xte)
+    print(classification_report(yte, pred))
 
-    pipeline.fit(X_train, y_train)
-
-    # Evaluate
-    y_pred = pipeline.predict(X_test)
-    y_prob = pipeline.predict_proba(X_test)[:, 1]  # probability for 'High' class may need mapping
-    print("Classification report (test):")
-    print(classification_report(y_test, y_pred, digits=4))
-    try:
-        auc = roc_auc_score((y_test=='High').astype(int), y_prob)
-        print("ROC AUC:", auc)
-    except Exception:
-        pass
-
-    # Save pipeline
-    joblib.dump(pipeline, save_path)
-    print(f"Saved trained pipeline to {save_path}")
-
-    # Save a small sample of dataset for later reference
-    df.to_csv('dataset_synthetic.csv', index=False)
-    print("Saved dataset as dataset_synthetic.csv")
-
+    dump(pipe, out_path)
+    print(f"Saved model to: {out_path}")
 
 if __name__ == "__main__":
-    print("Generating synthetic dataset...")
-    df = generate_synthetic_data(n=2000)
-    print("Distribution of labels:")
-    print(df['risk'].value_counts(normalize=True))
-    train_and_save(df, save_path='model.joblib')
+    df = generate_synthetic(n=6000)
+    APP_DIR = os.path.dirname(os.path.abspath(__file__))
+    OUT = os.path.join(APP_DIR, "model.joblib")
+    train_and_save(df, OUT)

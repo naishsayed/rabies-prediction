@@ -1,78 +1,154 @@
-# app.py
+# backend/app.py
+from __future__ import annotations
+import os, math
+from typing import Dict, Any
 from flask import Flask, request, jsonify, render_template
+from joblib import load
+from werkzeug.middleware.proxy_fix import ProxyFix
+import pandas as pd
 import joblib
-import numpy as np
-import os
+APP_DIR = os.path.dirname(os.path.abspath(__file__))
+MODEL_PATH = os.path.join(APP_DIR, "model.joblib")
 
-app = Flask(__name__, template_folder='templates', static_folder='static')
+app = Flask(
+    __name__,
+    static_folder=os.path.join(APP_DIR, "static"),
+    template_folder=os.path.join(APP_DIR, "templates")
+)
+app.wsgi_app = ProxyFix(app.wsgi_app)
 
-MODEL_PATH = 'model.joblib'
-model = joblib.load(MODEL_PATH)
+model = None
+model_features = [
+    "dog_vaccinated", "dog_type", "dog_behavior", "region_prevalence",
+    "bite_location", "bite_severity", "previous_vaccine",
+    "time_to_clean_minutes", "age"
+]
 
-# helper to build input for the pipeline (pandas-like dict accepted by pipeline)
-def build_input(data):
-    # expected fields:
-    # dog_vaccinated, dog_type, bite_location, bite_severity,
-    # time_to_clean_minutes, age, previous_vaccine, dog_behavior, region_prevalence
-    # We'll coerce types and provide defaults if missing.
-    input_row = {
-        'dog_vaccinated': data.get('dog_vaccinated', 'No'),
-        'dog_type': data.get('dog_type', 'Stray'),
-        'bite_location': data.get('bite_location', 'Leg'),
-        'bite_severity': data.get('bite_severity', 'Superficial bite'),
-        'time_to_clean_minutes': int(data.get('time_to_clean_minutes', 30)),
-        'age': int(data.get('age', 30)),
-        'previous_vaccine': data.get('previous_vaccine', 'No'),
-        'dog_behavior': data.get('dog_behavior', 'Calm'),
-        'region_prevalence': data.get('region_prevalence', 'Low'),
-    }
-    return input_row
-
-
-@app.route('/')
-def index():
-    return render_template('index.html')
-
-
-@app.route('/predict', methods=['POST'])
-def predict():
-    # accept JSON or form
-    if request.is_json:
-        data = request.get_json()
-    else:
-        data = request.form.to_dict()
-
-    # Build single-row data
-    row = build_input(data)
-
-    # The pipeline expects a 2D structure (DataFrame), but sklearn pipeline can accept a list of dicts if consistent.
-    # We'll pass a list with one dict via the pipeline's preprocessing.
+def load_model():
+    global model
     try:
-        proba = model.predict_proba([list(row.values())])  # fallback — but our pipeline expects column order; safer to use DataFrame
+        if not os.path.exists(MODEL_PATH):
+            print(f"[WARNING] Model file not found at {MODEL_PATH}. Run 'python train_model.py' first.")
+            model = None
+            return
+        model = load(MODEL_PATH)
+        print(f"[INFO] Model loaded from {MODEL_PATH}")
+    except Exception as e:
+        model = None
+        print(f"[ERROR] Could not load model: {e}")
+
+load_model()
+
+def norm_bool_str(x: str) -> str:
+    if x is None: return "Unknown"
+    s = str(x).strip().lower()
+    if s in ("yes","y","true","1"): return "Yes"
+    if s in ("no","n","false","0"): return "No"
+    return "Unknown"
+
+def norm_choice(x: str, allowed: Dict[str, str], default_key: str) -> str:
+    if x is None:
+        return allowed.get(default_key, default_key)
+    s = str(x).strip().lower()
+    return allowed.get(s, allowed.get(default_key, default_key))
+
+def coerce_positive_number(x, default=0):
+    try:
+        v = float(x)
+        if math.isnan(v) or v < 0: return default
+        return v
     except Exception:
-        # safer route: build DataFrame in proper column order
-        import pandas as pd
-        df = pd.DataFrame([row])
-        proba = model.predict_proba(df)
+        return default
 
-    # predict_proba returns array [[prob_low, prob_high]] if classes are ['Low','High']
-    # find index of 'High' to return correct probability
-    classes = model.classes_
-    if 'High' in classes:
-        high_index = list(classes).index('High')
+def preprocess_payload(payload: Dict[str, Any]) -> Dict[str, Any]:
+    dog_type_map = {"stray": "Stray", "pet": "Pet", "wild": "Wild"}
+    behavior_map = {
+        "calm": "Calm", "aggressive": "Aggressive", "sick": "Sick",
+        "playful": "Playful", "unusual movements": "Unusual Movements", "unusual": "Unusual Movements"
+    }
+    region_map = {"low": "Low", "medium": "Medium", "high": "High", "unknown": "Unknown"}
+    location_map = {
+        "leg": "Leg", "arm": "Arm", "hand": "Hand", "finger": "Finger",
+        "face": "Face", "neck": "Neck", "torso": "Torso"
+    }
+    severity_map = {
+        "scratch": "Scratch", "superficial bite": "Superficial bite", "deep bite": "Deep bite",
+        "multiple deep wounds": "Multiple deep wounds", "severe tissue damage": "Severe tissue damage"
+    }
+
+    return {
+        "dog_vaccinated": norm_bool_str(payload.get("dog_vaccinated")),
+        "dog_type": norm_choice(payload.get("dog_type"), dog_type_map, "stray"),
+        "dog_behavior": norm_choice(payload.get("dog_behavior"), behavior_map, "calm"),
+        "region_prevalence": norm_choice(payload.get("region_prevalence"), region_map, "unknown"),
+        "bite_location": norm_choice(payload.get("bite_location"), location_map, "leg"),
+        "bite_severity": norm_choice(payload.get("bite_severity"), severity_map, "scratch"),
+        "previous_vaccine": norm_bool_str(payload.get("previous_vaccine")),
+        "time_to_clean_minutes": coerce_positive_number(payload.get("time_to_clean_minutes"), default=30),
+        "age": coerce_positive_number(payload.get("age"), default=30)
+    }
+
+def label_from_prob(p: float) -> str:
+    if p < 0.34:
+        return "Low"
+    elif p < 0.67:
+        return "Medium"
     else:
-        # fallback assume second index is High
-        high_index = 1
+        return "High"
 
-    high_prob = float(proba[0][high_index])
-    pred_label = 'High' if high_prob >= 0.5 else 'Low'
+@app.route("/")
+def index():
+    return render_template("index.html")
 
-    return jsonify({
-        'risk': pred_label,
-        'probability': round(high_prob, 4)
-    })
+@app.route("/health")
+def health():
+    return jsonify({"status": "ok", "model_loaded": model is not None})
 
+@app.route("/predict", methods=["POST"])
+def predict():
+    try:
+        if model is None:
+            return jsonify({"success": False, "message": "Model not loaded"}), 200
+        if not request.is_json:
+            return jsonify({"success": False, "message": "Content-Type must be application/json"}), 200
 
-if __name__ == '__main__':
-    # run on localhost:5000
-    app.run(debug=True)
+        payload = request.get_json(silent=True) or {}
+        missing_fields = [f for f in model_features if f not in payload]
+        if missing_fields:
+            app.logger.warning(f"Missing fields in request: {missing_fields}")
+
+        x = preprocess_payload(payload)
+        X = pd.DataFrame([x], columns=model_features)
+
+        if hasattr(model, "predict_proba"):
+            proba = model.predict_proba(X)[0]
+            idx_high = 1
+            try:
+                clf_classes = getattr(model, "classes_", None)
+                if clf_classes is None and hasattr(model, "named_steps"):
+                    clf_classes = model.named_steps[list(model.named_steps.keys())[-1]].classes_
+                if clf_classes is not None:
+                    idx_high = list(clf_classes).index("High")
+            except Exception:
+                pass
+            p_high = float(proba[idx_high])
+        else:
+            if hasattr(model, "decision_function"):
+                score = float(model.decision_function(X)[0])
+                p_high = 1.0 / (1.0 + math.exp(-score))
+            else:
+                pred = model.predict(X)[0]
+                p_high = 0.7 if str(pred) == "High" else 0.3
+
+        return jsonify({
+            "success": True,
+            "risk": label_from_prob(p_high),
+            "probability": round(float(p_high), 4)
+        }), 200
+
+    except Exception as e:
+        app.logger.exception("Prediction failed")
+        return jsonify({"success": False, "message": f"Prediction failed: {str(e)}"}), 200
+
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=5000, debug=True)
