@@ -1,8 +1,4 @@
-/* =========================
-   Your Original Styles (Unchanged)
-   ========================= */
 
-/* Background + glassmorphism */
 .bg-gradient {
   position: fixed; inset: 0;
   background: radial-gradient(1200px 600px at -10% -10%, rgba(255, 0, 128, .15), transparent),
@@ -56,15 +52,11 @@
 /* Progress bar anim */
 .progress-bar { transition: width .6s ease; font-weight: 600; }
 
-/* =========================
-   Additional Enhancements
-   ========================= */
 
-/* Animated heading gradient */
 .heading-gradient {
   background: linear-gradient(90deg, #ff416c, #ff4b2b, #ff8f00, #00c6ff, #0072ff);
   background-size: 300%;
-  background-clip: text; /* Standard property for compatibility */
+  background-clip: text; 
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: moveGradient 6s ease-in-out infinite;
@@ -76,7 +68,7 @@
   100% { background-position: 0% 50%; }
 }
 
-/* Input fields with glowing border */
+
 .input-glow {
   background: rgba(255,255,255,0.08);
   border: 1px solid rgba(255,255,255,0.2);
@@ -91,13 +83,13 @@
   outline: none;
 }
 
-/* Glass panel hover effect */
+
 .glass-hover:hover {
   transform: translateY(-4px) scale(1.02);
   transition: transform .25s ease;
 }
 
-/* Smooth fade-in animations */
+
 .fade-in {
   animation: fadeIn 0.8s ease-out;
 }
@@ -106,7 +98,6 @@
   to   { opacity: 1; transform: translateY(0); }
 }
 
-/* Card shine effect */
 .card-shine {
   position: relative;
   overflow: hidden;
@@ -126,8 +117,8 @@
   0% { transform: translateX(-100%) rotate(25deg); }
   100% { transform: translateX(100%) rotate(25deg); }
 }
-/* Prediction Card - will auto adjust height */
+
 .prediction-card {
-  position: static;           /* No sticky, stays in flow */
-  overflow-y: auto;           /* Scroll inside if needed */
+  position: static;           
+  overflow-y: auto;           
 }
