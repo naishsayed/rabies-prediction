@@ -126,3 +126,8 @@
   0% { transform: translateX(-100%) rotate(25deg); }
   100% { transform: translateX(100%) rotate(25deg); }
 }
+/* Prediction Card - will auto adjust height */
+.prediction-card {
+  position: static;           /* No sticky, stays in flow */
+  overflow-y: auto;           /* Scroll inside if needed */
+}

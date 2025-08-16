@@ -152,7 +152,7 @@
 
       <!-- RESULT CARD -->
       <div class="col-lg-5">
-        <div class="glass-card p-4 sticky-top" style="top: 24px;">
+        <div class="glass-card p-4 prediction-card">
           <h5 class="mb-3"><i class="fa-solid fa-gauge-high me-2"></i>Prediction</h5>
 
           <div id="resultEmpty" class="text-center text-secondary">
@@ -211,7 +211,22 @@
   <script src="{{ url_for('static', filename='js/script.js') }}"></script>
 
   <!-- Bootstrap bundle -->
-  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js">
+    function adjustPredictionCardHeight() {
+    const detailsCard = document.querySelector('.glass-card h4:nth-child(1)')?.closest('.glass-card');
+    const tipsCard = document.querySelector('.glass-card h4:nth-child(2)')?.closest('.glass-card');
+    const predictionCard = document.querySelector('.prediction-card');
+
+    if (detailsCard && tipsCard && predictionCard) {
+      const totalHeight = detailsCard.offsetHeight + tipsCard.offsetHeight + 32; // 32 = margin gap
+      predictionCard.style.height = totalHeight + "px";
+    }
+  }
+
+  // Adjust on load and when resizing
+  window.addEventListener('load', adjustPredictionCardHeight);
+  window.addEventListener('resize', adjustPredictionCardHeight);
+  </script>
 
 </body>
 </html>

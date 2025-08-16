@@ -133,6 +133,11 @@ function updateResultUI(labelFromServer, prob) {
   resultEmpty.classList.add('d-none');
   resultPanel.classList.remove('d-none');
   resultPanel.classList.add('animate__animated', 'animate__fadeInUp');
+
+  // ✅ Smooth scroll only on mobile
+  if (window.innerWidth <= 768) {
+    resultPanel.scrollIntoView({ behavior: "smooth" });
+  }
 }
 
 // Show loader
