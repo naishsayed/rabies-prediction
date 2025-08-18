@@ -9,14 +9,6 @@ document.getElementById('nextBtn').addEventListener('click', () => {
     step2.classList.add('animate__animated', 'animate__fadeInRight');
   }, 400);
 });
-document.getElementById('backBtn').addEventListener('click', () => {
-  step2.classList.add('animate__animated', 'animate__fadeOutRight');
-  setTimeout(() => {
-    step2.classList.add('d-none');
-    step1.classList.remove('d-none', 'animate__fadeOutRight');
-    step1.classList.add('animate__animated', 'animate__fadeInLeft');
-  }, 400);
-});
 
 // Elements
 const resultEmpty = document.getElementById('resultEmpty');
@@ -26,6 +18,13 @@ const probBadge = document.getElementById('probBadge');
 const probBar = document.getElementById('probBar');
 const adviceText = document.getElementById('adviceText');
 const historyBody = document.getElementById('historyBody');
+
+// =======================================================
+// == MODIFICATION: Get references to the buttons       ==
+// =======================================================
+const predictBtn = document.getElementById('predictBtn');
+const resetBtn = document.getElementById('resetBtn');
+
 const loaderOverlay = document.createElement('div');
 loaderOverlay.id = "loaderOverlay";
 loaderOverlay.innerHTML = `<div class="spinner-border text-light" role="status"><span class="visually-hidden">Loading...</span></div>`;
@@ -34,12 +33,43 @@ document.body.appendChild(loaderOverlay);
 // Chart.js donut (created lazily)
 let donut = null;
 
+function resetForm() {
+    // =======================================================
+    // == MODIFICATION: Swap buttons back to original state ==
+    // =======================================================
+    resetBtn.classList.add('d-none');
+    predictBtn.classList.remove('d-none');
+
+    // 1. Reset all form inputs to their default state
+    document.querySelectorAll('#step-1 select, #step-2 select').forEach(select => select.selectedIndex = 0);
+    document.querySelector('input[name="time_to_clean_minutes"]').value = 30;
+    document.querySelector('input[name="age"]').value = 30;
+
+    // 2. Reset the result panel to its initial empty state
+    resultPanel.classList.add('d-none');
+    resultEmpty.classList.remove('d-none');
+    if (donut) {
+        donut.destroy();
+        donut = null;
+    }
+
+    // 3. Animate back to Step 1
+    step2.classList.add('animate__animated', 'animate__fadeOutRight');
+    setTimeout(() => {
+        step2.classList.add('d-none');
+        step1.classList.remove('d-none', 'animate__fadeOutRight');
+        step1.classList.add('animate__animated', 'animate__fadeInLeft');
+    }, 400);
+}
+
+// Attach the new resetForm function to our new button
+resetBtn.addEventListener('click', resetForm);
+
 // Collect all form inputs by name from both steps
 function getPayload() {
   const payload = {};
   document.querySelectorAll('#step-1 select, #step-1 input, #step-2 select, #step-2 input')
     .forEach(el => payload[el.name] = el.value);
-  // Coerce numeric fields
   payload.time_to_clean_minutes = Number(payload.time_to_clean_minutes || 30);
   payload.age = Number(payload.age || 30);
   return payload;
@@ -56,14 +86,11 @@ function bandFromProb(p) {
 function updateResultUI(labelFromServer, prob) {
   const probPct = Math.round(prob * 100);
   const band = bandFromProb(prob);
-
-  // Words + colors
   riskText.textContent = `Risk: ${band}`;
   probBadge.textContent = `${probPct}%`;
   probBar.style.width = `${probPct}%`;
   probBar.textContent = `${probPct}%`;
 
-  // Color coding
   probBar.classList.remove('bg-success', 'bg-warning', 'bg-danger');
   riskText.classList.remove('text-low', 'text-med', 'text-high');
   probBadge.classList.remove('badge-low', 'badge-med', 'badge-high');
@@ -85,18 +112,15 @@ function updateResultUI(labelFromServer, prob) {
     adviceText.innerHTML = "<strong>Advice:</strong> Likely low risk — monitor closely and follow medical advice. Seek care if symptoms appear.";
   }
 
-  // Donut chart only if Chart.js is available
   if (typeof Chart !== "undefined") {
     const ctx = document.getElementById('probChart').getContext('2d');
     if (donut) donut.destroy();
-
-    // Plugin to draw percentage text in center
     const centerTextPlugin = {
       id: 'centerText',
       beforeDraw(chart) {
         const { ctx, chartArea: { width, height } } = chart;
         ctx.save();
-        ctx.font = "bold 20px Arial";
+        ctx.font = "bold 20px Poppins";
         ctx.fillStyle = "#fff";
         ctx.textAlign = "center";
         ctx.textBaseline = "middle";
@@ -104,7 +128,6 @@ function updateResultUI(labelFromServer, prob) {
         ctx.restore();
       }
     };
-
     donut = new Chart(ctx, {
       type: 'doughnut',
       data: {
@@ -119,39 +142,25 @@ function updateResultUI(labelFromServer, prob) {
           hoverOffset: 4
         }]
       },
-      options: {
-        cutout: '72%',
-        plugins: { legend: { display: false } }
-      },
+      options: { cutout: '72%', plugins: { legend: { display: false } } },
       plugins: [centerTextPlugin]
     });
   } else {
     console.warn("Chart.js not loaded — skipping donut chart rendering.");
   }
-
-  // Reveal panel with animation
   resultEmpty.classList.add('d-none');
   resultPanel.classList.remove('d-none');
   resultPanel.classList.add('animate__animated', 'animate__fadeInUp');
-
-  // ✅ Smooth scroll only on mobile
   if (window.innerWidth <= 768) {
     resultPanel.scrollIntoView({ behavior: "smooth" });
   }
 }
 
-// Show loader
-function showLoader() {
-  loaderOverlay.style.display = "flex";
-}
-
-// Hide loader
-function hideLoader() {
-  loaderOverlay.style.display = "none";
-}
+function showLoader() { loaderOverlay.style.display = "flex"; }
+function hideLoader() { loaderOverlay.style.display = "none"; }
 
 // Predict button → call Flask /predict
-document.getElementById('predictBtn').addEventListener('click', async () => {
+predictBtn.addEventListener('click', async () => {
   const payload = getPayload();
   showLoader();
   try {
@@ -162,21 +171,20 @@ document.getElementById('predictBtn').addEventListener('click', async () => {
     });
     if (!res.ok) throw new Error('Server returned ' + res.status);
     const data = await res.json();
-
     const p = Number(data.probability ?? 0);
     updateResultUI(data.risk, p);
-
-    // Add to history
+    const now = new Date();
+    const formattedDate = now.toLocaleDateString('en-GB', { day: '2-digit', month: 'short' });
     const row = document.createElement('tr');
-    const now = new Date().toLocaleString();
-    row.innerHTML = `
-      <td class="text-secondary">${now}</td>
-      <td>${payload.bite_location}</td>
-      <td>${payload.bite_severity}</td>
-      <td>${data.risk}</td>
-      <td>${Math.round(p*100)}%</td>
-    `;
+    row.innerHTML = `<td class="text-secondary">${formattedDate}</td><td>${payload.bite_location}</td><td>${payload.bite_severity}</td><td>${data.risk}</td><td>${Math.round(p*100)}%</td>`;
     historyBody.prepend(row);
+
+    // =======================================================
+    // == MODIFICATION: Swap buttons after successful prediction
+    // =======================================================
+    predictBtn.classList.add('d-none');
+    resetBtn.classList.remove('d-none');
+
   } catch (e) {
     console.error(e);
     alert('Prediction failed. Please check if the Flask server is running and model.joblib is loaded.');

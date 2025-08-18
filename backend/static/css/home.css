@@ -1,0 +1,101 @@
+/* === Google Fonts & Global Styles === */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #2c3e50, #203a43, #0f2027);
+    color: #ffffff;
+}
+
+/* === Glassmorphism Navbar === */
+.navbar {
+    background: rgba(20, 20, 20, 0.6);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    /* MODIFICATION: Added transition for smooth hiding/showing */
+    transition: top 0.3s ease-in-out;
+}
+
+/* MODIFICATION: New class to hide the navbar by moving it up */
+.navbar-hidden {
+    top: -100px; /* Moves the navbar outside the viewport */
+}
+
+
+/* === Buttons (Shared Styles) === */
+.btn {
+    padding: 10px 25px; border: none; border-radius: 50px; font-weight: 600; color: white !important;
+    background: linear-gradient(45deg, #ff512f, #dd2476);
+    transition: all 0.3s ease; box-shadow: 0 4px 15px rgba(221, 36, 118, 0.3); text-decoration: none;
+}
+.btn:hover { transform: translateY(-3px); box-shadow: 0 6px 20px rgba(221, 36, 118, 0.4); }
+.navbar .nav-item .btn {
+    padding: 8px 20px; font-size: 0.9rem; margin-left: 10px; box-shadow: none; background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+.navbar .nav-item .btn:hover { background: rgba(255, 255, 255, 0.1); transform: translateY(0); }
+.navbar .nav-item .btn.active { background: linear-gradient(45deg, #ff512f, #dd2476); border-color: transparent; box-shadow: 0 4px 15px rgba(221, 36, 118, 0.3); }
+
+/* === Hero Section === */
+.hero { padding: 12vh 0; }
+.hero h1 { text-shadow: 0 0 15px rgba(255, 81, 47, 0.5), 0 0 30px rgba(221, 36, 118, 0.5); }
+.hero .lead { color: #c0c0c0; margin-top: 1rem; }
+.hero .btn { padding: 14px 40px; font-size: 1.1rem; margin-top: 1.5rem; }
+
+/* === Information Section === */
+.info-section { padding: 8vh 0; }
+.info-section h2 { font-weight: 700; }
+.info-section .card {
+    background: rgba(255, 255, 255, 0.08); border-radius: 15px; border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px); overflow: hidden; position: relative; transition: transform 0.3s ease;
+}
+.info-section .card:hover { transform: translateY(-10px); }
+.info-section .card::before {
+    content: ""; position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+    background: radial-gradient(circle at var(--mouse-x) var(--mouse-y), rgba(255, 81, 47, 0.4), rgba(221, 36, 118, 0.4), transparent 40%);
+    opacity: 0; transition: opacity 0.5s ease; z-index: 1;
+}
+.info-section .card:hover::before { opacity: 1; }
+.info-section .card .card-body { position: relative; z-index: 2; }
+.info-section .card .card-title { color: #ff9f7a; font-weight: 600; }
+.info-section .card .card-text { color: #d1d1d1; }
+
+/* === PREDICTION PAGE SPECIFIC STYLES === */
+.predict-page-container { padding-top: 5rem; padding-bottom: 5rem; }
+.predict-page-container .text-glow { text-shadow: 0 0 20px rgba(255, 120, 160, .35); }
+.predict-page-container .glass-card {
+  background: rgba(255, 255, 255, .06);
+  border: 1px solid rgba(255, 255, 255, .12);
+  border-radius: 14px;
+  backdrop-filter: blur(14px);
+  box-shadow: 0 10px 30px rgba(0,0,0,.35);
+}
+.predict-page-container .btn-gradient {
+  background: linear-gradient(90deg, #ff416c, #ff4b2b);
+  border: none;
+  color: #fff !important;
+  font-weight: 600;
+  padding: 10px 16px;
+  border-radius: 10px;
+  transition: transform .2s ease, filter .2s ease, box-shadow .2s ease;
+  box-shadow: 0 6px 18px rgba(255, 77, 77, .25);
+}
+.predict-page-container .btn-gradient:hover { transform: translateY(-1px); filter: brightness(1.05); }
+.badge-high { background: #c62828 !important; }
+.badge-med  { background: #ff8f00 !important; color: #1a1a1a !important; }
+.badge-low  { background: #2e7d32 !important; }
+.text-high  { color: #ff6b6b !important; }
+.text-med   { color: #ffb74d !important; }
+.text-low   { color: #81c784 !important; }
+.progress-bar { transition: width .6s ease; font-weight: 600; }
+#loaderOverlay {
+    position: fixed; inset: 0; z-index: 9999;
+    background: rgba(0,0,0,0.6); backdrop-filter: blur(5px);
+    display: none; align-items: center; justify-content: center;
+}
+
+/* === Footer === */
+footer {
+    background: rgba(20, 20, 20, 0.6); backdrop-filter: blur(10px); border-top: 1px solid rgba(255, 255, 255, 0.1);
+}

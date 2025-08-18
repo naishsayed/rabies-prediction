@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Sign Up - RabiesCare</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/auth.css') }}">
+</head>
+<body>
+
+  <div class="auth-card">
+    <div class="auth-header">
+      <h2>Create Account</h2>
+      <p>Get started with RabiesCare today</p>
+    </div>
+
+    <form method="POST">
+      <div class="input-group">
+        <i class="icon fas fa-user"></i>
+        <input type="text" name="username" placeholder="Username" required>
+      </div>
+      
+      <div class="input-group">
+        <i class="icon fas fa-lock"></i>
+        <input type="password" name="password" placeholder="Password" required>
+      </div>
+      
+      <button type="submit" class="auth-btn">Sign Up</button>
+    </form>
+    
+    <div class="bottom-link">
+      Already have an account? <a href="/login">Login</a>
+    </div>
+  </div>
+
+</body>
+</html>
