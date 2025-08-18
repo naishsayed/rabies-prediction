@@ -43,9 +43,10 @@ body {
     font-size: 2.2rem;
     font-weight: 700;
     margin-bottom: 10px;
-    /* Gradient text effect to match your site's theme */
+    /* Gradient text effect */
     background: linear-gradient(45deg, #ff512f, #dd2476);
     -webkit-background-clip: text;
+    background-clip: text; /* MODIFICATION: Added standard property */
     -webkit-text-fill-color: transparent;
 }
 
@@ -54,6 +55,16 @@ body {
     font-size: 0.95rem;
 }
 
+/* Error message styling */
+.alert-error {
+    background-color: rgba(220, 53, 69, 0.2);
+    color: #f8d7da;
+    border: 1px solid rgba(220, 53, 69, 0.5);
+    padding: 10px 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    text-align: center;
+}
 
 /* === Input Fields with Icons === */
 .input-group {
