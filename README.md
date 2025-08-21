@@ -1,6 +1,3 @@
-<p align="center">
-  <img src="assets/logo.png" alt="RabiesCare Logo" width="120"/>
-</p>
 
 <h1 align="center">🧠 RabiesCare: AI-Powered Rabies Risk Prediction</h1>
 
@@ -37,10 +34,21 @@ This project, **RabiesCare**, leverages **machine learning** to provide an **ins
  
 
 <p align="center">
-  <img src="backend/assets/demo.png" alt="Demo Screenshot" width="600"/>
+  <img src="backend/assets/demo.png" alt="Demo Screenshot 1" width="600"/>
 </p>
 
----
+<p align="center">
+  <img src="backend/assets/demo2.png" alt="Demo Screenshot 2" width="600"/>
+</p>
+
+<p align="center">
+  <img src="backend/assets/demo3.png" alt="Demo Screenshot 3" width="600"/>
+</p>
+
+<p align="center">
+  <img src="backend/assets/demo4.png" alt="Demo Screenshot 4" width="600"/>
+</p>
+
 
 ## ⚡ How It Works 
 
