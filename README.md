@@ -34,7 +34,7 @@ This project, **RabiesCare**, leverages **machine learning** to provide an **ins
 
 ## 🖼️ Screenshots
 
-> Replace below with your screenshots/images  
+ 
 
 <p align="center">
   <img src="assets/demo.png" alt="Demo Screenshot" width="600"/>
@@ -42,7 +42,7 @@ This project, **RabiesCare**, leverages **machine learning** to provide an **ins
 
 ---
 
-## ⚡ How It Works (Command-Prompt Style)
+## ⚡ How It Works 
 
 
 # 1️⃣ Clone the repository
