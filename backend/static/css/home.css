@@ -19,6 +19,26 @@ body {
     top: -100px;
 }
 
+/* === LOGO & BRAND STYLING (FINAL FIX) === */
+/* Applies a solid, vibrant color to the prediction page title and icon */
+.predict-page-container .text-glow {
+    color: #ff512f; /* Using the bright color from the gradient */
+    text-shadow: 0 0 20px rgba(255, 81, 47, .45); /* Adjusted glow color */
+}
+/* Styles for the "RabiesCare" logo in the navbar */
+.navbar-brand {
+    font-size: 1.25rem;
+    transition: all 0.2s ease-in-out;
+}
+.navbar-brand:hover {
+    filter: brightness(1.2);
+}
+.navbar-brand i {
+    font-size: 0.9em;
+    vertical-align: -1px;
+    color: #ff512f; /* Applies the vibrant color to the icon */
+}
+
 /* === Buttons (Shared Styles) === */
 .btn {
     padding: 10px 25px; border: none; border-radius: 50px; font-weight: 600; color: white !important;
@@ -37,43 +57,55 @@ body {
 .hero { padding: 12vh 0; }
 .hero h1 { text-shadow: 0 0 15px rgba(255, 81, 47, 0.5), 0 0 30px rgba(221, 36, 118, 0.5); }
 .hero .lead { color: #c0c0c0; margin-top: 1rem; }
-.hero .btn { padding: 14px 40px; font-size: 1.1rem; margin-top: 1.5rem; }
+.hero .btn, .btn-predict-main {
+    padding: 14px 40px;
+    font-size: 1.1rem;
+    margin-top: 1.5rem;
+}
 
-/* === Information Section === */
-.info-section { padding: 8vh 0; }
-.info-section h2 { font-weight: 700; }
-.info-section .card {
+/* === Shared Card Styles for Info & How-It-Works Sections === */
+.info-section, .how-it-works-section { 
+    padding: 8vh 0; 
+}
+.info-section h2, .how-it-works-section h2 { 
+    font-weight: 700; 
+}
+.info-section .card, .how-it-works-section .card {
     background: rgba(255, 255, 255, 0.08); border-radius: 15px; border: 1px solid rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(5px); overflow: hidden; position: relative;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-
-.info-section .card:hover,
-.info-section .card.touch-active {
+.info-section .card:hover, .info-section .card.touch-active, .how-it-works-section .card:hover {
     transform: translateY(-8px);
     box-shadow: 0 10px 25px rgba(255, 81, 47, 0.2);
 }
-
-.info-section .card::before {
+.info-section .card::before, .how-it-works-section .card::before {
     content: ""; position: absolute; top: 0; left: 0; width: 100%; height: 100%;
     background: radial-gradient(circle at var(--mouse-x) var(--mouse-y), rgba(255, 81, 47, 0.4), rgba(221, 36, 118, 0.4), transparent 60%);
     opacity: 0; transition: opacity 0.3s ease; z-index: 1;
 }
-
-.info-section .card:hover::before,
-.info-section .card.touch-active::before { 
+.info-section .card:hover::before, .info-section .card.touch-active::before, .how-it-works-section .card:hover::before { 
     opacity: 1; 
 }
-
-.info-section .card .card-body { position: relative; z-index: 2; }
-.info-section .card .card-title { color: #ff9f7a; font-weight: 600; }
-.info-section .card .card-text { color: #d1d1d1; }
+.info-section .card .card-body, .how-it-works-section .card .card-body { 
+    position: relative; z-index: 2; 
+}
+.info-section .card .card-title, .how-it-works-section .card .card-title { 
+    color: #ff9f7a; font-weight: 600; 
+}
+.info-section .card .card-text, .how-it-works-section .card .card-text { 
+    color: #d1d1d1; 
+}
+.how-it-works-section .step-icon {
+    background: linear-gradient(45deg, #ff512f, #dd2476);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    display: inline-block;
+}
 
 /* === PREDICTION PAGE SPECIFIC STYLES === */
 .predict-page-container { padding-top: 5rem; padding-bottom: 5rem; }
-.predict-page-container .text-glow { text-shadow: 0 0 20px rgba(255, 120, 160, .35); }
-
-/* Styles for ALL .glass-card elements on the prediction page */
 .predict-page-container .glass-card {
     background: rgba(255, 255, 255, 0.08);
     border: 1px solid rgba(255, 255, 255, 0.1);
@@ -84,32 +116,25 @@ body {
     position: relative;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-
 .predict-page-container .glass-card:hover {
     transform: translateY(-8px);
     box-shadow: 0 10px 25px rgba(255, 81, 47, 0.2);
 }
-
 .predict-page-container .glass-card::before {
     content: ""; position: absolute; top: 0; left: 0; width: 100%; height: 100%;
     background: radial-gradient(circle at var(--mouse-x) var(--mouse-y), rgba(255, 81, 47, 0.4), rgba(221, 36, 118, 0.4), transparent 60%);
     opacity: 0; transition: opacity 0.3s ease; z-index: 1;
 }
-
 .predict-page-container .glass-card:hover::before {
     opacity: 1;
 }
-
-/* FINAL FIX: Correctly targets the h5 title and list items in the First-Aid card */
 .predict-page-container .glass-card h5 {
     color: #ff9f7a;
     font-weight: 600;
 }
-
 .predict-page-container .glass-card ul li {
     color: #d1d1d1;
 }
-
 .predict-page-container .btn-gradient {
   background: linear-gradient(90deg, #ff416c, #ff4b2b); border: none; color: #fff !important; font-weight: 600;
   padding: 10px 16px; border-radius: 10px;
@@ -129,12 +154,10 @@ body {
     background: rgba(0,0,0,0.6); backdrop-filter: blur(5px);
     display: none; align-items: center; justify-content: center;
 }
-
 /* === Footer === */
 footer {
     background: rgba(20, 20, 20, 0.6); backdrop-filter: blur(10px); border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
-
 /* === Mobile Responsiveness Rules === */
 @media (max-width: 991.98px) {
     .navbar-nav {
@@ -155,4 +178,13 @@ footer {
         background-color: rgba(255, 255, 255, 0.05);
         text-align: center;
     }
+}
+/* === CRITICAL FIX for Form Interaction === */
+.predict-page-container .glass-card > * {
+    position: relative;
+    z-index: 2;
+}
+/* This removes the default left padding from the container, moving the brand left */
+.navbar .container {
+    padding-left: 0;
 }

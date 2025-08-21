@@ -9,13 +9,14 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{{ url_for('static', filename='css/home.css') }}">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 
 <body>
 
   <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
     <div class="container">
-      <a class="navbar-brand fw-bold" href="{{ url_for('home') }}">RabiesCare</a>
+      <a class="navbar-brand fw-bold" href="{{ url_for('home') }}"><i class="fa-solid fa-shield-heart me-2"></i>RabiesCare</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
         <span class="navbar-toggler-icon"></span>
       </button>

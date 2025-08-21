@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
+  <meta charset="utf-t">
   <title>RabiesCare - Home</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -15,7 +15,7 @@
 
   <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
     <div class="container">
-      <a class="navbar-brand fw-bold" href="/">RabiesCare</a>
+      <a class="navbar-brand fw-bold" href="/"><i class="fa-solid fa-shield-heart me-2"></i>RabiesCare</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -53,8 +53,54 @@
     <section class="hero text-center text-light" id="home">
         <h1 class="display-4 fw-bold">Rabies Risk Detection System</h1>
         <p class="lead">Empowering patients with instant risk prediction, awareness, and prevention.</p>
-        <a href="/predict" class="btn mt-3">Predict Now</a>
+        </section>
+
+    <section class="how-it-works-section text-light py-5">
+        <h2 class="text-center mb-5">Get Your Risk Assessment in 3 Simple Steps</h2>
+        <div class="row g-4 justify-content-center">
+
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100 fade-in text-center">
+                    <div class="card-body">
+                        <div class="step-icon mb-3">
+                            <i class="fa-solid fa-clipboard-list fa-3x"></i>
+                        </div>
+                        <h5 class="card-title">1. Provide Details</h5>
+                        <p class="card-text">Answer a few simple questions about the exposure incident.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100 fade-in text-center">
+                    <div class="card-body">
+                        <div class="step-icon mb-3">
+                            <i class="fa-solid fa-brain fa-3x"></i>
+                        </div>
+                        <h5 class="card-title">2. Instant Analysis</h5>
+                        <p class="card-text">Our evidence-based AI system assesses your risk level in seconds.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100 fade-in text-center">
+                    <div class="card-body">
+                        <div class="step-icon mb-3">
+                            <i class="fa-solid fa-shield-heart fa-3x"></i>
+                        </div>
+                        <h5 class="card-title">3. Receive Guidance</h5>
+                        <p class="card-text">Get a clear, confidential report with recommended next steps.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
     </section>
+
+    <div class="text-center py-3">
+      <a href="/predict" class="btn btn-predict-main">Predict Now</a>
+    </div>
 
     <section class="info-section text-light" id="about">
         <h2 class="text-center mb-5">About Rabies</h2>
@@ -101,7 +147,7 @@
     cards.forEach(card => observer.observe(card));
 
     // This script powers the "Aurora" card effect
-    document.querySelectorAll('.info-section .card').forEach(card => {
+    document.querySelectorAll('.info-section .card, .how-it-works-section .card').forEach(card => {
         card.addEventListener('mousemove', e => {
             const rect = card.getBoundingClientRect();
             const x = e.clientX - rect.left;
