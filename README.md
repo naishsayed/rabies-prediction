@@ -58,25 +58,19 @@ This project, **RabiesCare**, leverages **machine learning** to provide an **ins
 git clone https://github.com/your-username/rabiescare.git
 cd rabiescare
 ```
-# 2️⃣ Create virtual environment
-```bash
-python -m venv venv
-source venv/bin/activate   # For Linux/Mac
-venv\Scripts\activate      # For Windows
-```
-# 3️⃣ Install dependencies
+# 2️⃣ Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
-# 4️⃣ Train the ML model (if not already trained)
+# 3️⃣ Train the ML model (if not already trained)
 ```bash
 python backend/train_model.py
 ```
-# 5️⃣ Run the Flask app
+# 4️⃣ Run the Flask app
 ```bash
 python backend/app.py
 ```
-# 6️⃣ Open in browser 🎉
+# 5️⃣ Open in browser 🎉
 ```bash
 http://127.0.0.1:5000
 
