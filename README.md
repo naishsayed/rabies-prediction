@@ -55,8 +55,9 @@ This project, **RabiesCare**, leverages **machine learning** to provide an **ins
 
 # 1️⃣ Clone the repository
 ```bash
-git clone https://github.com/your-username/rabiescare.git
-cd rabiescare
+git clone https://github.com/your-username/rabies-prediction.git
+cd rabies-prediction
+cd backend
 ```
 # 2️⃣ Install dependencies
 ```bash
