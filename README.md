@@ -37,7 +37,7 @@ This project, **RabiesCare**, leverages **machine learning** to provide an **ins
  
 
 <p align="center">
-  <img src="assets/demo.png" alt="Demo Screenshot" width="600"/>
+  <img src="backend/assets/demo.png" alt="Demo Screenshot" width="600"/>
 </p>
 
 ---
